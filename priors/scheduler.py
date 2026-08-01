@@ -28,6 +28,8 @@ def next_run(config: Config, now: datetime | None = None) -> datetime:
 
 
 def run_forever(config: Config) -> None:
+    from priors.pipeline import run_weekly
+
     while True:
         target = next_run(config)
         wait = (target - datetime.now(ZoneInfo(config.owner.timezone))).total_seconds()
@@ -35,7 +37,7 @@ def run_forever(config: Config) -> None:
         time.sleep(max(wait, 1))
         print("[scheduler] Triggering weekly run...")
         try:
-            # Phase 1 wires this to the real pipeline; Phase 0 logs and continues.
-            print("[scheduler] Pipeline not yet implemented (Phase 0 skeleton).")
+            result = run_weekly(config)
+            print(f"[scheduler] Issue {result.week} sent to {len(result.recipients)}.")
         except Exception as e:  # noqa: BLE001 — a failed week must not kill the daemon
             print(f"[scheduler] Run failed: {e}")

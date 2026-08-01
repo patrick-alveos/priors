@@ -68,7 +68,9 @@
               <p style="font-family:Georgia, serif; font-size:14px; line-height:1.5; color:#3a3a37; margin:6px 0; padding-left:12px; border-left:3px solid #e0e0dc;"><a href="{{ take.source_url }}" style="color:{{ issue.accent_color }}; text-decoration:none; font-weight:bold;">{{ take.source }}</a> {{ take.text }}</p>
               {% endfor %}
               {% endif %}
+              {% if story.forecasts or story.no_market_note %}
               <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; color:#6b6b67; margin-top:12px;">What&#8217;s next (odds)</div>
+              {% endif %}
               {% if story.forecasts %}
               {% for f in story.forecasts %}
               <p style="font-family:Georgia, serif; font-size:14px; line-height:1.5; color:#1c1c1a; margin:6px 0;"><a href="{{ f.url }}" style="color:{{ issue.accent_color }};">{{ f.platform | capitalize }}</a> puts &#8220;{{ f.question }}&#8221; at <strong>{{ f.probability | pct }}</strong> {{ f.delta_pp | delta }}</p>

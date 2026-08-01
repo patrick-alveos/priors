@@ -82,3 +82,52 @@ def active_subscribers(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     return conn.execute(
         "SELECT email, name FROM subscribers WHERE status = 'active' ORDER BY id"
     ).fetchall()
+
+
+def used_article_ids(conn: sqlite3.Connection) -> set[str]:
+    """IDs of articles already featured in a past issue (cross-week dedup)."""
+    rows = conn.execute("SELECT id FROM articles WHERE used_in_week IS NOT NULL")
+    return {row["id"] for row in rows}
+
+
+def record_articles(conn: sqlite3.Connection, articles: list) -> None:
+    conn.executemany(
+        "INSERT OR IGNORE INTO articles (id, url, title, source, published_at, first_seen_at)"
+        " VALUES (?, ?, ?, ?, ?, ?)",
+        [
+            (
+                a.id,
+                a.url,
+                a.title,
+                a.source,
+                a.published_at.isoformat() if a.published_at else None,
+                datetime.now(UTC).isoformat(),
+            )
+            for a in articles
+        ],
+    )
+    conn.commit()
+
+
+def mark_articles_used(conn: sqlite3.Connection, article_ids: list[str], week: str) -> None:
+    conn.executemany(
+        "UPDATE articles SET used_in_week = ? WHERE id = ?",
+        [(week, aid) for aid in article_ids],
+    )
+    conn.commit()
+
+
+def record_issue(
+    conn: sqlite3.Connection,
+    week: str,
+    subject: str,
+    html_path: str,
+    md_path: str,
+    sent: bool,
+) -> None:
+    conn.execute(
+        "INSERT OR REPLACE INTO issues (week, sent_at, subject, html_path, md_path)"
+        " VALUES (?, ?, ?, ?, ?)",
+        (week, datetime.now(UTC).isoformat() if sent else None, subject, html_path, md_path),
+    )
+    conn.commit()

@@ -4,7 +4,7 @@
 
 Every Monday morning, Priors emails you a briefing on the last 7 days — politics, markets, science & tech, plus a section tuned to *your* industry. Every story comes with attributed perspectives from real sources and forecasts pulled from prediction markets (Polymarket, Kalshi, Metaculus) — never the LLM's own guesses.
 
-> **Status: Phase 0 (skeleton).** The pipeline runs end-to-end on sample data; live sources, LLM composition, and email delivery land in Phase 1–2. Not ready to fork yet.
+> **Status: Phase 1 (core pipeline).** Live RSS/GNews ingestion, LLM clustering and composition (Claude), link validation, and Resend delivery are implemented. Prediction markets land in Phase 2, the onboarding wizard in Phase 3. Forkable, but rough edges remain.
 
 *(The name is configurable in `config.yaml`. Alternatives if you prefer: **Basis**, **Delta**, **The Update**, **Signal/Noise**.)*
 
@@ -74,7 +74,7 @@ State lives in SQLite: seen articles (cross-week dedup), sent issues, weekly mar
 
 ## Cost
 
-Target: well under $5/issue with default settings (token usage is logged per run). Expected monthly cost ≈ a few dollars of Claude API + free tiers of GNews and Resend. Full breakdown coming with Phase 1.
+Target: well under $5/issue with default settings. Every run logs token usage and an estimated cost to `data/usage.jsonl` and prints it at the end. Default model is `claude-sonnet-5` (configurable in `config.yaml`); a typical issue is one clustering call + one call per story + one summary call. Expected monthly cost ≈ a few dollars of Claude API + free tiers of GNews and Resend.
 
 ## Contributing
 

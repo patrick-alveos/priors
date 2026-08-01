@@ -29,12 +29,13 @@ Covering {{ issue.period_start.isoformat() }} to {{ issue.period_end.isoformat()
 {% endfor %}
 {% endif %}
 
-**What's next (odds).**
 {% if story.forecasts %}
+**What's next (odds).**
 {% for f in story.forecasts %}
 - [{{ f.platform | capitalize }}]({{ f.url }}) puts "{{ f.question }}" at **{{ f.probability | pct }}** {{ f.delta_pp | delta }}
 {% endfor %}
 {% elif story.no_market_note %}
+**What's next (odds).**
 - *No liquid prediction market covers this yet.*
 {% endif %}
 

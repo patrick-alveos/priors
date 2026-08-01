@@ -80,9 +80,21 @@ class NewsApiConfig(BaseModel):
     enabled: bool = True
 
 
+class RssFeed(BaseModel):
+    url: str
+    section: str | None = None  # section key articles from this feed default to
+
+
 class SourcesConfig(BaseModel):
-    rss: list[str] = []
+    rss: list[RssFeed] = []
     news_api: NewsApiConfig = NewsApiConfig()
+
+    @field_validator("rss", mode="before")
+    @classmethod
+    def _coerce_plain_urls(cls, v: object) -> object:
+        if isinstance(v, list):
+            return [{"url": item} if isinstance(item, str) else item for item in v]
+        return v
 
 
 class MarketsConfig(BaseModel):

@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 
 import click
+from dotenv import load_dotenv
 
 from priors import db
 from priors.config import DEFAULT_CONFIG_PATH, Config, load_config
@@ -50,6 +51,7 @@ def _load_stories(name: str = "stories") -> list[Story]:
 @click.pass_context
 def main(ctx: click.Context, config_path: str) -> None:
     """Priors — a self-hosted weekly news digest. Update your priors, weekly."""
+    load_dotenv()
     ctx.ensure_object(dict)
     ctx.obj["config_path"] = config_path
 
@@ -74,16 +76,26 @@ def init_db(ctx: click.Context) -> None:
 @click.pass_context
 def ingest(ctx: click.Context, sample: bool) -> None:
     """Stage 1: pull candidate articles from configured sources."""
-    articles = ingest_stage.run(_config(ctx), sample=sample)
+    config = _config(ctx)
+    conn = None
+    if not sample:
+        conn = db.connect()
+        db.init_db(conn)
+    articles = ingest_stage.run(config, sample=sample, conn=conn)
     path = _save("articles", articles)
     click.echo(f"Ingested {len(articles)} articles -> {path}")
 
 
 @main.command()
+@click.option("--live", is_flag=True, help="Use the LLM for clustering (default: naive grouping).")
 @click.pass_context
-def cluster(ctx: click.Context) -> None:
+def cluster(ctx: click.Context, live: bool) -> None:
     """Stage 2: group articles into stories and rank them."""
-    stories = cluster_stage.run(_config(ctx), _load_articles())
+    from priors.llm import LLM
+
+    config = _config(ctx)
+    llm = LLM(config.llm.model) if live else None
+    stories = cluster_stage.run(config, _load_articles(), llm=llm)
     path = _save("stories", stories)
     click.echo(f"Clustered into {len(stories)} stories -> {path}")
 
@@ -102,8 +114,12 @@ def enrich(ctx: click.Context, sample: bool) -> None:
 @click.option("--sample", is_flag=True, help="Use fixture editorial content (no LLM call).")
 @click.pass_context
 def write(ctx: click.Context, sample: bool) -> None:
-    """Stage 4: compose the issue (LLM in Phase 1)."""
-    issue = write_stage.run(_config(ctx), _load_stories("stories_enriched"), sample=sample)
+    """Stage 4: compose the issue with the LLM."""
+    from priors.llm import LLM
+
+    config = _config(ctx)
+    llm = None if sample else LLM(config.llm.model)
+    issue = write_stage.run(config, _load_stories("stories_enriched"), sample=sample, llm=llm)
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
     path = ARTIFACTS_DIR / "issue.json"
     path.write_text(issue.model_dump_json(indent=2))
@@ -133,7 +149,9 @@ def deliver(ctx: click.Context, dry_run: bool) -> None:
     conn = db.connect()
     db.init_db(conn)
     db.seed_owner(conn, config.owner.email, config.owner.name)
-    recipients = deliver_stage.run(config, conn, BUILD_DIR / f"{issue.week}.html", dry_run=dry_run)
+    html = (BUILD_DIR / f"{issue.week}.html").read_text()
+    subject = deliver_stage.build_subject(config, issue.period_end.strftime("%b %d, %Y"))
+    recipients = deliver_stage.run(config, conn, html, subject, dry_run=dry_run)
     verb = "Would send" if dry_run else "Sent"
     click.echo(
         f"{verb} issue {issue.week} to {len(recipients)} subscriber(s): {', '.join(recipients)}"
@@ -144,30 +162,29 @@ def deliver(ctx: click.Context, dry_run: bool) -> None:
 @click.pass_context
 def preview(ctx: click.Context) -> None:
     """Run the full pipeline with sample data; render locally, send nothing."""
-    config = _config(ctx)
-    articles = ingest_stage.run(config, sample=True)
-    stories = cluster_stage.run(config, articles)
-    stories = enrich_stage.run(config, stories, sample=True)
-    issue = write_stage.run(config, stories, sample=True)
-    html_path, md_path = render_stage.run(issue, BUILD_DIR)
-    conn = db.connect()
-    db.init_db(conn)
-    db.seed_owner(conn, config.owner.email, config.owner.name)
-    recipients = deliver_stage.run(config, conn, html_path, dry_run=True)
-    click.echo(f"Preview issue {issue.week} built from {len(articles)} sample articles.")
-    click.echo(f"  HTML:     {html_path}")
-    click.echo(f"  Markdown: {md_path}")
-    click.echo(f"  Would deliver to: {', '.join(recipients)}")
+    from priors.pipeline import run_weekly
+
+    result = run_weekly(_config(ctx), sample=True)
+    click.echo(f"Preview issue {result.week} built.")
+    click.echo(f"  HTML:     {result.html_path}")
+    click.echo(f"  Markdown: {result.md_path}")
+    click.echo(f"  Would deliver to: {', '.join(result.recipients)}")
     click.echo("Open the HTML file in a browser to see the issue.")
 
 
 @main.command()
+@click.option("--dry-run", is_flag=True,
+              help="Run the live pipeline (real sources + LLM) but send no email.")
 @click.pass_context
-def run(ctx: click.Context) -> None:
+def run(ctx: click.Context, dry_run: bool) -> None:
     """Full weekly run: ingest -> cluster -> enrich -> write -> render -> deliver."""
-    raise click.ClickException(
-        "The live pipeline arrives in Phase 1. Use `priors preview` for now."
-    )
+    from priors.pipeline import run_weekly
+
+    result = run_weekly(_config(ctx), dry_run=dry_run)
+    verb = "Sent" if result.sent else "Built (no email sent)"
+    click.echo(f"{verb} issue {result.week} -> {result.html_path}")
+    if result.removed_links:
+        click.echo(f"  {len(result.removed_links)} broken link(s) removed before send.")
 
 
 @main.command()

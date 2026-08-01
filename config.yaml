@@ -42,10 +42,20 @@ sections:
 
 sources:
   rss:
-    # Seed feeds; the Phase 3 wizard suggests more based on your topics.
-    - https://feeds.bbci.co.uk/news/world/rss.xml
-    - https://www.ft.com/rss/home
-    - https://feeds.arstechnica.com/arstechnica/index
+    # Seed feeds with the section each one feeds into.
+    # The Phase 3 wizard suggests more based on your topics.
+    - url: https://feeds.bbci.co.uk/news/world/rss.xml
+      section: politics
+    - url: https://www.theguardian.com/world/rss
+      section: politics
+    - url: https://feeds.bbci.co.uk/news/business/rss.xml
+      section: business
+    - url: https://www.theguardian.com/uk/business/rss
+      section: business
+    - url: https://feeds.arstechnica.com/arstechnica/index
+      section: scitech
+    - url: https://www.theverge.com/rss/index.xml
+      section: scitech
   news_api:
     provider: gnews   # free tier available; key goes in .env as GNEWS_API_KEY
     enabled: true
