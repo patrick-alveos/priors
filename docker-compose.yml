@@ -1,0 +1,10 @@
+services:
+  priors:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./data:/app/data
+      - ./build:/app/build
+      - ./issues:/app/issues

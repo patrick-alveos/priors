@@ -1,0 +1,64 @@
+# Priors — editorial configuration.
+# Everything a forker personalizes lives in this file; secrets live in .env.
+# `priors setup` (Phase 3) rewrites this interactively.
+
+digest:
+  name: Priors
+  tagline: "Update your priors, weekly."
+  accent_color: "#1A4D8F"
+  language: en
+
+owner:
+  name: Patrick
+  email: pat.obolgogiani@gmail.com
+  timezone: Europe/Helsinki
+
+schedule:
+  day: monday
+  time: "06:00"
+
+# Standard sections. Set enabled: false to drop one.
+sections:
+  - key: politics
+    title: Politics & Geopolitics
+    enabled: true
+  - key: business
+    title: Business & Markets
+    enabled: true
+  - key: scitech
+    title: Science & Technology
+    enabled: true
+  # The owner-specific section. Topics drive targeted search in `ingest`.
+  - key: custom
+    title: "On the Radar: Wearables & Behavioral Health"
+    enabled: true
+    topics:
+      - consumer wearables
+      - breath monitoring
+      - HRV
+      - nervous system and stress tech
+      - behavioral and digital health
+      - healthtech funding rounds in Europe
+
+sources:
+  rss:
+    # Seed feeds; the Phase 3 wizard suggests more based on your topics.
+    - https://feeds.bbci.co.uk/news/world/rss.xml
+    - https://www.ft.com/rss/home
+    - https://feeds.arstechnica.com/arstechnica/index
+  news_api:
+    provider: gnews   # free tier available; key goes in .env as GNEWS_API_KEY
+    enabled: true
+
+markets:
+  polymarket: true
+  kalshi: true
+  metaculus: true
+
+llm:
+  model: claude-sonnet-5
+  max_stories_per_section: 4
+
+email:
+  from: "Priors <onboarding@resend.dev>"   # replace with your verified Resend sender
+  subject_template: "{name} — week of {date}"
