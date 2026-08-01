@@ -149,9 +149,20 @@ def deliver(ctx: click.Context, dry_run: bool) -> None:
     conn = db.connect()
     db.init_db(conn)
     db.seed_owner(conn, config.owner.email, config.owner.name)
-    html = (BUILD_DIR / f"{issue.week}.html").read_text()
+    html_path = BUILD_DIR / f"{issue.week}.html"
+    html = html_path.read_text()
     subject = deliver_stage.build_subject(config, issue.period_end.strftime("%b %d, %Y"))
     recipients = deliver_stage.run(config, conn, html, subject, dry_run=dry_run)
+    if not dry_run:
+        # Bookkeeping for a deliver-only send: consume articles, archive, record.
+        used_ids = [a.id for s in issue.sections for st in s.stories for a in st.articles]
+        db.mark_articles_used(conn, used_ids, issue.week)
+        md_src = BUILD_DIR / f"{issue.week}.md"
+        md_dest = ISSUES_DIR / f"{issue.week}.md"
+        if md_src.exists():
+            ISSUES_DIR.mkdir(parents=True, exist_ok=True)
+            md_dest.write_text(md_src.read_text())
+        db.record_issue(conn, issue.week, subject, str(html_path), str(md_dest), sent=True)
     verb = "Would send" if dry_run else "Sent"
     click.echo(
         f"{verb} issue {issue.week} to {len(recipients)} subscriber(s): {', '.join(recipients)}"

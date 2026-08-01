@@ -144,8 +144,14 @@ def run(
     else:
         if llm is None:
             raise ValueError("Live composition requires an LLM instance")
+        composed: list[Story] = []
         for story in stories:
-            _compose_story(llm, story)
+            try:
+                _compose_story(llm, story)
+                composed.append(story)
+            except Exception as e:  # noqa: BLE001 — one bad story must not kill the issue
+                print(f"  [write] WARN: dropped story '{story.headline[:60]}': {e}")
+        stories = composed
         exec_summary = _compose_exec_summary(llm, stories) if stories else []
         markets_moved = []  # Phase 2: prediction-market swings of the week
 

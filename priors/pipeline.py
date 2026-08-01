@@ -17,6 +17,7 @@ from priors.linkcheck import validate_issue
 from priors.llm import LLM
 from priors.stages import cluster, deliver, enrich, ingest, render, write
 
+ARTIFACTS_DIR = Path("data/artifacts")
 BUILD_DIR = Path("build")
 ISSUES_DIR = Path("issues")
 
@@ -66,15 +67,22 @@ def run_weekly(config: Config, *, sample: bool = False, dry_run: bool = False) -
     html_path, md_path = render.run(
         issue, BUILD_DIR, archive_dir=None if sample or dry_run else ISSUES_DIR
     )
+    # Persist the composed issue so `priors deliver --send` can ship exactly
+    # this build later without re-running the LLM.
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
+    (ARTIFACTS_DIR / "issue.json").write_text(issue.model_dump_json(indent=2))
     html = html_path.read_text()
     subject = deliver.build_subject(config, issue.period_end.strftime("%b %d, %Y"))
 
     send_for_real = not sample and not dry_run
     recipients = deliver.run(config, conn, html, subject, dry_run=not send_for_real)
 
-    if not sample:
+    # Only a real send consumes the articles — a dry-run must not starve
+    # the following real run via cross-week dedup.
+    if send_for_real:
         used_ids = [a.id for s in stories for a in s.articles]
         db.mark_articles_used(conn, used_ids, issue.week)
+    if not sample:
         db.record_issue(conn, issue.week, subject, str(html_path), str(md_path), send_for_real)
 
     usage_summary = llm.log_run(f"issue-{issue.week}") if llm else None

@@ -10,7 +10,7 @@ digest:
 
 owner:
   name: Patrick
-  email: pat.obolgogiani@gmail.com
+  email: patrick@alveoslabs.com   # must match your Resend account until a domain is verified
   timezone: Europe/Helsinki
 
 schedule:

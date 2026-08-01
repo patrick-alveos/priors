@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import TypeVar
 
 import anthropic
-from pydantic import BaseModel
+from pydantic import BaseModel, ValidationError
 
 USAGE_LOG = Path("data/usage.jsonl")
 
@@ -43,6 +43,20 @@ class LLM:
         user: str,
         output_format: type[T],
         max_tokens: int = 4096,
+    ) -> T:
+        # An output truncated at max_tokens surfaces as invalid JSON
+        # (ValidationError); retry once with double the budget.
+        try:
+            return self._parse_once(
+                system=system, user=user, output_format=output_format, max_tokens=max_tokens
+            )
+        except ValidationError:
+            return self._parse_once(
+                system=system, user=user, output_format=output_format, max_tokens=max_tokens * 2
+            )
+
+    def _parse_once(
+        self, *, system: str, user: str, output_format: type[T], max_tokens: int
     ) -> T:
         response = self.client.messages.parse(
             model=self.model,
