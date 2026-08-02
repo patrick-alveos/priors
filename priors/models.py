@@ -38,7 +38,8 @@ class Forecast(BaseModel):
     platform: str  # polymarket | kalshi | metaculus
     question: str
     probability: float  # 0..1
-    delta_pp: float | None = None  # week-over-week change in percentage points
+    delta_pp: float | None = None  # change in percentage points
+    delta_label: str = "week-over-week"  # what the delta is measured against
     url: str
 
 
@@ -58,7 +59,7 @@ class Story(BaseModel):
     section: str  # section key
     headline: str
     what_happened: str
-    why_it_matters: str
+    potential_implications: str
     takes: list[Take] = []
     forecasts: list[Forecast] = []
     no_market_note: bool = False  # True → render "No liquid prediction market covers this yet"
@@ -73,7 +74,28 @@ class MarketMove(BaseModel):
     question: str
     probability: float
     delta_pp: float
+    delta_label: str = "week-over-week"
     url: str
+
+
+class HumanStory(BaseModel):
+    """The 'Human story of the week' — one act of kindness to end on."""
+
+    headline: str
+    text: str
+    source: str
+    source_url: str
+    image: StoryImage | None = None
+
+
+class PhotoOfWeek(BaseModel):
+    """Closing photograph — something beautiful, properly attributed."""
+
+    image_url: str
+    title: str
+    description: str | None = None
+    attribution: str  # photographer / license
+    link: str  # page where the photo and its license live
 
 
 class IssueSection(BaseModel):
@@ -91,6 +113,7 @@ class Issue(BaseModel):
     digest_name: str
     tagline: str
     accent_color: str
-    exec_summary: list[str] = []  # "If you only read one thing" bullets
     sections: list[IssueSection] = []
     markets_moved: list[MarketMove] = []
+    human_story: HumanStory | None = None
+    photo: PhotoOfWeek | None = None

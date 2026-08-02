@@ -26,7 +26,7 @@ def _article(id_: str, url: str, section: str = "politics", days_old: int = 1) -
 
 class TestTakeValidation:
     def test_invented_source_url_is_dropped(self) -> None:
-        story = Story(section="politics", headline="h", what_happened="", why_it_matters="",
+        story = Story(section="politics", headline="h", what_happened="", potential_implications="",
                       articles=[_article("a1", "https://real.example/article")])
         drafts = [
             TakeDraft(source="Real Outlet", source_url="https://real.example/article",
@@ -39,7 +39,7 @@ class TestTakeValidation:
         assert takes[0].source == "Real Outlet"
 
     def test_same_outlet_not_quoted_twice(self) -> None:
-        story = Story(section="politics", headline="h", what_happened="", why_it_matters="",
+        story = Story(section="politics", headline="h", what_happened="", potential_implications="",
                       articles=[_article("a1", "https://x.example/1"),
                                 _article("a2", "https://x.example/2")])
         drafts = [
@@ -96,7 +96,7 @@ class TestLinkcheck:
         from priors.models import Issue, IssueSection
 
         story = Story(
-            section="politics", headline="h", what_happened="w", why_it_matters="y",
+            section="politics", headline="h", what_happened="w", potential_implications="y",
             takes=[
                 Take(source="Good", source_url="https://ok.example/a", text="t"),
                 Take(source="Bad", source_url="https://dead.example/b", text="t"),

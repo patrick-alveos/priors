@@ -25,11 +25,11 @@ def _pct(probability: float) -> str:
     return f"{round(probability * 100)}%"
 
 
-def _delta(delta_pp: float | None) -> str:
+def _delta(delta_pp: float | None, label: str = "week-over-week") -> str:
     if delta_pp is None:
         return ""
     arrow = "↑" if delta_pp > 0 else "↓"
-    return f"({arrow}{abs(delta_pp):g}pp week-over-week)"
+    return f"({arrow}{abs(delta_pp):g}pp {label})"
 
 
 _env.filters["pct"] = _pct

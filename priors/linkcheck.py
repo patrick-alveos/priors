@@ -13,7 +13,13 @@ import httpx
 
 from priors.models import Issue, StoryImage
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; PriorsDigest/0.1)"}
+# Browser-like UA: several sites (e.g. kalshi.com) reject bot-style agents.
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+    )
+}
 
 
 def url_resolves(client: httpx.Client, url: str) -> bool:
@@ -21,7 +27,8 @@ def url_resolves(client: httpx.Client, url: str) -> bool:
         resp = client.head(url, timeout=10, follow_redirects=True)
         if resp.status_code in (403, 405):  # some sites reject HEAD; retry with GET
             resp = client.get(url, timeout=10, follow_redirects=True)
-        return resp.status_code < 400
+        # 429 = alive but rate-limiting our checker; that's not a broken link.
+        return resp.status_code < 400 or resp.status_code == 429
     except httpx.HTTPError:
         return False
 
@@ -73,4 +80,19 @@ def validate_issue(issue: Issue, check: Callable[[str], bool] | None = None) -> 
         else:
             removed.append(f"market link {market.url}")
     issue.markets_moved = kept_markets
+
+    if issue.human_story is not None:
+        if not check(issue.human_story.source_url):
+            removed.append(f"human story link {issue.human_story.source_url}")
+            issue.human_story = None
+        elif issue.human_story.image and issue.human_story.image.url:
+            if not check(issue.human_story.image.url):
+                removed.append(f"human story image {issue.human_story.image.url}")
+                issue.human_story.image = None
+
+    if issue.photo is not None and not (
+        check(issue.photo.image_url) and check(issue.photo.link)
+    ):
+        removed.append(f"photo of the week {issue.photo.image_url}")
+        issue.photo = None
     return removed

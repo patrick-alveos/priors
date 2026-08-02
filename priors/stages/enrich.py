@@ -43,6 +43,30 @@ def fetch_og_image(client: httpx.Client, url: str) -> str | None:
     return _find_og_image(resp.text[:200_000])
 
 
+# Known low-resolution URL patterns → their higher-resolution variants.
+_UPSCALE_PATTERNS = [
+    ("ichef.bbci.co.uk/ace/standard/240/", "ichef.bbci.co.uk/ace/standard/976/"),
+    ("ichef.bbci.co.uk/ace/standard/480/", "ichef.bbci.co.uk/ace/standard/976/"),
+]
+
+
+def upgrade_image_url(url: str) -> str:
+    for low, high in _UPSCALE_PATTERNS:
+        if low in url:
+            return url.replace(low, high)
+    return url
+
+
+_JUNK_IMAGE_RE = re.compile(r"favicon|apple-touch|/icons?/|logo|-\d{1,2}x\d{1,2}\.", re.IGNORECASE)
+
+
+def usable_image(url: str | None) -> str | None:
+    """Reject favicons/logos that sometimes masquerade as article images."""
+    if url and not _JUNK_IMAGE_RE.search(url):
+        return url
+    return None
+
+
 def run(config: Config, stories: list[Story], *, sample: bool = False) -> list[Story]:
     if sample:
         for story in stories:
@@ -56,12 +80,14 @@ def run(config: Config, stories: list[Story], *, sample: bool = False) -> list[S
             image = None
             anchor = story.articles[0] if story.articles else None
             if anchor is not None:
-                # RSS/GNews sometimes already carry an image URL; else fetch og:image.
-                url = anchor.image_url or fetch_og_image(client, anchor.url)
+                # Prefer the page's og:image — RSS thumbnails are often tiny.
+                url = usable_image(fetch_og_image(client, anchor.url)) or usable_image(
+                    anchor.image_url
+                )
                 if url:
                     image = StoryImage(
                         kind="og",
-                        url=url,
+                        url=upgrade_image_url(url),
                         attribution=anchor.source,
                         attribution_url=anchor.url,
                     )

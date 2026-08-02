@@ -1,9 +1,11 @@
 """Stage 4 — write: compose the issue with the LLM (structured output).
 
-One call per story plus one for the executive summary. Editorial rules are
-enforced twice: in the prompt, and again in code — a take whose source_url is
-not one of the story's actual article URLs is dropped, so an invented
-attribution can never reach the email.
+One call per story. Editorial rules are enforced twice: in the prompt, and
+again in code — a take whose source_url is not one of the story's actual
+article URLs is dropped, so an invented attribution can never reach the email.
+
+Markets are attached BEFORE this stage runs, so the model can weave real
+probability moves into the implications.
 """
 
 from __future__ import annotations
@@ -18,17 +20,28 @@ from priors.llm import LLM
 from priors.models import Issue, IssueSection, Story, Take
 from priors.sample_data import SAMPLE_EDITORIAL, SAMPLE_MARKETS_MOVED
 
-STORY_SYSTEM = """You write one story for a weekly briefing for decision makers \
-(founders, executives, investors). Tone: dry, precise, lightly witty — The \
-Economist, not BuzzFeed. Never use hype words ("game-changing", "revolutionary", \
-"groundbreaking").
+STORY_SYSTEM = """You write one story for a weekly briefing read slowly on a \
+Sunday morning by decision makers (founders, executives, investors).
 
-Strict rules:
-- headline: rewritten in your own words, never copied from an outlet.
-- what_happened: 2-4 sentences, strictly factual, only events from the provided \
-articles. Paraphrase; direct quotes max 10 words.
-- why_it_matters: implications for a decision maker — second- and third-order \
-effects, not a restatement of the news.
+Voice: think Scott Alexander — conversational but precise, epistemically \
+honest, comfortable with numbers and probabilities, quietly funny when the \
+material allows it. You reason in public: say what's known, what's uncertain, \
+and what would change your mind. Never breathless, never hype ("game-changing", \
+"revolutionary" are banned). Plain words over jargon.
+
+Fields:
+- headline: rewritten in your own words, never copied from an outlet. \
+Informative first, wry second. Sentence case: capitalize the first word and \
+proper nouns as in normal prose ("Apple warns of chip shortages ahead of \
+holidays") — never Title Case, never all-lowercase.
+- what_happened: 2-4 sentences, strictly factual, only events from the \
+provided articles. Paraphrase; direct quotes max 10 words.
+- potential_implications: how a thoughtful reader should update. Second- and \
+third-order effects, base rates where relevant, honest uncertainty ("this \
+could just as easily be X"). If prediction markets are provided for this \
+story, anchor the update in them — e.g. "markets moved the odds of X from \
+52% to 61% this week, which suggests...". Never invent market numbers; use \
+only the ones provided. If none are provided, reason qualitatively.
 - takes: 2-3 distinct perspectives. Each take MUST be attributed to one of the \
 provided articles: source = the outlet name, source_url = that article's exact \
 URL, text = a paraphrase of that outlet's actual angle, phrased to follow the \
@@ -46,12 +59,8 @@ class TakeDraft(BaseModel):
 class StoryDraft(BaseModel):
     headline: str
     what_happened: str
-    why_it_matters: str
+    potential_implications: str
     takes: list[TakeDraft]
-
-
-class ExecSummary(BaseModel):
-    bullets: list[str]
 
 
 def iso_week(d: date) -> str:
@@ -86,36 +95,34 @@ def _compose_story(llm: LLM, story: Story) -> None:
         }
         for a in story.articles
     ]
+    market_records = [
+        {
+            "question": f.question,
+            "probability_pct": round(f.probability * 100),
+            "change_pp": f.delta_pp,
+            "change_measured": f.delta_label,
+        }
+        for f in story.forecasts
+    ]
+    user = f"Articles for this story (JSON):\n{json.dumps(records, ensure_ascii=False)}"
+    if market_records:
+        user += (
+            f"\n\nPrediction markets matched to this story (JSON):\n"
+            f"{json.dumps(market_records, ensure_ascii=False)}"
+        )
     draft = llm.parse(
         system=STORY_SYSTEM,
-        user=f"Articles for this story (JSON):\n{json.dumps(records, ensure_ascii=False)}",
+        user=user,
         output_format=StoryDraft,
         max_tokens=2048,
     )
     story.headline = draft.headline
     story.what_happened = draft.what_happened
-    story.why_it_matters = draft.why_it_matters
+    story.potential_implications = draft.potential_implications
     story.takes = validate_takes(story, draft.takes)
     dropped = len(draft.takes) - len(story.takes)
     if dropped:
         print(f"  [write] dropped {dropped} unattributable take(s) from '{story.headline[:50]}'")
-
-
-def _compose_exec_summary(llm: LLM, stories: list[Story]) -> list[str]:
-    digest = [
-        {"headline": s.headline, "why_it_matters": s.why_it_matters} for s in stories
-    ]
-    summary = llm.parse(
-        system=(
-            "Write the 'If you only read one thing' section of a weekly decision-maker "
-            "briefing: 3-5 bullets, one per major story, each a single dry, information-"
-            "dense sentence. No hype words. Only use the provided stories."
-        ),
-        user=json.dumps(digest, ensure_ascii=False),
-        output_format=ExecSummary,
-        max_tokens=1024,
-    )
-    return summary.bullets[:5]
 
 
 def run(
@@ -134,12 +141,6 @@ def run(
             editorial = SAMPLE_EDITORIAL.get(anchor_id or "", {})
             for field, value in editorial.items():
                 setattr(story, field, value)
-        exec_summary = [
-            "[SAMPLE] Trade summit collapsed; markets now price tariff escalation at 62%.",
-            "[SAMPLE] Chip guidance cut suggests the capex cycle is being repriced.",
-            "[SAMPLE] Eight-minute net-energy fusion run reported; replication pending.",
-            "[SAMPLE] European stress-tech category keeps getting funded (€12M Series A).",
-        ]
         markets_moved = list(SAMPLE_MARKETS_MOVED)
     else:
         if llm is None:
@@ -152,8 +153,7 @@ def run(
             except Exception as e:  # noqa: BLE001 — one bad story must not kill the issue
                 print(f"  [write] WARN: dropped story '{story.headline[:60]}': {e}")
         stories = composed
-        exec_summary = _compose_exec_summary(llm, stories) if stories else []
-        markets_moved = []  # Phase 2: prediction-market swings of the week
+        markets_moved = []  # filled by the pipeline from market snapshots
 
     sections = [
         IssueSection(
@@ -171,7 +171,6 @@ def run(
         digest_name=config.digest.name,
         tagline=config.digest.tagline,
         accent_color=config.digest.accent_color,
-        exec_summary=exec_summary,
         sections=sections,
         markets_moved=markets_moved,
     )

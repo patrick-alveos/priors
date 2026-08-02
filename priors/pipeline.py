@@ -1,21 +1,26 @@
-"""Weekly pipeline orchestration: ingest -> cluster -> enrich -> write ->
-render -> linkcheck -> deliver.
+"""Weekly pipeline orchestration: ingest -> cluster -> enrich (images) ->
+markets -> write -> extras -> linkcheck -> render -> deliver.
 
-Used by both `priors run` (CLI) and the scheduler daemon. The sample path
-(`priors preview`) runs the same flow with fixture data, no API keys, and no
-email sent.
+Markets run before write so the composed implications can reference real
+probability moves. Used by both `priors run` (CLI) and the scheduler daemon;
+the sample path (`priors preview`) runs the same flow with fixture data.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from datetime import date
 from pathlib import Path
 
-from priors import db
+import httpx
+
+from priors import db, extras, markets
 from priors.config import Config
 from priors.linkcheck import validate_issue
 from priors.llm import LLM
+from priors.sample_data import SAMPLE_HUMAN_STORY, SAMPLE_PHOTO
 from priors.stages import cluster, deliver, enrich, ingest, render, write
+from priors.stages.write import iso_week
 
 ARTIFACTS_DIR = Path("data/artifacts")
 BUILD_DIR = Path("build")
@@ -39,31 +44,61 @@ def run_weekly(config: Config, *, sample: bool = False, dry_run: bool = False) -
     db.seed_owner(conn, config.owner.email, config.owner.name)
 
     llm = None if sample else LLM(config.llm.model)
+    week = iso_week(date.today())
 
-    print("[1/6] ingest")
+    print("[1/8] ingest")
     articles = ingest.run(config, sample=sample, conn=None if sample else conn)
     if not articles:
         raise RuntimeError("Ingest produced no articles — check feeds and network.")
 
-    print("[2/6] cluster")
+    print("[2/8] cluster")
     stories = cluster.run(config, articles, llm=llm)
     if not stories:
         raise RuntimeError("Clustering produced no stories.")
 
-    print("[3/6] enrich")
+    print("[3/8] images")
     stories = enrich.run(config, stories, sample=sample)
 
-    print("[4/6] write")
+    print("[4/8] prediction markets")
+    movers = []
+    if not sample and config.markets.kalshi:
+        try:
+            kalshi_markets = markets.fetch_markets()
+            prior = markets.previous_snapshots(conn, week)
+            markets.match_markets(llm, stories, kalshi_markets, prior)
+            movers = markets.top_movers(kalshi_markets, prior)
+            markets.snapshot_markets(conn, week, kalshi_markets)
+        except Exception as e:  # noqa: BLE001 — markets are enrichment, never fatal
+            print(f"  [markets] WARN: Kalshi unavailable ({e}); issue ships without odds")
+            for story in stories:
+                story.no_market_note = True
+
+    print("[5/8] write")
     issue = write.run(config, stories, sample=sample, llm=llm)
+    if not sample:
+        issue.markets_moved = movers
+
+    print("[6/8] extras")
+    if sample:
+        issue.human_story = SAMPLE_HUMAN_STORY.model_copy()
+        issue.photo = SAMPLE_PHOTO.model_copy()
+    else:
+        if config.extras.human_story.enabled:
+            candidates = extras.fetch_human_candidates(config)
+            headers = {"User-Agent": "Mozilla/5.0 (compatible; PriorsDigest/0.1)"}
+            with httpx.Client(headers=headers) as client:
+                issue.human_story = extras.compose_human_story(llm, candidates, client)
+        if config.extras.photo_of_week.enabled:
+            issue.photo = extras.fetch_photo_of_week()
 
     removed: list[str] = []
     if not sample:
-        print("[5/6] validate links")
+        print("[7/8] validate links")
         removed = validate_issue(issue)
         for item in removed:
             print(f"  [linkcheck] removed {item}")
 
-    print("[5/6] render" if sample else "[6/6] render + deliver")
+    print("[7/8] render" if sample else "[8/8] render + deliver")
     html_path, md_path = render.run(
         issue, BUILD_DIR, archive_dir=None if sample or dry_run else ISSUES_DIR
     )

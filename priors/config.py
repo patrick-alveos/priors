@@ -103,6 +103,20 @@ class MarketsConfig(BaseModel):
     metaculus: bool = True
 
 
+class HumanStoryConfig(BaseModel):
+    enabled: bool = True
+    feeds: list[str] = []
+
+
+class PhotoOfWeekConfig(BaseModel):
+    enabled: bool = True
+
+
+class ExtrasConfig(BaseModel):
+    human_story: HumanStoryConfig = HumanStoryConfig()
+    photo_of_week: PhotoOfWeekConfig = PhotoOfWeekConfig()
+
+
 class LLMConfig(BaseModel):
     model: str = "claude-sonnet-5"
     max_stories_per_section: int = 4
@@ -127,6 +141,7 @@ class Config(BaseModel):
     sections: list[SectionConfig]
     sources: SourcesConfig = SourcesConfig()
     markets: MarketsConfig = MarketsConfig()
+    extras: ExtrasConfig = ExtrasConfig()
     llm: LLMConfig = LLMConfig()
     email: EmailConfig = EmailConfig()
 

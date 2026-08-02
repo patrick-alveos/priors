@@ -30,7 +30,11 @@ by volume of coverage.
 - Use only article IDs from the provided list. Never invent IDs.
 - Prefer stories with multiple independent sources.
 - Skip celebrity news, sports results, and one-off crime stories unless they \
-have clear business or policy implications."""
+have clear business or policy implications.
+- Sections that list specific topics are strict: assign a story there ONLY if \
+it is squarely about one of those topics. A loosely related story belongs in a \
+general section instead, and it is normal for a topical section to have fewer \
+stories than the maximum — or none at all."""
 
 
 class ClusterGroup(BaseModel):
@@ -51,7 +55,7 @@ def _fallback_story(config: Config, articles: list[Article]) -> list[Story]:
         if arts:
             stories.append(
                 Story(section=section.key, headline=arts[0].title, what_happened="",
-                      why_it_matters="", articles=arts[:5])
+                      potential_implications="", articles=arts[:5])
             )
     return stories
 
@@ -83,7 +87,7 @@ def apply_clusters(
                 section=group.section,
                 headline=anchor.title,
                 what_happened=anchor.summary or "",
-                why_it_matters="",
+                potential_implications="",
                 articles=members,
             )
         )
@@ -115,9 +119,12 @@ def run(
         }
         for a in articles
     ]
-    sections = [s.key for s in config.enabled_sections]
+    sections = [
+        {"key": s.key, "title": s.title, **({"topics": s.topics} if s.topics else {})}
+        for s in config.enabled_sections
+    ]
     user = (
-        f"Allowed sections: {sections}\n"
+        f"Allowed sections (JSON):\n{json.dumps(sections, ensure_ascii=False)}\n"
         f"Maximum stories per section: {config.llm.max_stories_per_section}\n\n"
         f"Candidate articles (JSON):\n{json.dumps(records, ensure_ascii=False)}"
     )

@@ -47,41 +47,74 @@ def article_id(url: str) -> str:
     return hashlib.sha256(normalize_url(url).encode()).hexdigest()[:16]
 
 
+def parse_feed(url: str, section: str | None = None) -> list[Article]:
+    """Parse one RSS/Atom feed into Articles. Also used by extras (human story)."""
+    parsed = feedparser.parse(url)
+    if parsed.bozo and not parsed.entries:
+        print(f"  [ingest] WARN: could not parse feed {url}")
+        return []
+    source = parsed.feed.get("title", urlparse(url).netloc)
+    articles: list[Article] = []
+    for entry in parsed.entries:
+        link = entry.get("link")
+        title = entry.get("title")
+        if not link or not title:
+            continue
+        published = None
+        for key in ("published_parsed", "updated_parsed"):
+            if entry.get(key):
+                published = datetime.fromtimestamp(time.mktime(entry[key]), tz=UTC)
+                break
+        image_url = None
+        for media in entry.get("media_thumbnail", []) or entry.get("media_content", []):
+            if media.get("url"):
+                image_url = media["url"]
+                break
+        articles.append(
+            Article(
+                id=article_id(link),
+                url=link,
+                title=title.strip(),
+                source=source,
+                published_at=published,
+                summary=(entry.get("summary") or "")[:1000] or None,
+                image_url=image_url,
+                section_hint=section,
+            )
+        )
+    return articles
+
+
 def _fetch_rss(config: Config) -> list[Article]:
     articles: list[Article] = []
     for feed in config.sources.rss:
-        parsed = feedparser.parse(feed.url)
-        if parsed.bozo and not parsed.entries:
-            print(f"  [ingest] WARN: could not parse feed {feed.url}")
+        articles.extend(parse_feed(feed.url, feed.section))
+    return articles
+
+
+def _gnews_articles(payload: dict, section: str) -> list[Article]:
+    articles: list[Article] = []
+    for item in payload.get("articles", []):
+        if not item.get("url") or not item.get("title"):
             continue
-        source = parsed.feed.get("title", urlparse(feed.url).netloc)
-        for entry in parsed.entries:
-            link = entry.get("link")
-            title = entry.get("title")
-            if not link or not title:
-                continue
-            published = None
-            for key in ("published_parsed", "updated_parsed"):
-                if entry.get(key):
-                    published = datetime.fromtimestamp(time.mktime(entry[key]), tz=UTC)
-                    break
-            image_url = None
-            for media in entry.get("media_thumbnail", []) or entry.get("media_content", []):
-                if media.get("url"):
-                    image_url = media["url"]
-                    break
-            articles.append(
-                Article(
-                    id=article_id(link),
-                    url=link,
-                    title=title.strip(),
-                    source=source,
-                    published_at=published,
-                    summary=(entry.get("summary") or "")[:1000] or None,
-                    image_url=image_url,
-                    section_hint=feed.section,
-                )
+        published = None
+        if item.get("publishedAt"):
+            try:
+                published = datetime.fromisoformat(item["publishedAt"].replace("Z", "+00:00"))
+            except ValueError:
+                pass
+        articles.append(
+            Article(
+                id=article_id(item["url"]),
+                url=item["url"],
+                title=item["title"].strip(),
+                source=(item.get("source") or {}).get("name", "GNews"),
+                published_at=published,
+                summary=(item.get("description") or "")[:1000] or None,
+                image_url=item.get("image"),
+                section_hint=section,
             )
+        )
     return articles
 
 
@@ -90,40 +123,31 @@ def _fetch_gnews(config: Config) -> list[Article]:
     if not api_key or not config.sources.news_api.enabled:
         return []
     articles: list[Article] = []
+    # (endpoint, params, section) — categories for the standard sections,
+    # then targeted searches for the owner's custom-section topics.
+    requests: list[tuple[str, dict, str]] = [
+        ("top-headlines", {"category": cat, "max": 10}, section)
+        for cat, section in GNEWS_CATEGORIES.items()
+    ]
+    custom = next((s for s in config.enabled_sections if s.topics), None)
+    if custom is not None:
+        for topic in custom.topics[:5]:
+            requests.append(("search", {"q": f'"{topic}"', "max": 5, "in": "title,description"},
+                             custom.key))
     with httpx.Client(timeout=15) as client:
-        for category, section in GNEWS_CATEGORIES.items():
+        for i, (endpoint, params, section) in enumerate(requests):
+            if i:
+                time.sleep(1.2)  # GNews free tier throttles bursts (429)
             try:
                 resp = client.get(
-                    "https://gnews.io/api/v4/top-headlines",
-                    params={"category": category, "lang": "en", "max": 10, "apikey": api_key},
+                    f"https://gnews.io/api/v4/{endpoint}",
+                    params={**params, "lang": "en", "apikey": api_key},
                 )
                 resp.raise_for_status()
             except httpx.HTTPError as e:
-                print(f"  [ingest] WARN: GNews {category} failed: {e}")
+                print(f"  [ingest] WARN: GNews {params} failed: {e}")
                 continue
-            for item in resp.json().get("articles", []):
-                if not item.get("url") or not item.get("title"):
-                    continue
-                published = None
-                if item.get("publishedAt"):
-                    try:
-                        published = datetime.fromisoformat(
-                            item["publishedAt"].replace("Z", "+00:00")
-                        )
-                    except ValueError:
-                        pass
-                articles.append(
-                    Article(
-                        id=article_id(item["url"]),
-                        url=item["url"],
-                        title=item["title"].strip(),
-                        source=(item.get("source") or {}).get("name", "GNews"),
-                        published_at=published,
-                        summary=(item.get("description") or "")[:1000] or None,
-                        image_url=item.get("image"),
-                        section_hint=section,
-                    )
-                )
+            articles.extend(_gnews_articles(resp.json(), section))
     return articles
 
 

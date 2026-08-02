@@ -3,105 +3,137 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="supported-color-schemes" content="light dark">
+  <meta name="color-scheme" content="light">
+  <meta name="supported-color-schemes" content="light">
   <title>{{ issue.digest_name }} — {{ issue.week }}</title>
 </head>
-<body style="margin:0; padding:0; background-color:#f4f4f2;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f4f4f2;">
+{# Warm Sunday-morning palette: paper #F4EFE4, card #FDFAF3, ink #2B2820,
+   muted #6E6759, hairline #E3DBC9, single accent = deep calm green. #}
+<body style="margin:0; padding:0; background-color:#F4EFE4;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#F4EFE4;">
     <tr>
-      <td align="center" style="padding:24px 12px;">
-        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px; width:100%; background-color:#fffffe; border-radius:8px; overflow:hidden;">
+      <td align="center" style="padding:32px 14px;">
+        <table role="presentation" width="620" cellpadding="0" cellspacing="0" style="max-width:620px; width:100%;">
 
-          {# ---- Masthead ---- #}
+          {# ---- Masthead: quiet, editorial ---- #}
           <tr>
-            <td style="background-color:{{ issue.accent_color }}; padding:28px 32px;">
-              <div style="font-family:Georgia, 'Times New Roman', serif; font-size:28px; color:#fffffe; letter-spacing:0.5px;">{{ issue.digest_name }}</div>
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:13px; color:#fffffe; opacity:0.85; padding-top:4px;">{{ issue.tagline }} · {{ issue.period_start.strftime('%b %-d') }}–{{ issue.period_end.strftime('%b %-d, %Y') }}</div>
+            <td align="center" style="padding:8px 8px 26px 8px;">
+              <div style="font-family:Georgia, 'Times New Roman', serif; font-size:40px; letter-spacing:1px; color:{{ issue.accent_color }};">{{ issue.digest_name }}</div>
+              <div style="font-family:Georgia, serif; font-style:italic; font-size:15px; color:#6E6759; padding-top:6px;">{{ issue.tagline }}</div>
+              <div style="font-family:Helvetica, Arial, sans-serif; font-size:12px; letter-spacing:1.5px; text-transform:uppercase; color:#9A9284; padding-top:12px;">{{ issue.period_start.strftime('%B %-d') }} – {{ issue.period_end.strftime('%B %-d, %Y') }} &nbsp;·&nbsp; {{ issue.week }}</div>
             </td>
           </tr>
 
-          {# ---- Executive summary ---- #}
-          {% if issue.exec_summary %}
+          {# ---- Card ---- #}
           <tr>
-            <td style="padding:24px 32px 8px 32px;">
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; color:{{ issue.accent_color }};">If you only read one thing</div>
-              <ul style="font-family:Georgia, serif; font-size:15px; line-height:1.55; color:#1c1c1a; padding-left:20px; margin:10px 0 0 0;">
-                {% for bullet in issue.exec_summary %}
-                <li style="margin-bottom:6px;">{{ bullet }}</li>
-                {% endfor %}
-              </ul>
-            </td>
-          </tr>
-          {% endif %}
+            <td style="background-color:#FDFAF3; border:1px solid #E3DBC9; border-radius:12px; padding:8px 0;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
 
-          {# ---- Sections ---- #}
-          {% for section in issue.sections %}
-          {% if section.stories %}
-          <tr>
-            <td style="padding:24px 32px 0 32px;">
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:{{ issue.accent_color }}; border-bottom:2px solid {{ issue.accent_color }}; padding-bottom:6px;">{{ section.title }}</div>
-            </td>
-          </tr>
-          {% for story in section.stories %}
-          <tr>
-            <td style="padding:20px 32px 4px 32px;">
-              {% if story.image and story.image.kind == 'og' and story.image.url %}
-              <img src="{{ story.image.url }}" width="536" alt="" style="width:100%; max-width:536px; border-radius:6px; display:block;">
-              {% if story.image.attribution %}
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#8a8a86; padding-top:4px;">Image: <a href="{{ story.image.attribution_url }}" style="color:#8a8a86;">{{ story.image.attribution }}</a></div>
-              {% endif %}
-              {% else %}
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-                <td style="background-color:{{ issue.accent_color }}; border-radius:6px; padding:28px 24px;">
-                  <div style="font-family:Georgia, serif; font-size:18px; line-height:1.35; color:#fffffe;">{{ story.headline }}</div>
+              {% for section in issue.sections %}
+              {% if section.stories %}
+              <tr>
+                <td style="padding:30px 36px 0 36px;">
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:{{ issue.accent_color }};">{{ section.title }}</div>
+                  <div style="border-top:1px solid #E3DBC9; margin-top:8px;"></div>
                 </td>
-              </tr></table>
-              {% endif %}
-              <h2 style="font-family:Georgia, serif; font-size:20px; line-height:1.3; color:#1c1c1a; margin:16px 0 8px 0;">{{ story.headline }}</h2>
-              <p style="font-family:Georgia, serif; font-size:15px; line-height:1.55; color:#1c1c1a; margin:0 0 12px 0;">{{ story.what_happened }}</p>
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; color:#6b6b67;">Why it matters</div>
-              <p style="font-family:Georgia, serif; font-size:15px; line-height:1.55; color:#1c1c1a; margin:6px 0 12px 0;">{{ story.why_it_matters }}</p>
-              {% if story.takes %}
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; color:#6b6b67;">The takes</div>
-              {% for take in story.takes %}
-              <p style="font-family:Georgia, serif; font-size:14px; line-height:1.5; color:#3a3a37; margin:6px 0; padding-left:12px; border-left:3px solid #e0e0dc;"><a href="{{ take.source_url }}" style="color:{{ issue.accent_color }}; text-decoration:none; font-weight:bold;">{{ take.source }}</a> {{ take.text }}</p>
-              {% endfor %}
-              {% endif %}
-              {% if story.forecasts or story.no_market_note %}
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; color:#6b6b67; margin-top:12px;">What&#8217;s next (odds)</div>
-              {% endif %}
-              {% if story.forecasts %}
-              {% for f in story.forecasts %}
-              <p style="font-family:Georgia, serif; font-size:14px; line-height:1.5; color:#1c1c1a; margin:6px 0;"><a href="{{ f.url }}" style="color:{{ issue.accent_color }};">{{ f.platform | capitalize }}</a> puts &#8220;{{ f.question }}&#8221; at <strong>{{ f.probability | pct }}</strong> {{ f.delta_pp | delta }}</p>
-              {% endfor %}
-              {% elif story.no_market_note %}
-              <p style="font-family:Georgia, serif; font-size:14px; font-style:italic; line-height:1.5; color:#6b6b67; margin:6px 0;">No liquid prediction market covers this yet.</p>
-              {% endif %}
-            </td>
-          </tr>
-          {% endfor %}
-          {% endif %}
-          {% endfor %}
+              </tr>
+              {% for story in section.stories %}
+              <tr>
+                <td style="padding:24px 36px 6px 36px;">
+                  {% if story.image and story.image.kind == 'og' and story.image.url %}
+                  <img src="{{ story.image.url }}" width="548" alt="" style="width:100%; max-width:548px; border-radius:8px; display:block;">
+                  {% if story.image.attribution %}
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#9A9284; padding-top:5px;">Photo: <a href="{{ story.image.attribution_url }}" style="color:#9A9284;">{{ story.image.attribution }}</a></div>
+                  {% endif %}
+                  {% endif %}
+                  <h2 style="font-family:Georgia, serif; font-size:22px; font-weight:normal; line-height:1.3; color:#2B2820; margin:18px 0 10px 0;">{{ story.headline }}</h2>
+                  <p style="font-family:Georgia, serif; font-size:16px; line-height:1.62; color:#2B2820; margin:0 0 14px 0;">{{ story.what_happened }}</p>
 
-          {# ---- Markets moved footer ---- #}
-          {% if issue.markets_moved %}
-          <tr>
-            <td style="padding:28px 32px 8px 32px;">
-              <div style="font-family:Helvetica, Arial, sans-serif; font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:{{ issue.accent_color }}; border-bottom:2px solid {{ issue.accent_color }}; padding-bottom:6px;">Markets moved</div>
-              {% for m in issue.markets_moved %}
-              <p style="font-family:Georgia, serif; font-size:14px; line-height:1.5; color:#1c1c1a; margin:10px 0 0 0;"><a href="{{ m.url }}" style="color:{{ issue.accent_color }};">{{ m.platform | capitalize }}</a>: &#8220;{{ m.question }}&#8221; — <strong>{{ m.probability | pct }}</strong> {{ m.delta_pp | delta }}</p>
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:#8A8172;">Potential implications</div>
+                  <p style="font-family:Georgia, serif; font-size:16px; line-height:1.62; color:#2B2820; margin:7px 0 14px 0;">{{ story.potential_implications }}</p>
+
+                  {% if story.takes %}
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:#8A8172;">The takes</div>
+                  {% for take in story.takes %}
+                  <p style="font-family:Georgia, serif; font-size:15px; line-height:1.55; color:#4A443A; margin:8px 0; padding-left:14px; border-left:2px solid #D8CFBB;"><a href="{{ take.source_url }}" style="color:{{ issue.accent_color }}; text-decoration:none; border-bottom:1px solid #C9D3C6;">{{ take.source }}</a> {{ take.text }}</p>
+                  {% endfor %}
+                  {% endif %}
+
+                  {% if story.forecasts or story.no_market_note %}
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:14px;"><tr>
+                    <td style="background-color:#EFEADB; border-radius:8px; padding:14px 18px;">
+                      <div style="font-family:Helvetica, Arial, sans-serif; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; color:{{ issue.accent_color }};">Updating the priors</div>
+                      {% if story.forecasts %}
+                      {% for f in story.forecasts %}
+                      <p style="font-family:Georgia, serif; font-size:15px; line-height:1.5; color:#2B2820; margin:8px 0 0 0;"><a href="{{ f.url }}" style="color:{{ issue.accent_color }};">{{ f.platform | capitalize }}</a> puts &#8220;{{ f.question }}&#8221; at <strong>{{ f.probability | pct }}</strong> {{ f.delta_pp | delta(f.delta_label) }}</p>
+                      {% endfor %}
+                      {% else %}
+                      <p style="font-family:Georgia, serif; font-style:italic; font-size:14px; line-height:1.5; color:#6E6759; margin:8px 0 0 0;">No liquid prediction market covers this yet.</p>
+                      {% endif %}
+                    </td>
+                  </tr></table>
+                  {% endif %}
+                </td>
+              </tr>
               {% endfor %}
+              {% endif %}
+              {% endfor %}
+
+              {# ---- Markets moved ---- #}
+              {% if issue.markets_moved %}
+              <tr>
+                <td style="padding:32px 36px 6px 36px;">
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:{{ issue.accent_color }};">Markets moved</div>
+                  <div style="border-top:1px solid #E3DBC9; margin-top:8px; margin-bottom:4px;"></div>
+                  {% for m in issue.markets_moved %}
+                  <p style="font-family:Georgia, serif; font-size:15px; line-height:1.55; color:#2B2820; margin:12px 0 0 0;"><a href="{{ m.url }}" style="color:{{ issue.accent_color }};">{{ m.platform | capitalize }}</a>: &#8220;{{ m.question }}&#8221; — <strong>{{ m.probability | pct }}</strong> {{ m.delta_pp | delta(m.delta_label) }}</p>
+                  {% endfor %}
+                </td>
+              </tr>
+              {% endif %}
+
+              {# ---- Human story of the week ---- #}
+              {% if issue.human_story %}
+              <tr>
+                <td style="padding:32px 36px 6px 36px;">
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:{{ issue.accent_color }};">Human story of the week</div>
+                  <div style="border-top:1px solid #E3DBC9; margin-top:8px;"></div>
+                  {% if issue.human_story.image and issue.human_story.image.url %}
+                  <img src="{{ issue.human_story.image.url }}" width="548" alt="" style="width:100%; max-width:548px; border-radius:8px; display:block; margin-top:22px;">
+                  {% endif %}
+                  <h2 style="font-family:Georgia, serif; font-size:21px; font-weight:normal; line-height:1.3; color:#2B2820; margin:18px 0 10px 0;">{{ issue.human_story.headline }}</h2>
+                  <p style="font-family:Georgia, serif; font-size:16px; line-height:1.62; color:#2B2820; margin:0 0 10px 0;">{{ issue.human_story.text }}</p>
+                  <p style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#9A9284; margin:0;">Via <a href="{{ issue.human_story.source_url }}" style="color:{{ issue.accent_color }};">{{ issue.human_story.source }}</a></p>
+                </td>
+              </tr>
+              {% endif %}
+
+              {# ---- Photo of the week ---- #}
+              {% if issue.photo %}
+              <tr>
+                <td style="padding:32px 36px 30px 36px;">
+                  <div style="font-family:Helvetica, Arial, sans-serif; font-size:12px; font-weight:bold; text-transform:uppercase; letter-spacing:2px; color:{{ issue.accent_color }};">Photo of the week</div>
+                  <div style="border-top:1px solid #E3DBC9; margin-top:8px;"></div>
+                  <img src="{{ issue.photo.image_url }}" width="548" alt="{{ issue.photo.title }}" style="width:100%; max-width:548px; border-radius:8px; display:block; margin-top:22px;">
+                  {% if issue.photo.description %}
+                  <p style="font-family:Georgia, serif; font-style:italic; font-size:15px; line-height:1.55; color:#4A443A; margin:12px 0 4px 0;">{{ issue.photo.description }}</p>
+                  {% endif %}
+                  <p style="font-family:Helvetica, Arial, sans-serif; font-size:12px; color:#9A9284; margin:4px 0 0 0;"><a href="{{ issue.photo.link }}" style="color:#9A9284;">{{ issue.photo.attribution }}</a> · Wikimedia Commons</p>
+                  <p style="font-family:Georgia, serif; font-style:italic; font-size:15px; color:#6E6759; margin:22px 0 0 0;">Have a good week. Same time next Monday.</p>
+                </td>
+              </tr>
+              {% endif %}
+
+              </table>
             </td>
           </tr>
-          {% endif %}
 
           {# ---- Footer ---- #}
           <tr>
-            <td style="padding:28px 32px; ">
-              <p style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height:1.5; color:#8a8a86; border-top:1px solid #e0e0dc; padding-top:16px; margin:0;">
-                {{ issue.digest_name }} · issue {{ issue.week }} · forecasts are prediction-market prices, not our opinions.<br>
-                Self-hosted with <a href="https://github.com/" style="color:#8a8a86;">Priors</a>, an open-source weekly digest engine.
+            <td align="center" style="padding:22px 24px;">
+              <p style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height:1.6; color:#9A9284; margin:0;">
+                {{ issue.digest_name }} · issue {{ issue.week }} · odds are prediction-market prices, not our opinions.<br>
+                Self-hosted with <a href="https://github.com/" style="color:#9A9284;">Priors</a>, an open-source weekly digest engine.
               </p>
             </td>
           </tr>

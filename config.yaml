@@ -5,7 +5,7 @@
 digest:
   name: Priors
   tagline: "Update your priors, weekly."
-  accent_color: "#1A4D8F"
+  accent_color: "#3E5C48"   # deep calm green — warm Sunday-morning palette
   language: en
 
 owner:
@@ -64,6 +64,16 @@ markets:
   polymarket: true
   kalshi: true
   metaculus: true
+
+# Closing sections — the digest ends warm, not with a market table.
+extras:
+  human_story:
+    enabled: true
+    feeds:
+      - https://www.goodnewsnetwork.org/feed/
+      - https://www.positive.news/feed/
+  photo_of_week:
+    enabled: true   # Wikimedia Commons Picture of the Day (freely licensed)
 
 llm:
   model: claude-sonnet-5
