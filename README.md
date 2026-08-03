@@ -15,15 +15,16 @@ Each story follows a strict template:
 - **Headline** — rewritten, never copied
 - **What happened** — 2–4 factual sentences, past 7 days only
 - **Why it matters** — second- and third-order implications for a decision maker
+- **Potential implications** — how a thoughtful reader should update, anchored in prediction-market moves where a matched market exists
 - **The takes** — 2–3 distinct perspectives, each attributed and linked to a real source
-- **What's next (odds)** — prediction-market probabilities with week-over-week deltas, e.g. *"Polymarket puts a ceasefire by end of September at 34% (↓8pp week-over-week)"*
+- **Updating the priors** — prediction-market probabilities with week-over-week deltas, e.g. *"Kalshi puts an 8.0+ earthquake in Japan before 2030 at 45% (↑4pp week-over-week)"* — or an honest "no liquid market covers this yet"
 
-Plus a 3–5 bullet executive summary up top and a "Markets moved" footer. Past issues live in [`issues/`](issues/) as Markdown.
+Each issue closes with a "Markets moved" footer, a **Human story of the week**, and a **Photo of the week** (Wikimedia Commons Picture of the Day). Past issues live in [`issues/`](issues/) as Markdown.
 
 ## Quickstart (15 minutes)
 
 ```bash
-git clone <this-repo> && cd priors
+git clone https://github.com/patrick-alveos/priors.git && cd priors
 make setup          # venv + deps + SQLite
 make preview        # builds a sample issue -> open build/<week>.html
 ```
