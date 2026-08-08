@@ -36,10 +36,20 @@ cp .env.example .env   # add your API keys (each one documented in the file)
 # edit config.yaml — or wait for `priors setup`, the interactive wizard (Phase 3)
 ```
 
-Run it for real on a small VPS:
+Run it for real — two options:
+
+**GitHub Actions (recommended, free for public forks).** Add your API keys as
+repository secrets (`Settings → Secrets → Actions`: `ANTHROPIC_API_KEY`,
+`RESEND_API_KEY`, and optionally `GNEWS_API_KEY`, `KALSHI_API_KEY_ID`,
+`KALSHI_PRIVATE_KEY`). The [`weekly.yml`](.github/workflows/weekly.yml)
+workflow builds and sends the issue every Saturday morning, keeps state in the
+Actions cache, and commits each issue's Markdown to [`issues/`](issues/).
+Trigger it manually anytime from the Actions tab (untick "send" for a dry run).
+
+**Your own machine or VPS:**
 
 ```bash
-docker compose up -d   # runs the built-in scheduler; default Monday 06:00 in your timezone
+docker compose up -d   # runs the built-in scheduler at the day/time in config.yaml
 ```
 
 ## Architecture

@@ -1,0 +1,78 @@
+# The production run: builds and sends the weekly issue from GitHub Actions.
+# State (SQLite: dedup history, market snapshots, subscribers) rolls forward
+# via the Actions cache; each issue's Markdown is committed to issues/.
+name: Weekly issue
+
+on:
+  schedule:
+    - cron: "0 3 * * 6"   # Saturday ~06:00 Helsinki (EEST; 05:00 in winter)
+  workflow_dispatch:
+    inputs:
+      send:
+        description: "Actually send the email"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency: weekly-issue
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -e .
+
+      - name: Restore state (SQLite)
+        uses: actions/cache/restore@v4
+        with:
+          path: data/priors.db
+          key: priors-db-${{ github.run_id }}
+          restore-keys: priors-db-
+
+      - name: Run weekly pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+          KALSHI_API_KEY_ID: ${{ secrets.KALSHI_API_KEY_ID }}
+          KALSHI_PRIVATE_KEY: ${{ secrets.KALSHI_PRIVATE_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.send }}" = "false" ]; then
+            python -m priors run --dry-run
+          else
+            python -m priors run
+          fi
+
+      - name: Save state (SQLite)
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/priors.db
+          key: priors-db-${{ github.run_id }}
+
+      - name: Commit issue archive
+        run: |
+          git config user.name "priors-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add issues
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: archive issue $(date -u +%G-W%V)"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Upload rendered issue
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue
+          path: build/
+          if-no-files-found: ignore

@@ -14,7 +14,7 @@ owner:
   timezone: Europe/Helsinki
 
 schedule:
-  day: monday
+  day: saturday
   time: "06:00"
 
 # Standard sections. Set enabled: false to drop one.
