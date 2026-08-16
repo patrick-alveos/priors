@@ -117,6 +117,10 @@ def run_weekly(config: Config, *, sample: bool = False, dry_run: bool = False) -
     if send_for_real:
         used_ids = [a.id for s in stories for a in s.articles]
         db.mark_articles_used(conn, used_ids, issue.week)
+        # Publish to the PWA reader (docs/ on GitHub Pages).
+        from priors.webdata import export_issue
+
+        export_issue(issue)
     if not sample:
         db.record_issue(conn, issue.week, subject, str(html_path), str(md_path), send_for_real)
 

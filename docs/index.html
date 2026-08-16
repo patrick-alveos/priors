@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Priors</title>
+  <meta name="description" content="Update your priors, weekly.">
+  <meta name="theme-color" content="#F4EFE4">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Priors">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="archive-btn" id="archiveBtn" aria-label="Past issues">Issues</button>
+    <div class="masthead">
+      <h1>Priors</h1>
+      <div class="issue-date" id="issueDate"></div>
+    </div>
+    <div class="topbar-spacer"></div>
+  </header>
+
+  <nav class="tabs" id="tabs" aria-label="Topics"></nav>
+
+  <main class="pager" id="pager"></main>
+
+  <div class="archive-sheet" id="archiveSheet" hidden>
+    <div class="archive-backdrop" id="archiveBackdrop"></div>
+    <div class="archive-panel" role="dialog" aria-label="Past issues">
+      <h2>Past issues</h2>
+      <ul id="archiveList"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
