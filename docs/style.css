@@ -189,6 +189,84 @@ body {
 .caption { font-style: italic; font-size: 15px; color: var(--ink-soft); margin: 10px 0 4px; }
 .signoff { font-style: italic; color: var(--muted); margin-top: 20px; }
 
+/* ---- Cover page ---- */
+.cover-masthead { text-align: center; padding: 12px 0 20px; }
+.cover-name {
+  font-family: var(--serif);
+  font-size: 44px;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+.cover-tagline { font-style: italic; font-size: 16px; color: var(--muted); margin-top: 4px; }
+.cover-date {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-top: 10px;
+}
+.cover-figure {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.cover-figure img { width: 100%; display: block; }
+.cover-figure figcaption {
+  font-family: var(--sans);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  padding: 10px 16px;
+}
+.cover-figure figcaption a { color: var(--faint); }
+.toc {
+  background: var(--card);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 20px;
+}
+.toc-heading {
+  font-family: var(--serif);
+  font-size: 20px;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+.toc-section {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 18px 0 4px;
+}
+.toc-entry {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0;
+  border-top: 1px solid var(--hairline);
+}
+.toc-entry:first-of-type { border-top: none; }
+.toc-headline {
+  display: block;
+  font-family: var(--serif);
+  font-size: 16.5px;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.toc-sentence {
+  display: block;
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.toc-entry:active .toc-headline { color: var(--accent); }
+
 /* ---- Read state ---- */
 .story.read { opacity: 0.62; }
 .story.read h2 { color: var(--muted); }

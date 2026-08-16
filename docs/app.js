@@ -140,6 +140,93 @@ function watchPanelScroll(panel) {
   );
 }
 
+// First sentence of a paragraph, for the table of contents.
+function firstSentence(text) {
+  const match = (text || "").match(/.*?[.!?](?=\s|$)/);
+  return match ? match[0] : (text || "").slice(0, 140);
+}
+
+// The cover image: the lead story of the lead section (falls back through
+// the issue's stories, then the photo of the week).
+function pickCover(issue) {
+  for (const section of issue.sections) {
+    for (const story of section.stories || []) {
+      if (story.image?.kind === "og" && story.image.url) {
+        return { url: story.image.url, credit: story.image.attribution,
+                 creditUrl: story.image.attribution_url, headline: story.headline };
+      }
+    }
+  }
+  if (issue.photo) {
+    return { url: issue.photo.image_url, credit: issue.photo.attribution,
+             creditUrl: issue.photo.link, headline: issue.photo.title };
+  }
+  return null;
+}
+
+function buildCoverPanel(issue, contentPanels) {
+  const panel = el("section", "panel cover-panel");
+  panel.dataset.title = "Cover";
+  const cover = pickCover(issue);
+
+  let html = `<div class="cover-masthead">
+    <div class="cover-name">${esc(issue.digest_name)}</div>
+    <div class="cover-tagline">${esc(issue.tagline)}</div>
+    <div class="cover-date">${fmtRange(issue.period_start, issue.period_end)}</div>
+  </div>`;
+  if (cover) {
+    html += `<figure class="cover-figure">
+      <img src="${esc(cover.url)}" alt="">
+      <figcaption>${esc(cover.headline)}${
+        cover.credit ? ` · <a href="${esc(cover.creditUrl || "#")}" target="_blank" rel="noopener">${esc(cover.credit)}</a>` : ""
+      }</figcaption>
+    </figure>`;
+  }
+  html += `<div class="toc"><div class="toc-heading">In this issue</div>`;
+  issue.sections.forEach((section) => {
+    if (!section.stories?.length) return;
+    html += `<div class="toc-section">${esc(section.title)}</div>`;
+    section.stories.forEach((story) => {
+      html += `<a class="toc-entry" href="#" data-toc-story="${esc(storyId(story))}">
+        <span class="toc-headline">${esc(story.headline)}</span>
+        <span class="toc-sentence">${esc(firstSentence(story.what_happened))}</span>
+      </a>`;
+    });
+  });
+  if (issue.human_story) {
+    html += `<div class="toc-section">And to finish</div>
+      <a class="toc-entry" href="#" data-toc-story="${esc(storyId(issue.human_story))}">
+        <span class="toc-headline">${esc(issue.human_story.headline)}</span>
+        <span class="toc-sentence">The human story of the week${issue.photo ? ", and the photo of the week" : ""}.</span>
+      </a>`;
+  }
+  html += `</div>`;
+  panel.innerHTML = html;
+
+  // ToC taps: swipe the pager to the story's panel, then scroll to the card.
+  panel.querySelectorAll("[data-toc-story]").forEach((entry) => {
+    entry.addEventListener("click", (e) => {
+      e.preventDefault();
+      const id = entry.dataset.tocStory;
+      for (let i = 0; i < contentPanels.length; i++) {
+        const card = [...contentPanels[i].querySelectorAll(".story")].find(
+          (c) => c.dataset.storyId === id || c.dataset.anchorId === id
+        );
+        if (card) {
+          const panelIndex = i + 1; // +1: cover panel sits first
+          // Instant horizontal jump (animating through intermediate topics is
+          // noisy); smooth vertical settle onto the story.
+          pager.scrollTo({ left: panelIndex * pager.clientWidth });
+          setActiveTab(panelIndex);
+          contentPanels[i].scrollTo({ top: Math.max(card.offsetTop - 12, 0), behavior: "smooth" });
+          return;
+        }
+      }
+    });
+  });
+  return panel;
+}
+
 function buildPanels(issue) {
   pager.innerHTML = "";
   tabsEl.innerHTML = "";
@@ -182,6 +269,7 @@ function buildPanels(issue) {
     if (issue.human_story) {
       const hs = issue.human_story;
       const card = el("article", "story");
+      card.dataset.anchorId = storyId(hs); // ToC jump target (not read-tracked)
       let html = "";
       if (hs.image?.url) html += `<img class="hero" src="${esc(hs.image.url)}" alt="" loading="lazy">`;
       html += `<div class="label">Human story of the week</div>`;
@@ -205,6 +293,8 @@ function buildPanels(issue) {
     }
     panels.push(panel);
   }
+
+  panels.unshift(buildCoverPanel(issue, panels.slice()));
 
   panels.forEach((panel, i) => {
     pager.appendChild(panel);

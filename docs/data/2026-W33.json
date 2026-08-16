@@ -14,12 +14,12 @@
           "section": "politics-geopolitics",
           "headline": "Settlers besiege West Bank village for a week, then Israeli troops evict the Palestinian families instead",
           "what_happened": "Since roughly August 9, Israeli settlers and soldiers besieged two Palestinian families in their homes in the West Bank village of Qusra, cutting water and electricity and blocking medical access, in what residents describe as an attempt to force them off their property. A senior Israeli commander promised to end the siege on August 12, but the next day troops instead forced the two families to leave and briefly occupied eight more homes in the village (six were later returned); settlers continued moving freely through Qusra. On August 14, activists attempting to bring aid to the besieged families were blocked by Israeli forces, and Israel's defence minister announced plans to shift policing of Israeli settlers in the West Bank from the military to civilian police.",
-          "potential_implications": "The gap between what Israeli commanders promised (ending the siege) and what actually happened (the victims, not the besiegers, were removed) is the kind of detail that tends to outlast news cycles — it's exactly the pattern critics point to when arguing that settler violence operates with tacit military cover rather than despite it. The proposed handover of settler policing to civilian police cuts both ways: it could be read as Israel finally treating settler violence as a crime rather than a security matter, or as a step toward normalizing West Bank annexation by extending Israeli civilian jurisdiction over territory still legally occupied — Palestinian officials clearly favor the latter reading. Watch whether US pressure (an ambassador calling settlers 'terrorists' is unusually blunt language for that role) translates into anything beyond statements; historically, US criticism of settler violence has had limited effect on settlement expansion or enforcement, so the base rate for this producing durable change is low. The more interesting tell will be whether the six returned homes and the blocked aid convoy get resolved quietly in the next week, or whether this becomes another entry in a long pattern of temporary sieges that gradually become permanent displacement.",
+          "potential_implications": "The gap between what Israeli commanders promised (ending the siege) and what actually happened (the victims, not the besiegers, were removed) is the kind of detail that tends to outlast news cycles \u2014 it's exactly the pattern critics point to when arguing that settler violence operates with tacit military cover rather than despite it. The proposed handover of settler policing to civilian police cuts both ways: it could be read as Israel finally treating settler violence as a crime rather than a security matter, or as a step toward normalizing West Bank annexation by extending Israeli civilian jurisdiction over territory still legally occupied \u2014 Palestinian officials clearly favor the latter reading. Watch whether US pressure (an ambassador calling settlers 'terrorists' is unusually blunt language for that role) translates into anything beyond statements; historically, US criticism of settler violence has had limited effect on settlement expansion or enforcement, so the base rate for this producing durable change is low. The more interesting tell will be whether the six returned homes and the blocked aid convoy get resolved quietly in the next week, or whether this becomes another entry in a long pattern of temporary sieges that gradually become permanent displacement.",
           "takes": [
             {
               "source": "World news | The Guardian",
               "source_url": "https://www.theguardian.com/world/2026/aug/13/israeli-troops-force-families-from-homes-amid-settler-terror-campaign-in-west-bank",
-              "text": "reports a former Israeli prime minister describing the episode as a 'concerted and meticulous attempt at ethnic cleansing,' framing the army's eviction of the besieged families — rather than the settlers — as the real story."
+              "text": "reports a former Israeli prime minister describing the episode as a 'concerted and meticulous attempt at ethnic cleansing,' framing the army's eviction of the besieged families \u2014 rather than the settlers \u2014 as the real story."
             },
             {
               "source": "Al Jazeera",
@@ -29,14 +29,19 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/3f4a/live/021031f0-97fa-11f1-870d-5d08c49babb2.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss"
+          },
           "articles": []
         },
         {
           "section": "politics-geopolitics",
           "headline": "USS Abraham Lincoln nears 250 days at sea as Trump says it's not long enough",
           "what_happened": "The USS Abraham Lincoln has been deployed for more than 250 days, a record, with sailors reportedly facing food shortages, broken plumbing, and mental health strain severe enough that some have reportedly considered jumping overboard. The Navy is sending another carrier to relieve it. President Trump, asked about the reports, said the deployment was \"not nearly enough,\" even as families of sailors have pushed for attention to the crew's mental health.",
-          "potential_implications": "Carrier deployments have crept longer for years as the Navy juggles a shrinking fleet against expanding commitments, and this is what that trade-off looks like when it finally breaks something visible: plumbing, food supply, morale. The interesting question isn't really about one ship — it's whether the Pentagon treats this as a one-off logistics failure or a symptom of a maintenance and fleet-size problem that's been discussed for a decade without much fixing. Trump's dismissal suggests the administration isn't inclined to treat it as the latter, at least not publicly, which matters for retention: sailors and their families watching this unfold are exactly the population the Navy needs to re-enlist. If this becomes a recurring story rather than a one-time embarrassment, expect it to show up in recruiting and retention numbers well before it shows up in any policy change.",
+          "potential_implications": "Carrier deployments have crept longer for years as the Navy juggles a shrinking fleet against expanding commitments, and this is what that trade-off looks like when it finally breaks something visible: plumbing, food supply, morale. The interesting question isn't really about one ship \u2014 it's whether the Pentagon treats this as a one-off logistics failure or a symptom of a maintenance and fleet-size problem that's been discussed for a decade without much fixing. Trump's dismissal suggests the administration isn't inclined to treat it as the latter, at least not publicly, which matters for retention: sailors and their families watching this unfold are exactly the population the Navy needs to re-enlist. If this becomes a recurring story rather than a one-time embarrassment, expect it to show up in recruiting and retention numbers well before it shows up in any policy change.",
           "takes": [
             {
               "source": "BBC News",
@@ -51,14 +56,19 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/f214/live/46acc190-97f3-11f1-8170-33f7e8571fbe.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&at_campaign=rss"
+          },
           "articles": []
         },
         {
           "section": "politics-geopolitics",
           "headline": "Trump says he'll 'pretty soon' declare the strait of Hormuz US territory, and nobody's sure if he means it",
-          "what_happened": "Speaking at a police academy event on Long Island Friday, Trump said he would soon designate the strait of Hormuz — the narrow waterway through which roughly a fifth of the world's seaborne oil passes — as \"a territory of the United States.\" The remark came as his administration continues trying to wind down the war with Iran. It's unclear whether this reflects an actual policy plan or is off-the-cuff rhetoric; the White House has not clarified.",
-          "potential_implications": "Take the claim at face value and it's close to meaningless: the strait is international water bounded by Iranian and Omani territory, and there's no legal mechanism by which the US could simply annex a shipping lane. But that doesn't mean the statement is costless. Iran, the Gulf states, and oil markets all have to price in some probability that this is more than talk — maybe a signal of intent to station naval forces there indefinitely, maybe leverage in ceasefire negotiations, maybe just Trump doing the thing he's done with Greenland, the Panama Canal, and Gaza, where a maximalist claim turns out to be an opening bid rather than a plan. The base rate for these declarations translating into actual policy is low, but the base rate for them moving oil futures and rattling allies in the short term is high. Worth watching whether Gulf states (especially Oman, which borders the strait) respond publicly, and whether any US naval posture changes follow — that would be the tell that this wasn't just a speech.",
+          "what_happened": "Speaking at a police academy event on Long Island Friday, Trump said he would soon designate the strait of Hormuz \u2014 the narrow waterway through which roughly a fifth of the world's seaborne oil passes \u2014 as \"a territory of the United States.\" The remark came as his administration continues trying to wind down the war with Iran. It's unclear whether this reflects an actual policy plan or is off-the-cuff rhetoric; the White House has not clarified.",
+          "potential_implications": "Take the claim at face value and it's close to meaningless: the strait is international water bounded by Iranian and Omani territory, and there's no legal mechanism by which the US could simply annex a shipping lane. But that doesn't mean the statement is costless. Iran, the Gulf states, and oil markets all have to price in some probability that this is more than talk \u2014 maybe a signal of intent to station naval forces there indefinitely, maybe leverage in ceasefire negotiations, maybe just Trump doing the thing he's done with Greenland, the Panama Canal, and Gaza, where a maximalist claim turns out to be an opening bid rather than a plan. The base rate for these declarations translating into actual policy is low, but the base rate for them moving oil futures and rattling allies in the short term is high. Worth watching whether Gulf states (especially Oman, which borders the strait) respond publicly, and whether any US naval posture changes follow \u2014 that would be the tell that this wasn't just a speech.",
           "takes": [
             {
               "source": "World news | The Guardian",
@@ -68,14 +78,19 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://i.guim.co.uk/img/media/b5c83da9efbbf04d1758c3b4f20d9ba23182b70d/206_0_4535_3628/master/4535.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8e377a24efd8de65b851fa05989ea020",
+            "attribution": "World news | The Guardian",
+            "attribution_url": "https://www.theguardian.com/us-news/2026/aug/14/trump-threat-strait-hormuz-us-territory"
+          },
           "articles": []
         },
         {
           "section": "politics-geopolitics",
           "headline": "France's top court strikes down Macron's under-15 social media ban",
           "what_happened": "France's Constitutional Council ruled that a proposed ban on social media access for children under 15 infringed on freedom of expression and privacy, blocking the measure from taking effect. President Emmanuel Macron responded by pledging to draft new legislation. The ruling comes as several countries, following Australia's lead, have moved toward mandatory age restrictions on social media platforms.",
-          "potential_implications": "The ruling doesn't kill the idea of age restrictions in France so much as force a rewrite that survives constitutional scrutiny — likely narrower in scope, or paired with opt-in verification rather than a blanket ban, similar to how other countries have had to thread this needle. The bigger story is what this does to the international momentum behind Australian-style bans: France was one of the more prominent governments signaling it would follow suit, and a high-court rebuke on free-expression grounds gives skeptics elsewhere (tech platforms, civil liberties groups) a template for legal challenges in their own jurisdictions. Worth watching whether age-verification laws in the UK, EU, or elsewhere face similar constitutional tests, and whether courts converge on privacy/expression concerns as the binding constraint rather than technical feasibility.",
+          "potential_implications": "The ruling doesn't kill the idea of age restrictions in France so much as force a rewrite that survives constitutional scrutiny \u2014 likely narrower in scope, or paired with opt-in verification rather than a blanket ban, similar to how other countries have had to thread this needle. The bigger story is what this does to the international momentum behind Australian-style bans: France was one of the more prominent governments signaling it would follow suit, and a high-court rebuke on free-expression grounds gives skeptics elsewhere (tech platforms, civil liberties groups) a template for legal challenges in their own jurisdictions. Worth watching whether age-verification laws in the UK, EU, or elsewhere face similar constitutional tests, and whether courts converge on privacy/expression concerns as the binding constraint rather than technical feasibility.",
           "takes": [
             {
               "source": "BBC News",
@@ -90,7 +105,12 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7f52/live/af679960-97f5-11f1-9577-b1309b6ea3af.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo?at_medium=RSS&at_campaign=rss"
+          },
           "articles": []
         }
       ]
@@ -103,7 +123,7 @@
           "section": "business-markets",
           "headline": "UK GDP beats forecasts, but a Middle East war is quietly working against it",
           "what_happened": "Official figures showed the UK economy grew in the second quarter of 2026, helped by a heatwave and the men's football World Cup lifting consumer spending, keeping Britain the fastest-growing economy among its peers. At the same time, the six-month-old Iran war has pushed up oil and fuel prices and disrupted supply chains. Greater Manchester mayor Andy Burnham warned the conflict could weigh on UK growth next year, echoing an earlier IMF forecast that Britain would take the heaviest economic hit from the war among advanced economies.",
-          "potential_implications": "The headline number looks good, but it's largely a story of one-off boosts—hot weather and a sporting event—layered on top of an economy that's still absorbing a war-driven energy shock with a lag. Oil and fuel price increases typically take two to three quarters to fully show up in headline inflation and consumer spending, so the resilience the data shows now may say more about the past than the near future. Worth watching: if energy costs stay elevated into autumn, that squeezes real incomes right as the World Cup and weather effects fade, which could make Q3 or Q4 numbers look considerably worse even without any new shock. The IMF's earlier warning that the UK would be hit hardest among advanced economies hasn't been falsified yet—it just hasn't arrived. This is the classic pattern with supply-side shocks: growth headlines lag the underlying deterioration, and by the time weak GDP prints show up, the Bank of England is already behind on rate decisions.",
+          "potential_implications": "The headline number looks good, but it's largely a story of one-off boosts\u2014hot weather and a sporting event\u2014layered on top of an economy that's still absorbing a war-driven energy shock with a lag. Oil and fuel price increases typically take two to three quarters to fully show up in headline inflation and consumer spending, so the resilience the data shows now may say more about the past than the near future. Worth watching: if energy costs stay elevated into autumn, that squeezes real incomes right as the World Cup and weather effects fade, which could make Q3 or Q4 numbers look considerably worse even without any new shock. The IMF's earlier warning that the UK would be hit hardest among advanced economies hasn't been falsified yet\u2014it just hasn't arrived. This is the classic pattern with supply-side shocks: growth headlines lag the underlying deterioration, and by the time weak GDP prints show up, the Bank of England is already behind on rate decisions.",
           "takes": [
             {
               "source": "BBC News",
@@ -113,19 +133,24 @@
             {
               "source": "Business | The Guardian",
               "source_url": "https://www.theguardian.com/business/2026/aug/13/uk-economy-gdp-growth-energy-costs-inflation",
-              "text": "argues the UK's apparent resilience is deceptive—rising energy costs and persistent inflation mean the current growth streak is unlikely to survive into autumn, despite the UK outperforming the IMF's gloomy spring forecast so far."
+              "text": "argues the UK's apparent resilience is deceptive\u2014rising energy costs and persistent inflation mean the current growth streak is unlikely to survive into autumn, despite the UK outperforming the IMF's gloomy spring forecast so far."
             }
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/500d/live/2856ec30-9702-11f1-a7ab-8b30adf0800a.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cx2d1gpx2k0o?at_medium=RSS&at_campaign=rss"
+          },
           "articles": []
         },
         {
           "section": "business-markets",
           "headline": "US inflation cools to 3.4% in July as food and fuel prices ease",
           "what_happened": "The US annual inflation rate fell to 3.4% in July, down from the prior month, according to BBC News. The BBC reports the slowdown was driven mainly by cooling food and fuel costs, while housing expenses continued to push prices up slightly. No breakdown of core versus headline inflation was provided beyond this summary.",
-          "potential_implications": "A single month's data point is a weak signal on its own — inflation readings bounce around for seasonal and volatile-component reasons, and food and fuel prices in particular are noisy series that can reverse just as quickly as they eased. Still, 3.4% is meaningfully above the Fed's 2% target, so this isn't yet a green light for policy doves; it's more like one data point in favor of their argument. The housing component staying sticky is the more interesting thread here, since shelter costs tend to be stickier and more structurally driven (rents, mortgage rates, housing supply) than commodity prices like food and fuel. If housing keeps running hot even as everything else cools, that argues for a slower, more grinding disinflation path rather than a rapid return to target — the kind of scenario where rate cuts get pushed back not because inflation is accelerating, but because it's decelerating too slowly to justify urgency. Worth watching whether next month's report shows food and fuel continuing to cool, or whether this was a one-off dip.",
+          "potential_implications": "A single month's data point is a weak signal on its own \u2014 inflation readings bounce around for seasonal and volatile-component reasons, and food and fuel prices in particular are noisy series that can reverse just as quickly as they eased. Still, 3.4% is meaningfully above the Fed's 2% target, so this isn't yet a green light for policy doves; it's more like one data point in favor of their argument. The housing component staying sticky is the more interesting thread here, since shelter costs tend to be stickier and more structurally driven (rents, mortgage rates, housing supply) than commodity prices like food and fuel. If housing keeps running hot even as everything else cools, that argues for a slower, more grinding disinflation path rather than a rapid return to target \u2014 the kind of scenario where rate cuts get pushed back not because inflation is accelerating, but because it's decelerating too slowly to justify urgency. Worth watching whether next month's report shows food and fuel continuing to cool, or whether this was a one-off dip.",
           "takes": [
             {
               "source": "BBC News",
@@ -135,14 +160,19 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/a864/live/f178bef0-9648-11f1-9d8e-b1efdebf2f99.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+          },
           "articles": []
         },
         {
           "section": "business-markets",
           "headline": "UK's fifth heatwave of the summer cracks fields, rails, and Westminster's patience",
-          "what_happened": "England is enduring its fifth heatwave of the summer, with nearly three-quarters of the country in drought and farmers bracing for what could be the worst cereal harvest since records began. Two trains derailed within 24 hours this week — near Lewes in East Sussex and at Wickford in Essex — with Network Rail citing \"exceptional challenges\" from the heat. Farmers are experimenting with drought-tolerant crops, ponds, and even beaver dams to cope, while prime minister Andy Burnham announced £65m for drought-hit farmers, including support for reservoirs and water access, after pressure from Labour MPs and grassroots members over his silence on the climate crisis.",
-          "potential_implications": "None of this is a single shock — it's what a slow-motion adjustment to a hotter, drier Britain looks like from the inside: infrastructure built for a different climate failing at the margins (rail tracks buckling, sheep overheating), and institutions responding reactively rather than pre-emptively. £65m sounds substantial until you compare it to the scale of a potential multi-decade harvest shortfall; it reads more like a political pressure valve than a structural fix, which fits the pattern Monbiot describes of governments avoiding the kind of long-term stockpiling and infrastructure spending that would actually buffer against this. Worth watching: if a poor cereal harvest and rail disruption both persist into autumn, expect food price pressure and renewed scrutiny of whether Burnham's response was too little, too late — a dynamic that already cost him politically once this week.",
+          "what_happened": "England is enduring its fifth heatwave of the summer, with nearly three-quarters of the country in drought and farmers bracing for what could be the worst cereal harvest since records began. Two trains derailed within 24 hours this week \u2014 near Lewes in East Sussex and at Wickford in Essex \u2014 with Network Rail citing \"exceptional challenges\" from the heat. Farmers are experimenting with drought-tolerant crops, ponds, and even beaver dams to cope, while prime minister Andy Burnham announced \u00a365m for drought-hit farmers, including support for reservoirs and water access, after pressure from Labour MPs and grassroots members over his silence on the climate crisis.",
+          "potential_implications": "None of this is a single shock \u2014 it's what a slow-motion adjustment to a hotter, drier Britain looks like from the inside: infrastructure built for a different climate failing at the margins (rail tracks buckling, sheep overheating), and institutions responding reactively rather than pre-emptively. \u00a365m sounds substantial until you compare it to the scale of a potential multi-decade harvest shortfall; it reads more like a political pressure valve than a structural fix, which fits the pattern Monbiot describes of governments avoiding the kind of long-term stockpiling and infrastructure spending that would actually buffer against this. Worth watching: if a poor cereal harvest and rail disruption both persist into autumn, expect food price pressure and renewed scrutiny of whether Burnham's response was too little, too late \u2014 a dynamic that already cost him politically once this week.",
           "takes": [
             {
               "source": "Business | The Guardian",
@@ -152,24 +182,29 @@
             {
               "source": "World news | The Guardian",
               "source_url": "https://www.theguardian.com/environment/2026/aug/14/andy-burnham-climate-response-drought-hit-farmers-labour-pressure",
-              "text": "reports the £65m package as Burnham finally responding to internal Labour pressure, positioning it as a first step rather than a comprehensive answer to the drought crisis."
+              "text": "reports the \u00a365m package as Burnham finally responding to internal Labour pressure, positioning it as a first step rather than a comprehensive answer to the drought crisis."
             }
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://i.guim.co.uk/img/media/8938b01ea471f9c7ca0df5d7f7c96e85e34c5bca/0_0_5325_4262/master/5325.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=faaf2f677655db58d1e57a9656fff143",
+            "attribution": "Business | The Guardian",
+            "attribution_url": "https://www.theguardian.com/environment/2026/aug/14/how-england-summer-heatwave-affecting-farm-animals-crops"
+          },
           "articles": []
         },
         {
           "section": "business-markets",
           "headline": "Trump lets private security firms hack back at foreign cybercriminals",
           "what_happened": "President Trump signed a national security presidential memorandum authorizing private companies to conduct offensive cyber operations against foreign criminal organizations. The memo directs the administration to draw on private-sector capability and innovation for these operations, though it states they must occur \"under the direction, control and authority of the US government.\" This marks the first time the US government has formally authorized private entities to carry out hack-back operations against overseas targets.",
-          "potential_implications": "The obvious appeal is speed and scale: government cyber units are chronically understaffed relative to the volume of ransomware and fraud operations originating abroad, and private security firms already have much of the relevant tooling and intelligence. The obvious risk is the one that's dogged every hack-back proposal for a decade — attribution in cyberspace is hard, foreign infrastructure often sits on legitimately used servers, and a contractor operating with less institutional caution than NSA or Cyber Command could trigger diplomatic incidents or hit the wrong target entirely. The \"direction, control and authority of the US government\" language is doing a lot of work here; how tightly that's enforced in practice will determine whether this looks more like a regulated extension of state power or something closer to privateering. Worth watching: which firms get authorized, whether there's a public accountability mechanism when operations go wrong, and whether other governments respond by loosening their own rules of engagement, which would mark a broader erosion of the informal norms that have kept state-linked cyber conflict from escalating further.",
+          "potential_implications": "The obvious appeal is speed and scale: government cyber units are chronically understaffed relative to the volume of ransomware and fraud operations originating abroad, and private security firms already have much of the relevant tooling and intelligence. The obvious risk is the one that's dogged every hack-back proposal for a decade \u2014 attribution in cyberspace is hard, foreign infrastructure often sits on legitimately used servers, and a contractor operating with less institutional caution than NSA or Cyber Command could trigger diplomatic incidents or hit the wrong target entirely. The \"direction, control and authority of the US government\" language is doing a lot of work here; how tightly that's enforced in practice will determine whether this looks more like a regulated extension of state power or something closer to privateering. Worth watching: which firms get authorized, whether there's a public accountability mechanism when operations go wrong, and whether other governments respond by loosening their own rules of engagement, which would mark a broader erosion of the informal norms that have kept state-linked cyber conflict from escalating further.",
           "takes": [
             {
               "source": "Business | The Guardian",
               "source_url": "https://www.theguardian.com/us-news/2026/aug/13/donald-trump-private-companies-cyber-attack",
-              "text": "frames this as a significant expansion of executive power into a domain — private offensive hacking — that has never before been formally sanctioned by the US government, raising questions about oversight."
+              "text": "frames this as a significant expansion of executive power into a domain \u2014 private offensive hacking \u2014 that has never before been formally sanctioned by the US government, raising questions about oversight."
             },
             {
               "source": "Ars Technica - All content",
@@ -179,7 +214,12 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://i.guim.co.uk/img/media/ab09f7de50f87ca623b3d22c65cc76a5af851f77/532_0_5300_4243/master/5300.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3ebd5341da14dffaa743038bbd1ea193",
+            "attribution": "Business | The Guardian",
+            "attribution_url": "https://www.theguardian.com/us-news/2026/aug/13/donald-trump-private-companies-cyber-attack"
+          },
           "articles": []
         }
       ]
@@ -192,7 +232,7 @@
           "section": "science-technology",
           "headline": "OpenAI and Anthropic cut prices as Chinese models close the gap",
           "what_happened": "OpenAI and Anthropic have released cheaper AI models this week, a move widely read as a response to intensifying competition from Chinese AI labs. The price cuts come as both US companies pursue valuations built on the assumption they can keep charging premium rates for frontier models. Neither company has confirmed the moves were defensive, but the timing lines up with several new Chinese model releases closing the capability gap at a fraction of the cost.",
-          "potential_implications": "The obvious read is margin compression: if Chinese labs can approximate frontier performance at a discount, the premium pricing that underpins trillion-dollar valuation stories for OpenAI and Anthropic gets harder to defend. That doesn't mean the labs lose — commoditization at the model layer can still leave room to win on distribution, tooling, and enterprise trust, the way cloud providers survived plenty of open-source competition. But it does mean investors should discount any narrative where model quality alone is the moat. Prediction markets on which lab IPOs first moved this week too — one measure of the odds dropped 6 points to 9%, while a competing framing of essentially the same race jumped 6 points to 93%. Markets disagree with themselves here, which usually just means liquidity is thin and nobody has real conviction, but the direction (toward OpenAI) is at least consistent with the idea that price competition hurts the less-capitalized player more.",
+          "potential_implications": "The obvious read is margin compression: if Chinese labs can approximate frontier performance at a discount, the premium pricing that underpins trillion-dollar valuation stories for OpenAI and Anthropic gets harder to defend. That doesn't mean the labs lose \u2014 commoditization at the model layer can still leave room to win on distribution, tooling, and enterprise trust, the way cloud providers survived plenty of open-source competition. But it does mean investors should discount any narrative where model quality alone is the moat. Prediction markets on which lab IPOs first moved this week too \u2014 one measure of the odds dropped 6 points to 9%, while a competing framing of essentially the same race jumped 6 points to 93%. Markets disagree with themselves here, which usually just means liquidity is thin and nobody has real conviction, but the direction (toward OpenAI) is at least consistent with the idea that price competition hurts the less-capitalized player more.",
           "takes": [
             {
               "source": "Ars Technica - All content",
@@ -219,14 +259,19 @@
             }
           ],
           "no_market_note": false,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285566787-1152x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
+          },
           "articles": []
         },
         {
           "section": "science-technology",
           "headline": "Flock's license-plate cameras keep getting used to stalk exes, and the company admits it's slow to notice",
           "what_happened": "Flock Safety's CEO acknowledged the company took too long to act after multiple US police officers were found using its automated license-plate reader network to track romantic partners, with several officers subsequently quitting or being fired. Flock says it will now lock out individual officers caught misusing the system. Experts quoted by Ars Technica say this response addresses individual bad actors but not the structural problem: police agencies control their own audit logs and can choose not to investigate or disclose misuse in the first place.",
-          "potential_implications": "This is a fairly predictable failure mode for any surveillance tool deployed across thousands of independent police departments: the vendor can build logging and access controls, but enforcement depends on agencies that have every incentive to look the other way when their own officers misbehave. Flock's fix (kicking out individual bad actors) treats this as a rare-employee problem rather than an oversight-design problem, which is the cheaper fix but probably not the one that prevents the next incident. Worth watching whether any state legislatures or police oversight boards use this as the occasion to mandate independent audits of ALPR usage logs, since that's the lever that would actually change agency incentives rather than vendor liability. No prediction markets cover this, but the base rate for surveillance-tool scandals producing durable policy change (rather than a PR statement and a quiet policy tweak) is not great — think body cameras, where footage-release rules still vary wildly by jurisdiction a decade in.",
+          "potential_implications": "This is a fairly predictable failure mode for any surveillance tool deployed across thousands of independent police departments: the vendor can build logging and access controls, but enforcement depends on agencies that have every incentive to look the other way when their own officers misbehave. Flock's fix (kicking out individual bad actors) treats this as a rare-employee problem rather than an oversight-design problem, which is the cheaper fix but probably not the one that prevents the next incident. Worth watching whether any state legislatures or police oversight boards use this as the occasion to mandate independent audits of ALPR usage logs, since that's the lever that would actually change agency incentives rather than vendor liability. No prediction markets cover this, but the base rate for surveillance-tool scandals producing durable policy change (rather than a PR statement and a quiet policy tweak) is not great \u2014 think body cameras, where footage-release rules still vary wildly by jurisdiction a decade in.",
           "takes": [
             {
               "source": "BBC News",
@@ -241,14 +286,19 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/041d/live/7f342ef0-9720-11f1-bb91-6bb44c42ed47.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/crrv1rjwgl9o?at_medium=RSS&at_campaign=rss"
+          },
           "articles": []
         },
         {
           "section": "science-technology",
           "headline": "Judge gives Google one week to stop hiding rival app stores in Google Play",
           "what_happened": "A federal judge ordered Google to fix its Google Play download flow within one week, ruling that the current process for accessing third-party Android app stores is anticompetitive. The order is part of ongoing enforcement of earlier antitrust findings against Google's app store practices. Once implemented, third-party app stores should become significantly more visible and easier to install through Google Play.",
-          "potential_implications": "This is a narrow, mechanical fix — how many taps and warning screens stand between a user and a rival app store — but narrow fixes are usually what antitrust remedies actually look like in practice, as opposed to the dramatic breakups people picture. The one-week deadline is aggressive and signals the judge has limited patience for Google slow-walking compliance, which has been a recurring theme since the original ruling. Prediction markets on the separate DOJ v. Apple case moved from 22% to 28% this week (a 6-point jump) on odds the DOJ prevails — there's no direct legal link between the two cases, but it's plausible traders are updating on a general signal that courts are willing to impose and enforce structural remedies on app store gatekeepers rather than settle for symbolic ones. Worth watching whether Google appeals the timeline or complies and whether compliance actually moves app store market share, since prior remedies in similar cases have sometimes produced technically-compliant-but-functionally-useless changes.",
+          "potential_implications": "This is a narrow, mechanical fix \u2014 how many taps and warning screens stand between a user and a rival app store \u2014 but narrow fixes are usually what antitrust remedies actually look like in practice, as opposed to the dramatic breakups people picture. The one-week deadline is aggressive and signals the judge has limited patience for Google slow-walking compliance, which has been a recurring theme since the original ruling. Prediction markets on the separate DOJ v. Apple case moved from 22% to 28% this week (a 6-point jump) on odds the DOJ prevails \u2014 there's no direct legal link between the two cases, but it's plausible traders are updating on a general signal that courts are willing to impose and enforce structural remedies on app store gatekeepers rather than settle for symbolic ones. Worth watching whether Google appeals the timeline or complies and whether compliance actually moves app store market share, since prior remedies in similar cases have sometimes produced technically-compliant-but-functionally-useless changes.",
           "takes": [
             {
               "source": "Ars Technica - All content",
@@ -267,7 +317,12 @@
             }
           ],
           "no_market_note": false,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/"
+          },
           "articles": []
         },
         {
@@ -284,7 +339,12 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/macbook-pro-1152x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/"
+          },
           "articles": []
         }
       ]
@@ -297,7 +357,7 @@
           "section": "on-the-radar-wearables-behavioral-health",
           "headline": "Smart ring maker RingConn touts peer-reviewed study on wearable accuracy",
           "what_happened": "RingConn, along with its parent company Ninenovo, published a joint study in npj Digital Medicine, a Nature-portfolio journal, addressing accuracy problems that have long dogged consumer wearables. The announcement is a company press release rather than independent reporting, and it doesn't specify sample size, methodology details, or which health metrics improved. No comparison data against competitors or clinical-grade devices was included in the summary provided.",
-          "potential_implications": "Getting published in a Nature-family journal is a real credibility signal — these journals have peer review, even if npj Digital Medicine skews toward applied and industry-adjacent work rather than the flagship Nature title. But it's worth remembering that a company issuing its own press release about its own study, even a peer-reviewed one, is still marketing; the questions to ask are who funded it, whether the reviewers had access to raw data, and whether the accuracy gains are clinically meaningful or just statistically significant. Wearable accuracy has been a chronic weak point (heart rate variability, sleep staging, and blood oxygen estimates in particular), so any genuine improvement matters for the broader health-tech thesis that these devices can eventually substitute for some clinical monitoring. If this holds up under independent scrutiny, expect competitors like Oura and Samsung to either publish their own comparable studies or quietly incorporate similar techniques — validation research in this space tends to travel fast because the underlying sensor hardware is broadly similar across the industry.",
+          "potential_implications": "Getting published in a Nature-family journal is a real credibility signal \u2014 these journals have peer review, even if npj Digital Medicine skews toward applied and industry-adjacent work rather than the flagship Nature title. But it's worth remembering that a company issuing its own press release about its own study, even a peer-reviewed one, is still marketing; the questions to ask are who funded it, whether the reviewers had access to raw data, and whether the accuracy gains are clinically meaningful or just statistically significant. Wearable accuracy has been a chronic weak point (heart rate variability, sleep staging, and blood oxygen estimates in particular), so any genuine improvement matters for the broader health-tech thesis that these devices can eventually substitute for some clinical monitoring. If this holds up under independent scrutiny, expect competitors like Oura and Samsung to either publish their own comparable studies or quietly incorporate similar techniques \u2014 validation research in this space tends to travel fast because the underlying sensor hardware is broadly similar across the industry.",
           "takes": [
             {
               "source": "PR Newswire UK",
@@ -324,7 +384,12 @@
           ],
           "forecasts": [],
           "no_market_note": true,
-          "image": null,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.mos.cms.futurecdn.net/nUSLyA53FFhjAZn4xuzXkG-2560-80.jpg",
+            "attribution": "Cyclingnews",
+            "attribution_url": "https://www.cyclingnews.com/cycling-tech-components/garmin-hrm600-heart-rate-monitor-review/"
+          },
           "articles": []
         }
       ]
@@ -374,10 +439,15 @@
   ],
   "human_story": {
     "headline": "A 60-Year-Old Promise, Kept in a Cap and Gown",
-    "text": "When his great-granddaughter Haiden left for college, 97-year-old Westel Creager told her that if she made it into medical school, he'd be there the day she graduated — and he'd be the one to put her white coat on her shoulders, just as he'd worn one himself six decades earlier at the same school. Haiden held up her end, working through the years of study and exams with that promise in mind. Westel held up his, traveling to the ceremony and, despite his age, standing to help drape the coat over her — the same ritual he'd once gone through as a young graduate. It wasn't a grand gesture, just a family keeping its word across sixty years and two generations.",
+    "text": "When his great-granddaughter Haiden left for college, 97-year-old Westel Creager told her that if she made it into medical school, he'd be there the day she graduated \u2014 and he'd be the one to put her white coat on her shoulders, just as he'd worn one himself six decades earlier at the same school. Haiden held up her end, working through the years of study and exams with that promise in mind. Westel held up his, traveling to the ceremony and, despite his age, standing to help drape the coat over her \u2014 the same ritual he'd once gone through as a young graduate. It wasn't a grand gesture, just a family keeping its word across sixty years and two generations.",
     "source": "Good News Network",
     "source_url": "https://www.goodnewsnetwork.org/97-year-old-is-overwhelmed-returns-to-med-school-to-attend-great-granddaughters-graduation-60-years-later/",
-    "image": null
+    "image": {
+      "kind": "og",
+      "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/Dr-Westel-Creager-and-granddaughter-Haiden-Hauret.jpeg",
+      "attribution": null,
+      "attribution_url": null
+    }
   },
   "photo": null
 }
