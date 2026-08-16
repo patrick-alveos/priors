@@ -12,7 +12,7 @@ def test_default_config_loads() -> None:
     config = load_config(REPO_ROOT / "config.yaml")
     assert config.digest.name == "Priors"
     assert config.owner.timezone == "Europe/Helsinki"
-    assert config.schedule.day == "monday"
+    assert config.schedule.day == "saturday"
     assert len(config.enabled_sections) == 4
     custom = next(s for s in config.sections if s.key == "custom")
     assert custom.topics

@@ -2,7 +2,7 @@
 
 **A self-hosted weekly news digest for decision makers. Update your priors, weekly.**
 
-Every Monday morning, Priors emails you a briefing on the last 7 days — politics, markets, science & tech, plus a section tuned to *your* industry. Every story comes with attributed perspectives from real sources and forecasts pulled from prediction markets (Polymarket, Kalshi, Metaculus) — never the LLM's own guesses.
+Every Saturday morning, Priors emails you a briefing on the last 7 days — politics, markets, science & tech, plus a section tuned to *your* industry. Every story comes with attributed perspectives from real sources and forecasts pulled from prediction markets (Polymarket, Kalshi, Metaculus) — never the LLM's own guesses.
 
 > **Status: Phase 1 (core pipeline).** Live RSS/GNews ingestion, LLM clustering and composition (Claude), link validation, and Resend delivery are implemented. Prediction markets land in Phase 2, the onboarding wizard in Phase 3. Forkable, but rough edges remain.
 
@@ -14,7 +14,6 @@ Each story follows a strict template:
 
 - **Headline** — rewritten, never copied
 - **What happened** — 2–4 factual sentences, past 7 days only
-- **Why it matters** — second- and third-order implications for a decision maker
 - **Potential implications** — how a thoughtful reader should update, anchored in prediction-market moves where a matched market exists
 - **The takes** — 2–3 distinct perspectives, each attributed and linked to a real source
 - **Updating the priors** — prediction-market probabilities with week-over-week deltas, e.g. *"Kalshi puts an 8.0+ earthquake in Japan before 2030 at 45% (↑4pp week-over-week)"* — or an honest "no liquid market covers this yet"
