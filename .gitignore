@@ -3,8 +3,8 @@ __pycache__/
 *.pyc
 *.egg-info/
 .env
-data/
-build/
+/data/
+/build/
 .pytest_cache/
 .ruff_cache/
 .DS_Store
