@@ -4,8 +4,10 @@
  * data/<week>.json + images: stale-while-revalidate — visited issues read offline.
  */
 
-const VERSION = "priors-v1";
-const SHELL = ["./", "index.html", "style.css", "app.js", "manifest.webmanifest",
+// Bump VERSION on every release — it forces installed clients to re-fetch the
+// shell (index.html carries matching ?v= stamps on style.css / app.js).
+const VERSION = "priors-v2";
+const SHELL = ["./", "index.html", "style.css?v=2", "app.js?v=2", "manifest.webmanifest",
                "icons/icon-192.png", "icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {

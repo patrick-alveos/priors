@@ -397,6 +397,15 @@ $("archiveBackdrop").addEventListener("click", () => toggleArchive(false));
 const isLocal = ["localhost", "127.0.0.1"].includes(location.hostname);
 if ("serviceWorker" in navigator && !isLocal) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
+  // When a new version's worker takes over, reload once so the page runs it
+  // immediately instead of on the next visit.
+  let reloadedForUpdate = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (navigator.serviceWorker.controller && !reloadedForUpdate) {
+      reloadedForUpdate = true;
+      location.reload();
+    }
+  });
 }
 
 boot();
