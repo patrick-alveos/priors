@@ -52,6 +52,10 @@ Trigger it manually anytime from the Actions tab (untick "send" for a dry run).
 docker compose up -d   # runs the built-in scheduler at the day/time in config.yaml
 ```
 
+## Read it as an app
+
+The digest is also a PWA at your fork's GitHub Pages URL (this repo: [patrick-alveos.github.io/priors](https://patrick-alveos.github.io/priors/)) — open it on your phone or iPad and "Add to Home Screen". It opens on the latest issue, swipes between topics, marks stories read as you finish them, keeps a browsable archive, and works offline for issues you've opened. Enable it on a fork with Pages → deploy from branch `main` `/docs`.
+
 ## Architecture
 
 One container, one SQLite file, six pipeline stages — each runnable and testable on its own:
