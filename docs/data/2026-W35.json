@@ -1,0 +1,933 @@
+{
+  "week": "2026-W35",
+  "period_start": "2026-08-22",
+  "period_end": "2026-08-29",
+  "digest_name": "Priors",
+  "tagline": "Update your priors, weekly.",
+  "accent_color": "#3E5C48",
+  "sections": [
+    {
+      "key": "politics",
+      "title": "Politics & Geopolitics",
+      "stories": [
+        {
+          "section": "politics",
+          "headline": "A Himalayan glacier collapse kills hundreds and strands thousands, while China keeps its side of the border dark",
+          "what_happened": "A glacier collapse high in the Himalayas triggered flash floods down the Bhotekoshi River on the Nepal-Tibet border, killing at least 626 people and leaving nearly 3,000 missing, including dozens of Britons and Australians. Entire villages, bridges, and the Nepal-Tibet border crossing have been washed away, and the Red Cross estimates 93,000 people are in great need. Rescue operations were briefly suspended after a debris dam threatened to burst and send a second wave of flooding downstream, before resuming. On the Chinese side, in Tibet, state media coverage has focused on rescue efforts rather than the scale of destruction, and dramatic footage circulating elsewhere isn't being shown domestically.",
+          "potential_implications": "The immediate story is a humanitarian one: a rescue operation racing against a second flood from an unstable barrier lake, in terrain so remote that reporters and aid workers are still reaching some villages days later. The missing-persons count nearly doubling in three days (from roughly 1,300 to 3,000) isn't necessarily evidence of new deaths so much as evidence of how bad communications are in the affected valleys — expect further revisions in both directions as networks and search teams reach cut-off areas. The information asymmetry between Nepal and Tibet is the more durable story. Nepal's press is operating relatively freely, producing satellite before-and-afters, survivor interviews, and a real-time casualty count; Tibet's death toll (seven, as of the latest count) looks implausibly low given it sits at the flood's source, and state control over information there means outside estimates of the true toll may never be reconciled with official ones. That opacity has second-order effects beyond this disaster: cross-border early-warning systems for glacial lake outburst floods depend on data-sharing that Chinese information controls make harder, which several scientists interviewed argue leaves both sides worse prepared for the next one. And there will be a next one — glaciologists point to unusually warm temperatures this year as a plausible trigger, fitting a broader pattern (referenced in Yahoo's piece linking this to LA's heat wave and a supercharged El Niño) of a warmer atmosphere destabilizing ice that's been stable for centuries. If that causal story holds up under more careful post-hoc analysis, insurers and governments in glacier-adjacent regions from Peru to Pakistan should be treating this as a base-rate update, not a one-off tragedy.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+              "text": "reports that dramatic flood footage from the Tibetan side simply isn't circulating inside China, leaving outsiders with almost no independent information about victims there."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/aug/28/chinese-controls-information-hamper-assessment-tibet-flood-damage",
+              "text": "argues the disaster picture is emerging far faster in Nepal than in Tibet precisely because Chinese state media are emphasizing rescue narratives over the scale of destruction."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8d37/live/67a7cd10-a2fa-11f1-8d5b-155abe464768.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "a530abfe5bd1c248",
+              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
+              "title": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
+              "source": "BBC News",
+              "published_at": "2026-08-29T03:54:11Z",
+              "summary": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d37/live/67a7cd10-a2fa-11f1-8d5b-155abe464768.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "98d7cfd3054a2ef1",
+              "url": "https://www.bbc.co.uk/news/articles/cd68vpjv21do?at_medium=RSS&at_campaign=rss",
+              "title": "Satellite images reveal scale of flood devastation in Nepal villages",
+              "source": "BBC News",
+              "published_at": "2026-08-28T17:36:54Z",
+              "summary": "Before-and-after images show villages, bridges and a key Nepal-Tibet border crossing washed away by devastating floodwaters.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/787d/live/19ed92c0-a305-11f1-a291-b542ee92de7c.png",
+              "section_hint": "politics"
+            },
+            {
+              "id": "032672ccf81f24d6",
+              "url": "https://www.bbc.co.uk/news/videos/cj64kgrpgjdo?at_medium=RSS&at_campaign=rss",
+              "title": "97-year-old woman rescued after Nepali floods looked like 'a warrior'",
+              "source": "BBC News",
+              "published_at": "2026-08-28T21:17:54Z",
+              "summary": "A 97-year-old woman, Guna Maya Bohara, survived the flash floods and was rescued using an excavator.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7491/live/38bbbe20-a382-11f1-a291-b542ee92de7c.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "61f21dfb524da04b",
+              "url": "https://www.bbc.co.uk/news/videos/cj06j16vpr5o?at_medium=RSS&at_campaign=rss",
+              "title": "Watch: Why rescuers fear new barrier lake could cause another Nepal-Tibet flood",
+              "source": "BBC News",
+              "published_at": "2026-08-28T10:35:06Z",
+              "summary": "Laura Bicker explains how a lake which formed after the recent landslide near the Nepal-Tibet border is raising fears of a second flood.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e51/live/a823f770-a2d1-11f1-941c-8741c1a72471.png",
+              "section_hint": "politics"
+            },
+            {
+              "id": "e3414ce3f4a45a6c",
+              "url": "https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates",
+              "title": "Search continues as number missing in Nepal-Tibet floods rises to 2,478 – as it happened",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-29T03:49:58Z",
+              "summary": "<p>This live blog is now closed</p><ul><li><p><a href=\"https://www.theguardian.com/world/ng-interactive/2026/aug/28/the-flood-took-everything-i-have-survivors-grieve-for-relatives-and-homes-swept-away-in-nepal\">‘The flood took everything I have’: survivors grieve for relatives and homes swept away in Nepal</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">Visual guide: how the deadly flooding unfolded</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/26/tell-us-have-you-been-affected-by-the-flash-floods-on-the-nepal-tibet-border\">Tell us: have you been affected by the flash floods?</a></p></li></ul><p><strong>More now on the Nepali army’s <a href=\"https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates?CMP=share_btn_url&amp;page=with%3Ablock-6a9107bf8f089f2cda798d55#block-6a9107bf8f089",
+              "image_url": "https://i.guim.co.uk/img/media/354fbd9087f6426e4a815de18580298cf136cb3d/0_73_602_482/master/602.jpg?width=140&quality=85&auto=format&fit=max&s=08ce8ebaf9062913ec86625242402e69",
+              "section_hint": "politics"
+            },
+            {
+              "id": "3740f90fe6b14004",
+              "url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll",
+              "title": "At least 93,000 ‘in great need’ after Nepal-Tibet flash floods, says Red Cross",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T15:55:41Z",
+              "summary": "<p>Federation says it fears death toll of nearly 600 will continue to rise as rescuers reach cut-off areas</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates\">Nepal-Tibet flash flood – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">Visual guide: how the deadly flooding unfolded</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/26/tell-us-have-you-been-affected-by-the-flash-floods-on-the-nepal-tibet-border\">Tell us: have you been affected by the flash floods?</a></p></li></ul><p>The Red Cross has said at least 93,000 people may have been affected by Wednesday’s flash floods on the Nepal-Tibet border, which have killed nearly 600 people, left another 1,900 missing, and triggered a huge rescue operation that is being hampered by fears of new f",
+              "image_url": "https://i.guim.co.uk/img/media/801126947c8d8ca4588da62c64e532997fb1a82b/842_378_2721_2176/master/2721.jpg?width=140&quality=85&auto=format&fit=max&s=2c7938ed9867377e259a29c685f3bfd2",
+              "section_hint": "politics"
+            },
+            {
+              "id": "16fbc54adde8ff5d",
+              "url": "https://www.theguardian.com/world/2026/aug/28/families-missing-britons-nepal-flash-floods",
+              "title": "Families of 33 missing Britons rush to Nepal as fears grow of more floods",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T15:44:38Z",
+              "summary": "<p>Desperate relatives trying to reach loved ones last seen in area where entire villages have been swept away</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates\">Nepal-Tibet flash flood – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">Visual guide: how the deadly flooding unfolded</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/26/tell-us-have-you-been-affected-by-the-flash-floods-on-the-nepal-tibet-border\">Tell us: have you been affected by the flash floods?</a></p></li></ul><p>Families are rushing to Nepal to search for the 33 British nationals who are still missing, as fears mount over the risk of a second wave of flooding in the region.</p><p><a href=\"https://www.theguardian.com/world/2026/aug/28/flash-flood-risk-halt-rescue-tibet-ne",
+              "image_url": "https://i.guim.co.uk/img/media/b8b087079ca3e898d252c98b7dd352ece06e5f17/0_0_5000_4000/master/5000.png?width=140&quality=85&auto=format&fit=max&s=a0db2bfd405059366376d13824d2b6ef",
+              "section_hint": "politics"
+            },
+            {
+              "id": "a050b676a06a0f08",
+              "url": "https://www.theguardian.com/world/2026/aug/28/flash-flood-risk-halt-rescue-tibet-nepal-death-toll-china-lake-burst",
+              "title": "Nepal-Tibet flood rescue efforts resume after being halted by overflowing lake",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T10:17:07Z",
+              "summary": "<p>Risk of fresh flooding had forced rescue teams to withdraw as residents rushed up hills to escape possible river surge</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates\">Nepal-Tibet flash flood – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">Visual guide: how the deadly flooding unfolded</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/26/tell-us-have-you-been-affected-by-the-flash-floods-on-the-nepal-tibet-border\">Tell us: have you been affected by the flash floods?</a></p></li></ul><p>Rescuers searching for survivors of deadly flash floods on the Nepal-Tibet border have resumed their efforts after suspending operations when a debris dam burst its bank on Friday, increasing the risk of fresh flooding.</p><p>Residents in Nepal’s Rasuw",
+              "image_url": "https://i.guim.co.uk/img/media/3d9b134af42fcf5be0c903258ae03d2147807bb0/988_0_3450_2760/master/3450.jpg?width=140&quality=85&auto=format&fit=max&s=5f7a67a3dee11f85dd4dcb367e02d1da",
+              "section_hint": "politics"
+            },
+            {
+              "id": "7ecd64a00deb79c1",
+              "url": "https://www.theguardian.com/australia-news/2026/aug/29/what-we-know-about-the-australians-missing-in-the-nepal-floods",
+              "title": "What we know about the Australians missing in the Nepal floods",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-29T03:54:59Z",
+              "summary": "<p>More than 40 Australians are among several thousand people unaccounted for after catastrophic flooding on the Nepal-Tibet border</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">How the deadly Nepal and Tibet flash flood unfolded – a visual guide</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>An 11-year-old child, an ADF member and many other pilgrims and trekkers have been named <a href=\"https://www.theguardian.com/world/2026/aug/28/family-missing-australians-nepal-tibet-flash-floods\">among the Australians</a> missing after deadly flash floods and landslides tore through valleys on the Nepal-Tibet border.</p><p>As of Sat",
+              "image_url": "https://i.guim.co.uk/img/media/766a0975f0025da29575ce7503f053e3e5127922/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=91bd9a711730d174aee13e07f2a4697f",
+              "section_hint": "politics"
+            },
+            {
+              "id": "b2bfc5e75935cb71",
+              "url": "https://www.theguardian.com/world/2026/aug/29/australians-missing-nepal-floods-total-rises-albanese-dfat-personnel-arriving",
+              "title": "Number of Australians missing in Nepal’s deadly floods rises again, as Albanese deploys more personnel",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T22:53:57Z",
+              "summary": "<p>There are now 41 Australians missing, and four rapid response team members are expected to arrive in Kathmandu</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll\">At least 93,000 ‘in great need’ after Nepal-Tibet flash floods</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">How the deadly Nepal and Tibet flash flood unfolded – a visual guide</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The number of Australians who were reported missing in the catastrophic Nepal flooding disaster has risen to 41, as one family celebrates after an unaccounted-f",
+              "image_url": "https://i.guim.co.uk/img/media/00bc3a6f28120010da82b2d0ba9dd72d6e740880/767_0_3833_3067/master/3833.jpg?width=140&quality=85&auto=format&fit=max&s=6d8c6c68fcf618211c94620432dad3e0",
+              "section_hint": "politics"
+            },
+            {
+              "id": "913b4d6986b1d936",
+              "url": "https://www.theguardian.com/world/live/2026/aug/29/nepal-tibet-floods-latest-updates-death-toll-missing-search-and-rescue",
+              "title": "Nepal-Tibet floods: rescuers work through night at hydropower tunnel as number of missing climbs to almost 3,000 – latest updates",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-29T09:00:43Z",
+              "summary": "<p>Nepali army digs through thick mud that has filled tunnel at plant in Rasuwa, as death toll from flash floods rises to 626 with seven confirmed dead in Tibet</p><ul><li><p><a href=\"https://www.theguardian.com/world/ng-interactive/2026/aug/28/the-flood-took-everything-i-have-survivors-grieve-for-relatives-and-homes-swept-away-in-nepal\">‘The flood took everything I have’: survivors grieve for relatives and homes swept away in Nepal</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/29/nepal-tibet-chinese-rescue-team-finds-nothing-but-ruins-after-reaching-border-crossing-hit-by-deadly-flood\">Chinese rescuers find ‘nothing but ruins’ at border crossing as Nepal seeks help to ID and store the dead</a></p></li></ul><p>This is an interesting piece <a href=\"https://theconversation.com/nepal-floods-chinas-strict-control-of-tibet-makes-it-harder-to-prepare-for-himalayan-disasters-290659?utm_term=Autofeed&amp;utm_medium=Social&amp;utm_source=Facebook&amp;fbclid=IwY2xjawT_eo",
+              "image_url": "https://i.guim.co.uk/img/media/b5de4cfaed281c1b2c010ce77304b8af7776fb0c/89_0_5048_4039/master/5048.jpg?width=140&quality=85&auto=format&fit=max&s=a401e0637e2894a9f5a4afc25e03528f",
+              "section_hint": "politics"
+            },
+            {
+              "id": "83573e5781f9e960",
+              "url": "https://www.theguardian.com/world/2026/aug/28/chinese-controls-information-hamper-assessment-tibet-flood-damage",
+              "title": "Chinese control of information hampers assessment of Tibet flood damage",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T14:25:44Z",
+              "summary": "<p>Scale of devastation emerges in Nepal as reporters reach disaster area, but Chinese state media focus more on rescue efforts</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates\">Nepal-Tibet flash flood – latest updates</a></p></li></ul><p>In the days since an enormous glacier in the Himalayas snapped away from a mountaintop and cascaded into the valley below, the true scale of the devastation caused by the <a href=\"https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-flood-visual-guide-why-how-flooding-happened-floods-cause-reason-explained\">flash floods in Nepal and Tibet</a> is still unfolding.</p><p>But the picture is emerging far more quickly in Nepal than in China, where strict controls on the flow of information from one of its most sensitive regions are hampering the public’s understanding of events.</p> <a href=\"https://www.theguardian.com/world/2026/aug/28/chinese-controls",
+              "image_url": "https://i.guim.co.uk/img/media/3d9b134af42fcf5be0c903258ae03d2147807bb0/995_562_2814_2251/master/2814.jpg?width=140&quality=85&auto=format&fit=max&s=1a8dc40e8234b995847e749f35fed3a5",
+              "section_hint": "politics"
+            },
+            {
+              "id": "4b92e6d526762b1e",
+              "url": "https://www.theguardian.com/world/2026/aug/27/nepal-tibet-flash-floods-aid",
+              "title": "Race to get aid into Nepal and Tibet amid warnings flood lake could burst",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T04:48:52Z",
+              "summary": "<p>Flash floods have killed at least 469 people while homes and infrastructure have been swept away </p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news\">Nepal-Tibet flash flood – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/what-caused-the-catastrophic-flash-flood-in-nepal-and-tibet-and-how-does-a-glacier-collapse\">What caused the flash flood in Nepal and Tibet?</a></p></li></ul><p>The international community was scrambling to get aid into flood-stricken parts of Nepal and Tibet on Thursday as authorities warned that a lake ⁠formed at the ⁠site ⁠where the ​deadly torrents occurred ⁠was rising and ⁠at risk ​of ‌bursting.</p><p>The catastrophic flash floods that hit Nepal and Tibet on Wednesday, thundering down valleys and obliterating entire villages, killed at least 469 people and left more than 1,300 missing.</p> <a hre",
+              "image_url": "https://i.guim.co.uk/img/media/32eff8366660a1231524b1bf5253219340a13275/1079_0_4115_3292/master/4115.jpg?width=140&quality=85&auto=format&fit=max&s=1c90886200211e304d607b0db836f47b",
+              "section_hint": "politics"
+            },
+            {
+              "id": "0df60f4784f3cf84",
+              "url": "https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news",
+              "title": "Warning of fresh danger from rising lake water in Nepal – as it happened",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T02:29:56Z",
+              "summary": "<p>This live blog has now closed – but our coverage continues at a <a href=\"https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates\">new blog here</a></p><p><strong>Eyewitness accounts have been emerging from the Tibetan side of the border</strong>, with a woman saying she was travelling from Gyirong town towards Nepal on Wednesday morning when her group encountered the flood about 4km from Gyirong port.</p><p>“Trees and electricity poles had already been knocked down, and the flood water was bearing down on us. We didn’t dare turn around, so we could only reverse,” the woman, surnamed Fang, told <em><a href=\"https://www.xxcb.cn/details/2q8biSYgB6a8eb2308420176b4d66ba51.html\">Xiaoxiang Morning News</a></em>.</p><p>I was really scared. My whole body was trembling.</p> <a href=\"https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-n",
+              "image_url": "https://i.guim.co.uk/img/media/d3ed0d7f79733a9985c59c487ee4d8b4a01a8509/0_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=93c1f7b971705ffc45fac5be68162924",
+              "section_hint": "politics"
+            },
+            {
+              "id": "975b6635ba1a0c10",
+              "url": "https://www.theguardian.com/world/2026/aug/27/climate-crisis-mountain-areas-glaciers-nepal-tibet",
+              "title": "Climate crisis could be destabilising mountain areas like Nepal, experts warn",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-27T18:25:13Z",
+              "summary": "<p>Unusual heat this year may have melted ice and thawed bonds that hold glaciers in place – leading to catastrophe</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news\">Nepal-Tibet flash flood – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/aug/27/what-caused-the-catastrophic-flash-flood-in-nepal-and-tibet-and-how-does-a-glacier-collapse\">What caused the flash flood in Nepal and Tibet?</a></p></li></ul><p>The devastating flash flood that has ripped through the border communities of Nepal and Tibet has heightened fears that the climate crisis is destabilising the geology of mountain and polar regions, threatening millions of people.</p><p>Satellite imagery suggests a glacier collapse high in the Himalayas was the primary cause of the deadly torrent of mud, water and ice that tore along the Bhotekoshi River on Wednesday. It swept a",
+              "image_url": "https://i.guim.co.uk/img/media/5047152474a5fbb7639496dc7d411fe6496b8726/559_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=398c12d198279bb295fc4ca45f1654d7",
+              "section_hint": "politics"
+            },
+            {
+              "id": "884744716394d141",
+              "url": "https://www.yahoo.com/news/weather-news/article/nepals-collapsing-glacier-las-humid-heat-wave-a-supercharged-el-nino-why-does-the-weather-suddenly-feel-so-weird-211257301.html",
+              "title": "Nepal's collapsing glacier. L.A.'s humid heat wave. A supercharged El Niño. Why does the weather suddenly feel so weird?",
+              "source": "Yahoo",
+              "published_at": "2026-08-28T21:12:57Z",
+              "summary": "Scientists say there's a common thread here.",
+              "image_url": "https://s.yimg.com/lo/mysterio/api/d3621e7388ebc3b3e643dc8d32f49e9626c5bb1c6b040e8199582658702e3ee2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F316bc554-5667-4efb-9955-2e49a696fb78",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "Trump claims 'majority' US control of 65bn barrels of Venezuelan oil, months after Maduro's removal",
+          "what_happened": "Donald Trump announced Friday that the US has struck an oil agreement with Venezuela's interim president Delcy Rodríguez giving Washington 'majority' control of 65bn barrels of the country's proven reserves. Trump said the deal was brokered 'through a partnership with private business' by Secretary of State Marco Rubio and Defense Secretary Pete Hegseth, though exact terms haven't been disclosed. The announcement follows the Trump administration's January abduction of longtime authoritarian leader Nicolás Maduro and its subsequent role steering the country's transition. Venezuelan opposition figures and critics have separately called earlier reports of a US stake in the country's energy sector 'predatory' and 'unconstitutional.'",
+          "potential_implications": "The headline number is eye-catching but the substance is thin: no public contract, no disclosed equity split beyond 'majority,' and a negotiating counterpart (an interim president installed after a US-orchestrated regime change) whose legitimacy is itself contested. That's a lot of asterisks on a deal being sold as historic. Worth noting that a prediction market on Venezuela becoming the 51st US state sits at just 3%, unmoved this week — so even sympathetic observers aren't pricing in formal annexation, just resource control by other means, which is a very different and more familiar kind of arrangement (see: 20th-century oil concessions, minus the subtlety). The bigger question is durability. Deals struck with unelected or externally-installed governments tend to face renegotiation or repudiation once political winds shift, and Venezuela has a long history of nationalizing foreign oil assets when it suits the government of the day. If Rodríguez's government is seen domestically as illegitimate, this agreement could become a rallying point for opposition rather than the economic lifeline it's being pitched as. Watch for whether Congress, courts, or a future Venezuelan government treats this as binding — and whether 'private business' partners disclosed by name end up being the ones who actually benefit.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+              "text": "frames the deal through interim president Delcy Rodríguez's own justification — that ceding majority control of the oil reserves is a necessary trade-off to revive Venezuela's battered economy."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement",
+              "text": "notes the deal's terms remain undisclosed and flags the odd detail that it was brokered 'through a partnership with private business,' raising questions about who exactly stands to profit."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will any part of Venezuela be the 51st U.S. state before Jan 20, 2029?",
+              "probability": 0.029,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxstate51"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6691/live/b40e7f80-a356-11f1-a291-b542ee92de7c.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "b7867d1cc526d36b",
+              "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
+              "title": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
+              "source": "BBC News",
+              "published_at": "2026-08-29T02:42:27Z",
+              "summary": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6691/live/b40e7f80-a356-11f1-a291-b542ee92de7c.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "6c4e648cd72b305f",
+              "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement",
+              "title": "Trump announces new US oil agreement with Venezuela",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T23:34:36Z",
+              "summary": "<p>US president says US will have ‘majority’ control of 65bn barrels of proven oil reserves</p><p>Donald Trump announced Friday a new US oil agreement with Venezuela’s interim president Delcy Rodríguez, saying the US will have “majority” control of 65bn barrels of proven oil reserves.</p><p>The terms of the agreement remain to be seen, but the US president said on his social-media platform that it had been brokered “through a partnership with ⁠private business” by his secretary of state, Marco Rubio, and defense secretary, Pete Hegseth.</p> <a href=\"https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/1d68042ed18ea8806bd1af82612aa075ae927bba/408_0_4080_3264/master/4080.jpg?width=140&quality=85&auto=format&fit=max&s=66f72ca7721d87d12ef2f48da2e11f0d",
+              "section_hint": "politics"
+            },
+            {
+              "id": "3c10a55690232a40",
+              "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake",
+              "title": "Venezuelan opposition up in arms over reports US wants big stake in oil and gas",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T17:41:37Z",
+              "summary": "<p>Critics call move to gain long-term access to country’s massive energy reserves  ‘predatory’ and ‘unconstitutional’</p><p>Reports that the US is preparing to claim a big stake in Venezuela’s massive energy reserves have sparked an outcry, with critics describing the move as “predatory” and a “rapacious” land grab.</p><p>Several media outlets this week reported that the Trump administration – which abducted Venezuela’s authoritarian president, Nicolás Maduro, in January and has steered the South American country ever since – hopes to secure long-term access to its oil and gasfields.</p> <a href=\"https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/64676fb920a4239d768d5b0d0e29d3e8c2e363b2/378_0_3743_2994/master/3743.jpg?width=140&quality=85&auto=format&fit=max&s=6bfc48b9b1cf950fb1f2b0275ffc1d52",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "Officials say Russia wants to avoid a NATO war, even as it bleeds troops and sends spies to Moscow",
+          "what_happened": "Western officials told the BBC that Russia is ramping up rhetoric against NATO but wants to avoid a direct war with the alliance, though it will likely keep up \"hybrid activity\" against member states short of open conflict. Separately, CIA director John Ratcliffe made an unannounced trip to Moscow, which Trump described as \"semi-routine\" despite speculation it was tied to Iran sanctions or fears Putin might test NATO's resolve. Western officials also estimate Russia is losing about 6,000 more troops per month in Ukraine than it can recruit, with recruitment running around 1,000 a day but falling short of replacing casualties over the past two months.",
+          "potential_implications": "These three data points point in slightly different directions, which is itself useful information. A military bleeding manpower at that rate — if the estimate holds — has an obvious incentive to keep any NATO confrontation rhetorical rather than actual, which matches what the officials are saying. But manpower shortages can also cut the other way: regimes under battlefield pressure sometimes escalate provocations elsewhere to change the subject or extract concessions, which is presumably why 'hybrid activity' (cyberattacks, sabotage, disinformation) gets flagged as the likely outlet rather than tanks. The Ratcliffe visit is the wildcard — an unannounced CIA chief trip to Moscow during an active war is not something that happens for routine reasons no matter what the White House says, and the range of plausible explanations (sanctions diplomacy, quiet channel on NATO tripwires, prisoner or intelligence matters) all imply more back-channel activity than the public rhetoric suggests. Worth noting: a prediction market on Zelensky and Putin meeting before July 1, 2026 sits at 1%, but that window has already passed as of these reports, so it mostly confirms in hindsight that nobody expected a leader-level meeting this year — it doesn't tell us much about where things go from here. The honest read is that Russia's position looks weaker on paper (attrition math) than its rhetoric suggests, but attrition alone rarely ends wars on a predictable timeline; Iran, Syria and Russia's own 2022-23 mobilization all show regimes can absorb losses far longer than outside estimates project.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&at_campaign=rss",
+              "text": "frames Moscow's posture as calculated escalation-avoidance — loud rhetoric paired with deniable hybrid actions precisely because a direct NATO clash is not in Russia's interest right now."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/us-news/2026/aug/26/trump-cia-director-moscow-visit",
+              "text": "treats the unannounced Ratcliffe trip as more significant than the administration admits, noting the denials around Iran sanctions and NATO-testing fears only fuel speculation about what was actually discussed."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Volodymyr Zelenskyy and Vladimir Putin meet before Jul 1, 2026?",
+              "probability": 0.006,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxzelenskyputin"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/7710/live/8f66bdd0-a312-11f1-b109-879e35c24276.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "15fefb2197602c9b",
+              "url": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&at_campaign=rss",
+              "title": "Russia ramps up rhetoric but wants to avoid war with Nato, Western officials say",
+              "source": "BBC News",
+              "published_at": "2026-08-28T19:05:23Z",
+              "summary": "But they say Moscow will likely continue its \"hybrid activity\" against Nato members, short of direct military action.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7710/live/8f66bdd0-a312-11f1-b109-879e35c24276.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "e69902f25fe3204d",
+              "url": "https://www.theguardian.com/us-news/2026/aug/26/trump-cia-director-moscow-visit",
+              "title": "Trump downplays Moscow visit by CIA director as ‘semi-routine’",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-26T18:21:52Z",
+              "summary": "<p>President denies visit was to gain support for Iran sanctions or due to fears that Putin plans to ‘test Nato resolve’</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has downplayed a visit to Moscow by the CIA director, John Ratcliffe, as “semi-routine” after he turned up in the Russian capital unannounced, triggering a wave of speculation about the reasons for his trip.</p><p>Ratcliffe was <a href=\"https://www.cbsnews.com/news/cia-director-john-ratcliffe-russia-secret-trip/\">reported to have flown to Moscow</a> on a government transport plane on Tuesday in a rare visit after taking off from the Andrews air force base in Maryland.</p> <a href=\"https://www.theguardian.com/us-news/2026/aug/26/trump-cia-director-moscow-visit\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/98bf0083a520236fb573a198df1f3f785590404a/579_0_5792_4635/master/5792.jpg?width=140&quality=85&auto=format&fit=max&s=5a6673e6f8f8de02de78c034255fd566",
+              "section_hint": "politics"
+            },
+            {
+              "id": "3b8779341581ee34",
+              "url": "https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west",
+              "title": "Russia ‘losing 6,000 more troops in Ukraine each month than it can recruit’",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T17:05:02Z",
+              "summary": "<p>Moscow recruits an estimated 1,000 people a day but western officials say it cannot keep up with casualty level</p><p>Russia is losing about 6,000 more troops in Ukraine each month than it can recruit, western officials have said.</p><p>While Russia is still acquiring new battlefield recruits at speed, with an estimated rate of 1,000 a day, in the last two months even this has not been sufficient to replace those killed or injured.</p> <a href=\"https://www.theguardian.com/world/2026/aug/28/russia-losing-6000-more-troops-than-it-can-recruit-each-month-in-ukraine-says-west\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/52fa0198715e1df5b2ae80a8610f907294d1ccc8/456_0_4560_3648/master/4560.jpg?width=140&quality=85&auto=format&fit=max&s=5c438e3cd21166a27ac94c5258697a1d",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "Iceland's EU vote turns on fish quotas, not geopolitics",
+          "what_happened": "Iceland held a referendum on whether to restart the EU membership talks it shelved in 2015. Polls show a knife-edge race. The Guardian reports the vote was moved up in response to Trump's threats toward Greenland, but both outlets note the campaign itself has centered on domestic bread-and-butter issues: control over fishing quotas, the fate of small farms, and general sovereignty anxieties rather than the Arctic security backdrop.",
+          "potential_implications": "A yes vote would only restart talks, not trigger membership — Iceland would still need a second referendum on any final terms, and Norway's experience (two failed membership votes after full negotiations) is a reminder that reopening talks is a long way from joining. The interesting subplot is what's driving the timing: if Trump's Greenland rhetoric is nudging small Nordic and Arctic states to hedge toward Brussels for security cover, that's a pattern worth watching beyond Iceland — similar debates could resurface in Norway, which has its own long-dormant EU question and an even bigger fishing lobby than Iceland's. But the fact that voters seem to be deciding this on fish and farms rather than security suggests the geopolitical framing may be more a media narrative than a driver of actual ballots. Given how close this is, a few thousand votes either way could determine whether this whole conversation restarts or goes dormant again for a decade.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cn45vdxyvvlo?at_medium=RSS&at_campaign=rss",
+              "text": "points out that despite the referendum being framed around Iceland's place in a turbulent world, the campaign on the ground has mostly been a fight over the fishing industry's future."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/aug/29/sovereignty-farming-and-fishing-iceland-votes-on-its-future-with-the-eu",
+              "text": "frames the vote as a proxy battle over sovereignty, with farmers and fishers on one side and a public newly rattled by Trump's threats toward Greenland on the other."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1ad8/live/d86c20a0-a31d-11f1-8937-ebc435db1160.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cn45vdxyvvlo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "bf37a3287c9c8b7c",
+              "url": "https://www.bbc.co.uk/news/articles/cn45vdxyvvlo?at_medium=RSS&at_campaign=rss",
+              "title": "Close race as Iceland votes on whether to restart talks on joining EU",
+              "source": "BBC News",
+              "published_at": "2026-08-29T00:56:19Z",
+              "summary": "Turbulent international affairs have brought the vote forward, but the campaign has focused more on Iceland's vital fishing industry.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ad8/live/d86c20a0-a31d-11f1-8937-ebc435db1160.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "98b23bb24caa6add",
+              "url": "https://www.theguardian.com/world/2026/aug/29/sovereignty-farming-and-fishing-iceland-votes-on-its-future-with-the-eu",
+              "title": "Sovereignty, farming and fishing: Iceland votes on its future with the EU",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-29T06:00:18Z",
+              "summary": "<p>Country holds a knife-edge referendum that cuts across political divides on taking step closer to Brussels after Trump threats towards Greenland</p><p>For a long time, the prospect of becoming the third generation to run his family farm was an exciting one, says Davíð Clausen Pétursson.</p><p>Icelandic farmers were starting to get higher prices for their meat and milk, debt was no longer an occupational prerequisite and innovation was on the rise.</p> <a href=\"https://www.theguardian.com/world/2026/aug/29/sovereignty-farming-and-fishing-iceland-votes-on-its-future-with-the-eu\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/fd962f45dec2b063391ffae03071951451e58e81/413_0_4109_3289/master/4109.jpg?width=140&quality=85&auto=format&fit=max&s=a7414c9e30fa15c1c7f51a52575fe85a",
+              "section_hint": "business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "stories": [
+        {
+          "section": "business",
+          "headline": "Meta pays $18bn to settle child-safety suit; Wall Street throws a party anyway",
+          "what_happened": "Meta agreed to pay $18bn to settle a child-safety lawsuit brought by 29 US states over Facebook and Instagram's effects on teenagers, and announced new restrictions on young users' accounts. Meta's stock rose on the news, surging as much as 5% before settling at a gain of roughly 1.25%. BBC News surveyed American parents and teens, many of whom said the new limits don't go far enough. Separately, related legal action is pending in other countries, including a Kenyan lawsuit over Facebook's role in inciting violence during Ethiopia's civil war.",
+          "potential_implications": "The headline number is large in absolute terms but tiny relative to Meta's roughly $1.5 trillion market cap — call it a rounding error, or about ten days of free cash flow. The fact that the stock rose rather than fell is the most informative data point in this whole story: markets read the settlement not as a punishment but as the removal of an overhang, the resolution of years of uncertain liability for a fixed, absorbable price. That's a pretty strong signal about how investors expect this to actually change Meta's incentives (not much). The more interesting second-order effect is precedent: other governments and plaintiffs, from Kenya to the Netherlands, may now cite the US settlement as a template, or as evidence that Meta prefers writing checks to changing its algorithm. Whether that produces meaningfully different platform behavior, or just a slowly rising cost of doing business baked into the model, is the open question — and Meta's own stock price already seems to have voted.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss",
+              "text": "reports that many parents and teens interviewed feel the new account restrictions are cosmetic and don't address the underlying design features that keep kids engaged and exposed to harmful content."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/commentisfree/2026/aug/28/meta-18bn-settlement-mark-zuckerberg-tech-titans-power-harm",
+              "text": "argues that Meta's rising share price after the settlement is proof the penalty was too small to matter, and calls for structural limits on big tech's power rather than periodic fines it can easily absorb."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+              "text": "frames the settlement as a potential opening for governments and plaintiffs outside the US, citing the Kenyan case over Facebook's alleged role in Ethiopian civil war violence as evidence of graver, unresolved harms abroad."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8e90/live/9843a980-a25f-11f1-883e-b50da2634501.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "d6ecc957ec260db8",
+              "url": "https://www.bbc.co.uk/news/articles/cx2zn9zj361o?at_medium=RSS&at_campaign=rss",
+              "title": "'Not far enough' - US parents and teens on Meta's new limits for young users",
+              "source": "BBC News",
+              "published_at": "2026-08-28T09:32:14Z",
+              "summary": "As part of an $18bn settlement in a child-safety lawsuit, Meta announced new restrictions on its apps. We asked families what they thought.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e90/live/9843a980-a25f-11f1-883e-b50da2634501.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "fc3a8604ccbaa2bc",
+              "url": "https://www.theguardian.com/commentisfree/2026/aug/28/meta-18bn-settlement-mark-zuckerberg-tech-titans-power-harm",
+              "title": "An $18bn settlement – and Zuckerberg barely blinked. The tech titans must be stripped of their power, and soon | Jonathan Freedland",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-28T16:10:15Z",
+              "summary": "<p>Those who said Meta harms children struck a blow, but the ability of big tech to gouge profits and cause harm is barely diminished. That’s the battle to come</p><p>Follow the money. If you want to know how the tech giant Meta really feels about the $18bn it agreed to fork out to end a landmark lawsuit against it – an outcome widely hailed as a victory for campaigners – just <a href=\"https://www.barrons.com/articles/meta-stock-price-trial-settlement-fc06babf\">look at its share price</a>. It didn’t go down when word came on Wednesday that Meta had settled with the 29 US states that had argued that the company’s Facebook and Instagram platforms harmed children. On the contrary, Meta stock went up, initially surging by 5%, before levelling out at a gain of just over 1.25%. There could be no clearer proof that the money men reckon Meta dodged a bullet.</p><p>To be sure, there was plenty to hearten those who have long believed that social media damages teenagers especially, whether by exp",
+              "image_url": "https://i.guim.co.uk/img/media/fee88091f23cfe465a5f30897be731a763eb50f9/259_0_5955_4768/master/5955.jpg?width=140&quality=85&auto=format&fit=max&s=cc7f87ff9c0fc3763afb22b41c4c4187",
+              "section_hint": "business"
+            },
+            {
+              "id": "6c2c69b1b0f204e3",
+              "url": "https://www.theguardian.com/commentisfree/picture/2026/aug/27/rebecca-hendin-mark-zuckerberg-meta-court-settlement-cartoon",
+              "title": "Rebecca Hendin on Mark Zuckerberg and the Meta court settlement – cartoon",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-27T15:40:21Z",
+              "summary": "<a href=\"https://www.theguardian.com/commentisfree/picture/2026/aug/27/rebecca-hendin-mark-zuckerberg-meta-court-settlement-cartoon\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/273a38c3fc6cc889010c9d9ce63743e730a76429/0_0_3543_2834/master/3543.jpg?width=140&quality=85&auto=format&fit=max&s=71a72edf7c933df4d7e5b789aa1fa6a7",
+              "section_hint": "business"
+            },
+            {
+              "id": "9f2a0aa7f3bde3ac",
+              "url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+              "title": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-28T04:00:48Z",
+              "summary": "<p>Other governments could seek similar concessions, while separate legal action is pending in places ranging from Kenya to the Netherlands</p><p>In October 2021, Abrham Meareg’s father, a professor of chemistry in Ethiopia’s northern town of Bahir Dar, was shot at close range and died outside his family home. This was in the middle of the country’s civil war.</p><p>For weeks, Facebook’s algorithm had actively promoted posts calling for the academic to be murdered, according to Meareg and Foxglove, a nonprofit organisation supporting <a href=\"https://www.theguardian.com/technology/2025/apr/03/meta-faces-18bn-lawsuit-over-claims-it-inflamed-violence-in-ethiopia\">Meareg’s lawsuit against the company</a> in Kenya. These posts included photos of his father and his home address.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/6e9c72f1d4d1541ee16137214046b3255b6a1981/0_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=8f58ec9e96959fdf76a9f7574e92bb3a",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "New Fed chair Warsh says inflation fight isn't over, setting up a clash with Trump",
+          "what_happened": "Kevin Warsh, in his first major speech as Federal Reserve chair, said Friday that delivering \"stable prices\" remains the central bank's core job, with US inflation still running above the Fed's 2% target amid the war in Iran. He stopped short of committing to any specific rate move, but markets read the speech as a hawkish signal that hikes could be back on the table. That stance would put Warsh at odds with Donald Trump, who has repeatedly pushed for rate cuts.",
+          "potential_implications": "The interesting tension here is between the rhetoric and the pricing: markets took the speech as hawkish, yet prediction markets show only a 7% chance of a 25bp-or-larger hike by the December 2027 meeting, unchanged day-over-day. That's a long way out, so it's not a clean test of near-term intent, but it suggests traders aren't treating \"stable prices is our job\" as a credible commitment to an actual hiking cycle — talk is cheap, and Fed chairs have walked back tougher-sounding speeches before. The more consequential story might be political: a Fed chair publicly resisting a sitting president's demand for cuts is a genuine test of central bank independence, and how that plays out (does Warsh hold the line, does Trump escalate rhetorically or otherwise) matters more for long-run credibility than whatever happens to the target rate this year. Worth watching whether Trump's response stays verbal or turns into something more structural, like personnel or legislative pressure on the Fed.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+              "text": "frames the speech mechanically: Warsh is signaling that rates could go up if policymakers judge inflation is running too hot, without yet saying that's what will happen."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation",
+              "text": "emphasizes the political subtext, noting the speech's hawkish undertone sets Warsh on a collision course with Trump, who has aggressively demanded lower rates."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will the Federal Reserve Hike rates by 25bps at their December 2027 meeting?",
+              "probability": 0.07,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxfeddecision"
+            },
+            {
+              "platform": "kalshi",
+              "question": "Will the Federal Reserve Hike rates by >25bps at their December 2027 meeting?",
+              "probability": 0.07,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxfeddecision"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "05e6a14b8caee94b",
+              "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+              "title": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+              "source": "BBC News",
+              "published_at": "2026-08-28T15:15:26Z",
+              "summary": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5899/live/39824e70-a2fe-11f1-80b3-bf1a174ac193.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "74be98307d75535c",
+              "url": "https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation",
+              "title": "Fed chair says delivering ‘stable prices’ is central bank’s job as inflation persists",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-28T15:48:57Z",
+              "summary": "<p>However, Kevin Warsh didn’t say if interest rates would change in coming months, as inflation remains stubborn</p><p>The <a href=\"https://www.theguardian.com/business/federal-reserve\">US Federal Reserve</a> is not done fighting high inflation, its chair, Kevin Warsh, said in his first major speech in the role on Friday, emphasizing that it was “the Fed’s job to deliver stable prices”.</p><p>Warsh did not indicate where the Fed will take interest rates in the coming months, despite US inflation remaining stubbornly above the central bank’s 2% target amid the war in Iran. But his speech was taken by markets as a signal that rates may rise in the coming months, a move that may put him at odds with <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>, who has aggressively called for rates to be cut.</p> <a href=\"https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/1af8fe39a9ff21d1976e753bf02d26f64d0354b0/1779_1033_4046_3238/master/4046.jpg?width=140&quality=85&auto=format&fit=max&s=509ad875000eec5562259a9dc26ea61e",
+              "section_hint": "business"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "Europe heads into winter with gas tanks less than two-thirds full",
+          "what_happened": "EU gas storage stood at 63% full in the last week of August, versus a typical 80% for this time of year and the lowest late-August level in 13 years, prompting what the Guardian calls 'winter panic' among traders. Belfast-area supplier SSE Airtricity is raising gas prices 19%, adding about £172 to a typical annual bill, while Great Britain's broader price cap rises 4% from October. UK government sources say further bill support is unlikely before the cap rise, though targeted help could be revisited if there's another shock in January. Separately, businesses in Spain and Portugal are buying battery backups after last year's major power failure.",
+          "potential_implications": "Low storage going into winter is the kind of thing that doesn't matter at all until a cold snap or a supply disruption hits, at which point it matters enormously — European gas prices are notoriously convex to weather because storage buffers the difference between 'annoying' and 'blackout warnings.' A 17-point gap versus the seasonal average (63% vs 80%) is large enough that even a normal winter could mean drawing stores down close to technical minimums by March, which traders will start pricing in well before it actually happens. The UK's political calculus — no new support before October, maybe something in January — is a bet that this winter looks like the last few mild ones rather than 2021-22. If that bet is wrong, watch for a scramble similar to what Spanish and Portuguese firms are already doing with battery backups: quietly de-risking against a grid event rather than waiting for policy to catch up. The SSE Airtricity 19% jump is a useful real-world data point for how quickly wholesale gas stress translates into retail bills once hedges roll off — worth watching whether other suppliers follow with similar-sized increases over the next month.",
+          "takes": [
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/business/2026/aug/29/european-gas-stores-lowest-13-years-eu-price",
+              "text": "frames this as a structural vulnerability for the UK specifically, since it's one of Europe's largest gas consumers and therefore unusually exposed to any winter price spike."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/business/2026/aug/26/energy-bills-support-price-cap-rise-andy-burnham",
+              "text": "reports the government is deliberately holding back further bill support, treating January rather than October as the point where a bigger shock might force its hand."
+            },
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cjrg10j721jo?at_medium=RSS&at_campaign=rss",
+              "text": "points to Spanish and Portuguese firms buying battery backups as evidence that businesses, not just households, are already pricing in the risk of another major grid failure."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://i.guim.co.uk/img/media/c5ebfab77c83c07b4de057c1add8490c44148f59/122_0_3612_2891/master/3612.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=35e88074da057f911ccb8740780415f3",
+            "attribution": "World news | The Guardian",
+            "attribution_url": "https://www.theguardian.com/business/2026/aug/29/european-gas-stores-lowest-13-years-eu-price"
+          },
+          "articles": [
+            {
+              "id": "d19c0470a2313639",
+              "url": "https://www.theguardian.com/business/2026/aug/29/european-gas-stores-lowest-13-years-eu-price",
+              "title": "‘Winter panic’: EU gas stores at their lowest level in 13 years",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-29T05:00:19Z",
+              "summary": "<p>As one of Europe’s biggest consumers of gas the UK may be particularly exposed to heightened price volatility</p><p>Europe is on course to enter the cooler months with gas stores at their lowest level in 13 years, which has triggered “winter panic” among energy traders, experts have warned.</p><p>The EU’s gas stocks were 63% full in the last week of August, well below the 80% average for late August over recent years and among the lowest levels ever recorded for this time of year.</p> <a href=\"https://www.theguardian.com/business/2026/aug/29/european-gas-stores-lowest-13-years-eu-price\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/c5ebfab77c83c07b4de057c1add8490c44148f59/122_0_3612_2891/master/3612.jpg?width=140&quality=85&auto=format&fit=max&s=4c0eace5be0c72acbb10bcec0e420fd1",
+              "section_hint": "politics"
+            },
+            {
+              "id": "b41174dbf6d2436b",
+              "url": "https://www.bbc.co.uk/news/articles/cvgyxky1m4wo?at_medium=RSS&at_campaign=rss",
+              "title": "'A lot of pressure' - SSE Airtricity to increase gas prices by 19%",
+              "source": "BBC News",
+              "published_at": "2026-08-28T16:15:11Z",
+              "summary": "The annual gas bill of a typical household in the greater Belfast and west gas network areas will increase by almost £172.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/40c2/live/d949dda0-a2f5-11f1-8d5b-155abe464768.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "787d6b3712ac6bd9",
+              "url": "https://www.theguardian.com/business/2026/aug/26/energy-bills-support-price-cap-rise-andy-burnham",
+              "title": "No more UK energy bills support likely before price cap rise",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-26T21:42:16Z",
+              "summary": "<p>Andy Burnham stops short of pledging further help as gas and electricity prices due to increase by 4% in October</p><p>Households are unlikely to receive further energy bills support before the October price cap, though more targeted measures could be looked at if there is a further shock in January, government sources said.</p><p>Gas and electricity prices will rise by 4% from October <a href=\"https://www.theguardian.com/money/2026/aug/26/energy-price-cap-great-britain-to-rise-from-october\">under the new cap</a>. The government has already removed VAT from domestic electricity bills to save average households £45 a year, a move announced in Andy Burnham’s first week in office.</p> <a href=\"https://www.theguardian.com/business/2026/aug/26/energy-bills-support-price-cap-rise-andy-burnham\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/418a09fb88cb2accf037a1de2d48ca13618da2ea/149_0_1767_1414/master/1767.jpg?width=140&quality=85&auto=format&fit=max&s=044eeb4ef4e4f55eea55343800939166",
+              "section_hint": "business"
+            },
+            {
+              "id": "8965cf5adb5c55a1",
+              "url": "https://www.bbc.co.uk/news/articles/cjrg10j721jo?at_medium=RSS&at_campaign=rss",
+              "title": "Firms scramble for battery power in Spain and Portugal",
+              "source": "BBC News",
+              "published_at": "2026-08-25T23:09:31Z",
+              "summary": "After last year's massive power failure Spanish and Portuguese firms are buying battery back ups.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee02/live/d89808b0-a056-11f1-b109-879e35c24276.jpg",
+              "section_hint": "business"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "The $3 trillion AI financing scare, and the mounting backlash to the datacenters it's paying for",
+          "what_happened": "The Wall Street Journal reported that AI infrastructure buildouts involve roughly $3 trillion in off-balance-sheet commitments, a headline that briefly tanked shares of Vertiv and GE Vernova. Separately, UK telecom executives warned that slow 5G and fiber upgrades could leave Britain unable to handle AI-driven traffic surges. At the same time, the US EPA is moving to scrap a rule requiring public notice before granting air-pollution permits to industrial sites including data centers, even as residents from the UK to the US report new centers appearing next to their homes with unwelcome noise, heat, and land-use effects.",
+          "potential_implications": "These are three symptoms of the same underlying tension: AI infrastructure is being built at a pace that outstrips the normal channels of financial disclosure, regulatory review, and local consent. The financing story matters because off-balance-sheet structures — special purpose vehicles, long-term leases, vendor financing — let hyperscalers and their partners keep debt off the headline balance sheet, which is standard practice in capital-intensive industries but becomes risky if utilization assumptions turn out to be wrong; $3 trillion sounds apocalyptic until you remember it's a multi-year, multi-company aggregate, not a bill coming due next quarter. The EPA move is a smaller but telling data point: it suggests regulators are choosing to reduce friction rather than increase it, which will speed construction but also transfer more of the cost (noise, pollution, land) onto communities with less say. None of this changes the base case that AI capex keeps rising through 2027, but it does suggest the visible political and social costs are shifting from Wall Street analysts to town halls and city councils — and that's usually where infrastructure booms slow down, not where they accelerate.",
+          "takes": [
+            {
+              "source": "The Motley Fool",
+              "source_url": "https://www.fool.com/investing/2026/08/28/a-wall-street-journal-report-on-3-trillion-in-off/",
+              "text": "argues the $3 trillion figure, while technically accurate, describes financing structure rather than new risk, and that the panic sell-off in Vertiv and GE Vernova overstated what actually changed about AI hardware demand."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades",
+              "text": "reports that UK executives see planning delays and sluggish telecom upgrades as a bigger competitive threat than compute shortages, warning the country could fall behind rivals investing faster in AI-ready networks."
+            },
+            {
+              "source": "The Verge",
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+              "text": "warns that the EPA's plan to eliminate public-comment requirements for data center air permits strips residents of a key tool just as pollution and community backlash against these facilities are intensifying."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F884711%2Faccountant-with-calculator.jpg&amp;w=1200&amp;op=resize",
+            "attribution": "The Motley Fool",
+            "attribution_url": "https://www.fool.com/investing/2026/08/28/a-wall-street-journal-report-on-3-trillion-in-off/"
+          },
+          "articles": [
+            {
+              "id": "593f8161b0e081be",
+              "url": "https://www.fool.com/investing/2026/08/28/a-wall-street-journal-report-on-3-trillion-in-off/",
+              "title": "A Wall Street Journal Report on $3 Trillion in Off-Balance-Sheet AI Commitments Recently Tanked Vertiv and GE Vernova. Here's What Actually Changed.",
+              "source": "The Motley Fool",
+              "published_at": "2026-08-28T21:35:43Z",
+              "summary": "The headline's jaw-dropping number is terrifying. It just may not matter.",
+              "image_url": "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F884711%2Faccountant-with-calculator.jpg&w=1200&op=resize",
+              "section_hint": "business"
+            },
+            {
+              "id": "9fcbbff17d13a341",
+              "url": "https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades",
+              "title": "UK risks falling behind in AI race without faster telecoms upgrades, say executives",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-29T06:00:19Z",
+              "summary": "<p>Planning delays and slow 5G upgrades could leave the UK unable to cope with a surge in AI-related traffic </p><p>The UK risks becoming a laggard in the global AI race as crucial telecoms upgrades to harness the technology fall behind rival nations, according to senior industry executives.</p><p>The <a href=\"https://www.theguardian.com/technology/2024/sep/12/uk-datacentres-critical-infrastructure-cyber-protection\">infrastructure AI race has centred on the need to build datacentres</a>, and to ensure they have access to the huge water and energy supplies required to cool and supply the computational power to train and run AI models.</p> <a href=\"https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/b3a79f31d92e0d2b4421585216f4bf3ca3bc6751/362_0_3629_2904/master/3629.jpg?width=140&quality=85&auto=format&fit=max&s=a92eaf6629555b026f10fac13967aa4b",
+              "section_hint": "business"
+            },
+            {
+              "id": "0bd13619dfd2909b",
+              "url": "https://www.theguardian.com/science/video/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-video",
+              "title": "Everyone hates datacentres. Do we really need them? - video",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-27T13:55:50Z",
+              "summary": "<p><strong>AI companies have promised us world-shifting technology. But there’s a cost: loud, unsightly datacentres that drain environmental resources. As the government pushes their rapid growth, can local communities do anything to push back? Madeleine Finlay speaks to the Guardian’s global technology reporter Aisha Down about the backlash to datacentres across the UK and around the world</strong></p> <a href=\"https://www.theguardian.com/science/video/2026/aug/27/everyone-hates-datacentres-do-we-really-need-them-video\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/87e18670ff742ef16d4bfc6e92462d6a794595bc/707_0_4652_3722/master/4652.jpg?width=140&quality=85&auto=format&fit=max&s=4fdaea33c6314d4af76fa8bd4025a8c9",
+              "section_hint": "business"
+            },
+            {
+              "id": "17e98078e0dfb83d",
+              "url": "https://www.theguardian.com/global/video/2026/aug/26/drone-video-shows-heat-signature-of-datacenter-turbines",
+              "title": "Drone video shows heat signature of datacenter generators",
+              "source": "Business | The Guardian",
+              "published_at": "2026-08-26T23:18:04Z",
+              "summary": "<p>Drone video shows heat signature of datacenter generators</p> <a href=\"https://www.theguardian.com/global/video/2026/aug/26/drone-video-shows-heat-signature-of-datacenter-turbines\">Continue reading...</a>",
+              "image_url": null,
+              "section_hint": "business"
+            },
+            {
+              "id": "7750fe415e7d78b5",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+              "title": "Trump’s EPA wants to let data centers hide their air pollution",
+              "source": "The Verge",
+              "published_at": "2026-08-28T16:28:40Z",
+              "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            },
+            {
+              "id": "af89a3283569f844",
+              "url": "https://www.bbc.co.uk/news/articles/c39e7lpyekno?at_medium=RSS&at_campaign=rss",
+              "title": "I used to live in a quiet area - now a data centre overlooks my garden",
+              "source": "BBC News",
+              "published_at": "2026-08-28T05:11:23Z",
+              "summary": "With the number of UK data centres set to rise, some communities are concerned about their impact.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c7c/live/02b5a460-a2a8-11f1-ab20-f9f4f61e8913.jpg",
+              "section_hint": "business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "scitech",
+      "title": "Science & Technology",
+      "stories": [
+        {
+          "section": "scitech",
+          "headline": "Judge rules Pentagon's blacklisting of Anthropic was illegal retaliation",
+          "what_happened": "A federal judge in a California district court ruled that the Trump administration's blacklisting of Anthropic earlier this year was unconstitutional. The lawsuit, filed in March, alleged the Pentagon retaliated against Anthropic for refusing to support lethal autonomous weapons and mass surveillance applications of its AI. The dispute stemmed from Anthropic setting usage restrictions ('red lines') that clashed with what the military wanted to do with its models.",
+          "potential_implications": "This is one of the first concrete legal tests of how far the government can punish an AI company for declining specific military use cases, and the answer, at least from this court, is: not this far. If it holds up on appeal, it sets a precedent that safety-motivated usage policies are a protected business decision rather than grounds for retaliation — which matters a lot for every other lab watching how much they can say no to the Pentagon without risking their federal contracts or standing. The more interesting second-order question is competitive: Anthropic has positioned itself as the safety-conscious lab, and a ruling like this validates that stance legally even as it may cost the company defense-market access in the near term. Worth noting this is a single district court ruling in a politically charged environment; the administration will likely appeal, and the outcome could easily flip. I'd also watch whether other labs (OpenAI, Google DeepMind) use this ruling as cover to draw similar lines, or whether they quietly avoid the fight altogether since they don't have Anthropic's brand equity tied to restraint.",
+          "takes": [
+            {
+              "source": "The Verge",
+              "source_url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+              "text": "frames this as a hard-won victory in a 'monthslong rollercoaster' of a fight, suggesting Anthropic's willingness to litigate against the government is a distinguishing strategic bet, not just a legal footnote."
+            },
+            {
+              "source": "Ars Technica - All content",
+              "source_url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+              "text": "emphasizes the political framing of the blacklist, noting the administration cast Anthropic's restraint on autonomous warfare and surveillance tools as 'woke,' and treats the ruling as a rebuke of using ideological labels to justify contract retaliation."
+            },
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
+              "text": "situates the ruling within the broader, ongoing tension between Anthropic and the Pentagon over military AI use, implying this is a single battle in a longer war over who controls how frontier models get deployed."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8a72/live/1e9bf7b0-a299-11f1-b81f-99addc8c0403.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "c1da0c6b5825e006",
+              "url": "https://www.bbc.co.uk/news/articles/cm2q7z5mlrmo?at_medium=RSS&at_campaign=rss",
+              "title": "Trump administration illegally retaliated against Anthropic, judge rules",
+              "source": "BBC News",
+              "published_at": "2026-08-28T03:41:59Z",
+              "summary": "The AI startup has been at loggerheads with the Pentagon over the use of AI by the US military.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a72/live/1e9bf7b0-a299-11f1-b81f-99addc8c0403.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "9006b66c62a40b34",
+              "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+              "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-08-28T18:07:55Z",
+              "summary": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-500x500-1773164045.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "06a4d38d1bd65b9b",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+              "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+              "source": "The Verge",
+              "published_at": "2026-08-28T03:14:06Z",
+              "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "Report says Nvidia is buying Hugging Face for $13 billion",
+          "what_happened": "Ars Technica reports that Nvidia is set to acquire Hugging Face, the widely used repository for open AI models and datasets, in a deal valued at $13 billion. The report frames the move as Nvidia securing infrastructure that sits underneath much of the open-model ecosystem. No further deal terms, regulatory status, or official confirmation from either company were included in the report.",
+          "potential_implications": "If this holds up, it's a fairly different kind of move for Nvidia than its usual chip-and-datacenter bets: Hugging Face isn't compute, it's the plumbing and social layer where models, weights, and benchmarks get shared. Owning that gives Nvidia visibility into what's popular before it's popular, plus leverage over how open models get distributed and optimized for its own hardware. The obvious worry is neutrality — a lot of Hugging Face's value comes from being the Switzerland of the AI stack, hosting models from Meta, Mistral, Google, and countless smaller labs who compete with Nvidia's own software ambitions (CUDA, NIM, etc.). If Nvidia starts steering traffic, formats, or performance toward its own stack, expect competitors and open-source purists to route around it, the way people fled centralized platforms before. There's also a straightforward antitrust angle: Nvidia already dominates AI training hardware, and buying a chokepoint for model distribution invites scrutiny in the US and especially the EU. Base rate for large tech acquisitions of this size actually closing without modification is maybe 60-70% historically, so I'd treat the $13B figure and even the deal itself as provisional until there's an official filing.",
+          "takes": [
+            {
+              "source": "Ars Technica - All content",
+              "source_url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+              "text": "frames the acquisition as Nvidia locking down critical infrastructure for the open-model ecosystem, extending its dominance from chips into the software and community layer that sits on top of them."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-1152x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/"
+          },
+          "articles": [
+            {
+              "id": "b27c196f94e4b478",
+              "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+              "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-08-27T19:55:22Z",
+              "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/hugging_face_3-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "Trump's plan to win the AI race: tax the data centers building it",
+          "what_happened": "The Trump administration is reportedly planning to tax data centers as part of a strategy to strengthen America's position in AI, according to Ars Technica. Tech industry figures reacted with open bewilderment, with one source describing it as the \"single dumbest way imaginable\" to pursue that goal. The article doesn't specify exact tax mechanics, but frames it as a policy meant to boost domestic AI competitiveness that instead raises costs for the companies building the infrastructure.",
+          "potential_implications": "The logic of taxing the thing you're trying to accelerate is unusual enough that it's worth taking seriously as a genuine policy signal rather than dismissing it as noise — governments do sometimes impose costs on strategic industries to fund other priorities (defense, tax cuts elsewhere) even when it works against a stated goal. But if the tax lands on data center construction or operation, the most likely effect is simply higher costs passed through to cloud customers and slower buildout timelines domestically, at a moment when the US, China, and Gulf states are all racing to lock in compute capacity. Hyperscalers have enormous capex budgets and some pricing power, so this probably doesn't kill anything, but at the margin it nudges investment toward friendlier jurisdictions — which is the opposite of what \"winning the AI race\" is supposed to mean. Worth watching whether this survives contact with lobbying; plans like this often get watered down or redirected (e.g., toward foreign chip imports specifically) before implementation.",
+          "takes": [
+            {
+              "source": "Ars Technica - All content",
+              "source_url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+              "text": "frames the plan as self-defeating industrial policy, noting that taxing the infrastructure underlying AI development runs directly against the administration's own stated goal of US dominance in the field."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2281424431-1024x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/"
+          },
+          "articles": [
+            {
+              "id": "f6f1d92f2dbd4423",
+              "url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable/",
+              "title": "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-08-27T18:57:08Z",
+              "summary": "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2281424431-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "Beijing's robot olympics: fast, occasionally on fire, not quite finished",
+          "what_happened": "The World Humanoid Robot Games ran in Beijing this week, featuring android sprinters, robot martial artists, and machines paired with giant robotic dogs in an opening ceremony. One robot reportedly beat Usain Bolt's 100m time before crashing into a padded wall in a shower of sparks. The event doubled as a showcase of China's progress in humanoid robotics and a preview of the kind of missteps — pratfalls, malfunctions, and at least one violent mishap — that suggest the technology isn't fully mature yet.",
+          "potential_implications": "The honest read here is that China has clearly built real momentum in humanoid robotics — enough hardware, enough events, enough robots that can run fast and throw kicks — but the blooper reel matters as much as the highlight reel. A robot that outsprints Bolt and then face-plants into a wall is a robot that isn't ready for anything requiring judgment, only raw actuation. That's a useful distinction for anyone extrapolating from viral clips to near-term deployment: locomotion speed and reliability are different problems, and China seems ahead on the former without having solved the latter. The one prediction market I have here — whether a humanoid robot beats a human to Mars — sits at 50%, up just 1pp day-over-day, which tells you almost nothing about this specific story but is a decent reminder that forecasters treat 'robot does impressive physical feat' and 'robot can be trusted with a multi-year unsupervised mission' as very different bets. If you're a founder or investor watching this space, the games are good evidence that Chinese firms are optimizing for demos and national prestige as much as for robustness — which could mean either that commercial-grade reliability is quietly right around the corner, or that a lot of resources are going into robots that are great at 100m dashes and bad at everything else.",
+          "takes": [
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/news/ng-interactive/2026/aug/29/hilarity-unease-and-relief-games-show-china-is-not-over-the-finish-line-in-humanoid-robot-race",
+              "text": "frames the games as proof China has real technical leadership in humanoid robotics, but argues the comic failures and occasional violent malfunctions show the country hasn't crossed the finish line yet, especially with US competitors preparing their own launches."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will a humanoid robot walk on Mars before a human does?",
+              "probability": 0.5,
+              "delta_pp": 1.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxrobotmars"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://i.guim.co.uk/img/media/7c7128dc7679d8f7392c821f4bebc8b71431f487/1_0_4998_4000/master/4998.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1466cd29badf3949e2d83bf68c3f362c",
+            "attribution": "World news | The Guardian",
+            "attribution_url": "https://www.theguardian.com/news/ng-interactive/2026/aug/29/hilarity-unease-and-relief-games-show-china-is-not-over-the-finish-line-in-humanoid-robot-race"
+          },
+          "articles": [
+            {
+              "id": "7c18475ab5df9d9e",
+              "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/29/hilarity-unease-and-relief-games-show-china-is-not-over-the-finish-line-in-humanoid-robot-race",
+              "title": "Hilarity, unease and relief: games show China is not over the finish line in humanoid robot race",
+              "source": "World news | The Guardian",
+              "published_at": "2026-08-29T05:00:19Z",
+              "summary": "<p>World Humanoid Robot Games showcased leaps Beijing has made in the tech, but also highlighted limitations as US rivals prepare their own launches</p><p>With exploding pelvises, enough comic pratfalls for a Buster Keaton show reel and the odd moment of ruthless violence, the World Humanoid Robot Games in Beijing gripped the world this week with an unsettling mixture of hilarity, trepidation and relief.</p><p>The five-day showcase staked out China’s claim to undisputed leadership in humanoid robotics as android martial artists landed knockout roundhouse kicks and robot teams marched into the arena heralded by flag-waving captains astride giant robotic dogs. The games’ blue-riband event, the 100m, did not disappoint when the robot-sprinters ran <a href=\"https://www.theguardian.com/sport/2026/aug/22/chinese-robot-runs-100m-sprint-quicker-usain-bolt-world-record\">quicker than Usain Bolt</a> before slamming mindlessly into a padded wall in a blaze of sparks, flames and flying mechanical l",
+              "image_url": "https://i.guim.co.uk/img/media/7c7128dc7679d8f7392c821f4bebc8b71431f487/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=5530b0382e6f45a941ab7e335b07e7b5",
+              "section_hint": "politics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "custom",
+      "title": "On the Radar: Wearables & Behavioral Health",
+      "stories": []
+    }
+  ],
+  "markets_moved": [
+    {
+      "platform": "kalshi",
+      "question": "GDP growth in 2033?",
+      "probability": 0.49,
+      "delta_pp": 38.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxgdpyear"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will any member of the Cabinet (defined as: the Vice President, Secretary of State, Secretary of the Treasury, Secretary of Defense, Attorney General, Secretary of the Interior, Secretary of Agriculture, Secretary of Commerce, Secretary of Labor, Secretary of Health and Human Services, Secretary of Housing and Urban Development, Secretary of Transportation, Secretary of Energy, Secretary of Education, Secretary of Veterans Affairs, Secretary of Homeland Security, Administrator of the Environmental Protection Agency, Director of the Office of Management and Budget, Director of National Intelligence, Trade Representative, Administrator of the Small Business Administration, White House Chief of Staff) be impeached before Jan 1, 2028?",
+      "probability": 0.73,
+      "delta_pp": 33.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kximpeachcabinet"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will South Korean President Lee Jae-myung serve their full term?",
+      "probability": 0.25,
+      "delta_pp": -29.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxfulltermskpres"
+    },
+    {
+      "platform": "kalshi",
+      "question": "When will Oura Health Oy officially announce an IPO?",
+      "probability": 0.14,
+      "delta_pp": -21.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxipooura"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Which country will be the next to send humans to the Moon?",
+      "probability": 0.281,
+      "delta_pp": -11.9,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxmoonman"
+    }
+  ],
+  "human_story": {
+    "headline": "He Promised His Paralyzed Wife the Trip of a Lifetime — and Delivered",
+    "text": "Liu Peijin and his wife had dreamed of touring China together since they married young, but life — his military career, her years raising their children — kept postponing it. When she became paralyzed, most people would have called the dream over. Instead, Liu built a makeshift camper, rigged it to carry her wheelchair and medical supplies, and set off with her across the country, telling reporters he'd rather she 'die on the road, not in hospital.' Mile by mile, he has been showing her the mountains, cities, and coastlines she never got to see, refusing to let her illness be the last chapter of their story together.",
+    "source": "Good News Network",
+    "source_url": "https://www.goodnewsnetwork.org/die-on-the-road-not-in-hospital-chinese-man-takes-paralyzed-wife-on-epic-road-trip/",
+    "image": {
+      "kind": "og",
+      "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/08/credit-retrieved-from-social-media.jpg",
+      "attribution": "Good News Network",
+      "attribution_url": "https://www.goodnewsnetwork.org/die-on-the-road-not-in-hospital-chinese-man-takes-paralyzed-wife-on-epic-road-trip/"
+    }
+  },
+  "photo": null
+}

@@ -1,6 +1,11 @@
 {
   "issues": [
     {
+      "week": "2026-W35",
+      "period_start": "2026-08-22",
+      "period_end": "2026-08-29"
+    },
+    {
       "week": "2026-W34",
       "period_start": "2026-08-15",
       "period_end": "2026-08-22"
