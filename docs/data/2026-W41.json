@@ -1,0 +1,307 @@
+{
+  "week": "2026-W41",
+  "period_start": "2026-10-03",
+  "period_end": "2026-10-10",
+  "digest_name": "Priors",
+  "tagline": "Update your priors, weekly.",
+  "accent_color": "#3E5C48",
+  "sections": [
+    {
+      "key": "politics",
+      "title": "Politics & Geopolitics",
+      "stories": [
+        {
+          "section": "politics",
+          "headline": "Trump strikes Russian diesel deal, Zelensky calls it a gift to Putin",
+          "what_happened": "The Trump administration announced a deal allowing imports of Russian diesel, a move that runs against the broader Western push to cut off revenue to Moscow. Ukrainian President Volodymyr Zelensky condemned it as an \"investment in war that must be ended, not prolonged.\" BBC's North America correspondent frames the deal as driven largely by domestic pressure to bring down fuel prices before next month's US midterm elections.",
+          "potential_implications": "This is the kind of move that's easy to read as either cynical or merely pragmatic, and probably it's both. Sanctions regimes are leaky by design — carve-outs for energy, especially diesel which heats homes and runs trucks, have a long history of surviving even hawkish administrations because voters feel fuel prices directly and feel geopolitics abstractly. The timing a month before midterms is not subtle: if diesel prices tick down even slightly, that's a tangible win Republicans can point to, while the marginal effect on Russia's war financing is diffuse and hard for any voter to trace back to a ballot. The more interesting question is whether this becomes a template — if diesel carve-outs hold, does crude or refined product follow? Ukraine's allies in Europe, who've spent three years building sanctions architecture, will be watching for whether this is a one-off political fix or the start of erosion. Worth noting there's no market data here to anchor on, so this is mostly a bet on how much midterm-year political incentives bend energy policy versus how much the war itself constrains that bending.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+              "text": "frames the deal less as a foreign-policy shift and more as a pocketbook play, arguing Trump is trying to ease his party's pain on fuel prices ahead of the midterms even at the cost of complicating the sanctions narrative on Russia."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "26642edca61eefe9",
+              "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+              "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+              "source": "BBC News",
+              "published_at": "2026-10-10T04:38:20Z",
+              "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\".",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c49/live/850032c0-c470-11f1-94f2-dbc7ff6db92b.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "45ee4516e19b1b58",
+              "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+              "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+              "source": "BBC News",
+              "published_at": "2026-10-09T22:30:22Z",
+              "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/200a/live/11ffab00-c472-11f1-9fee-49b2288eef07.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "be81e1bb6c9a7ce9",
+              "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+              "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+              "source": "BBC News",
+              "published_at": "2026-10-09T21:55:51Z",
+              "summary": "Jake and Callum Robinson and their friend Carter Rhoad were on a surf trip when they were killed in an apparent botched robbery.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ab9/live/138578c0-c453-11f1-bc2e-018d645d8d21.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "94620d57f3a0057f",
+              "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+              "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+              "source": "BBC News",
+              "published_at": "2026-10-10T04:34:55Z",
+              "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8092/live/6ab37a20-bfbc-11f1-a64c-550be9e3c66b.png",
+              "section_hint": "politics"
+            },
+            {
+              "id": "474410318e8e0481",
+              "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+              "title": "Hurricane Isaias downgraded after making landfall in Florida",
+              "source": "BBC News",
+              "published_at": "2026-10-10T08:29:59Z",
+              "summary": "Hundreds of thousands of households are without power in Florida and Alabama as Isaias continues its path across south-eastern US.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/ee00aa70-c443-11f1-8e13-7de7b0658be0.jpg",
+              "section_hint": "politics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "stories": [
+        {
+          "section": "business",
+          "headline": "Burnham pledges to loosen non-compete clauses in UK job contracts",
+          "what_happened": "The UK prime minister, Andy Burnham, said restrictions preventing workers from joining rivals or starting competing businesses after leaving a job have \"gone too far.\" He promised reforms to curb the use of non-compete clauses in employment contracts. No specific legislation, timeline, or enforcement mechanism was detailed in the announcement.",
+          "potential_implications": "Non-competes are one of those policies that sound like they protect trade secrets but mostly just protect incumbents from competition — the US FTC tried to ban them outright in 2024 before courts blocked it, and the UK has been circling similar reform for years without acting. If Burnham's government actually follows through, the first-order effect is more worker mobility: engineers, salespeople, and executives can jump to competitors or start their own ventures without a year-long legal cooling-off period. The second-order effect is more interesting for founders and investors — looser non-competes tend to correlate with more startup formation and faster idea diffusion (this is part of the standard explanation for why Silicon Valley outcompeted Boston's Route 128 corridor, where non-competes were enforceable). The flip side is that firms investing heavily in training or proprietary R&D may respond by front-loading retention bonuses or tightening NDAs and non-solicitation clauses instead, so the net effect on talent hoarding could be smaller than headlines suggest. Watch for whether this becomes actual legislation or stays at the level of political rhetoric — UK governments have promised employment law reform before and delivered consultations instead of statutes.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+              "text": "frames this as part of a broader push on workers' rights, noting Burnham's description of current restrictions as excessive without yet specifying what a reformed system would look like."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/120c/live/9c937870-c489-11f1-a915-a1cdb09cbaf6.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "c4d3de43f668164e",
+              "url": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
+              "title": "Boots has a new owner: Three ways it could affect you",
+              "source": "BBC News",
+              "published_at": "2026-10-09T23:01:14Z",
+              "summary": "The stalwart of Britain's High Street has been sold to a Canadian billionaire family. What will that mean for you?",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/120c/live/9c937870-c489-11f1-a915-a1cdb09cbaf6.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "27e565231ea632c0",
+              "url": "https://www.bbc.co.uk/news/articles/c63r5wx8z8wzo?at_medium=RSS&at_campaign=rss",
+              "title": "Burnham promises to curb non-compete rules in job contracts",
+              "source": "BBC News",
+              "published_at": "2026-10-09T16:15:30Z",
+              "summary": "The prime minister says restrictions on what workers can do after leaving roles have \"gone too far\".",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/887d/live/a06cb1b0-c3de-11f1-95ba-dba767ffba7e.png",
+              "section_hint": "business"
+            },
+            {
+              "id": "ccc8cfcec63655ab",
+              "url": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno?at_medium=RSS&at_campaign=rss",
+              "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+              "source": "BBC News",
+              "published_at": "2026-10-09T14:36:35Z",
+              "summary": "The Court of Appeal quashes the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/875d/live/70d424a0-c3ee-11f1-9a39-31b474234113.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "8f17a2801297e8c2",
+              "url": "https://www.bbc.co.uk/news/articles/c8wyz69r0nnpo?at_medium=RSS&at_campaign=rss",
+              "title": "I've been with my boyfriend for two years and don't know his salary",
+              "source": "BBC News",
+              "published_at": "2026-10-09T09:37:38Z",
+              "summary": "Talking about salary, spending habits and debt can be some of dating's trickier conversations.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bc3/live/94309dd0-b36c-11f1-b1d1-571ed4d7ff2c.png",
+              "section_hint": "business"
+            },
+            {
+              "id": "142dbf7d38a85d24",
+              "url": "https://www.bbc.co.uk/news/articles/c6j9k1l72wkgo?at_medium=RSS&at_campaign=rss",
+              "title": "Anthropic bans users from being 'cruel' to its AI systems",
+              "source": "BBC News",
+              "published_at": "2026-10-09T12:34:27Z",
+              "summary": "The firm said users can no longer engage in \"sustained and needless\" abusive behaviour towards the tech.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e673/live/aabc5740-c3db-11f1-95ba-dba767ffba7e.jpg",
+              "section_hint": "business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "scitech",
+      "title": "Science & Technology",
+      "stories": [
+        {
+          "section": "scitech",
+          "headline": "Ukrainian drones damage data center training Russia's top AI models",
+          "what_happened": "Ukraine struck a data center that houses supercomputers used to train AI models for Yandex, often described as \"Russia's Google.\" The facility sustained damage to hardware specifically used for AI training workloads, according to reporting on the strike. It's part of a broader pattern of Ukrainian drone strikes targeting Russian infrastructure well behind the front lines.",
+          "potential_implications": "Compute has quietly become a wartime target, which is a logical extension of a conflict that's already seen refineries, power plants, and now server farms hit. For AI watchers, the immediate effect is modest: one data center's worth of training capacity is a rounding error against the compute Russia can source domestically or through grey-market channels, so this won't meaningfully slow Yandex's AI roadmap on its own. The more interesting question is precedent-setting: if AI infrastructure is now explicit military target, that changes the risk calculus for anyone building large training clusters in or near conflict zones, and raises the question of how data center operators elsewhere (Taiwan's chip fabs come to mind as the obvious analogy) think about physical security versus cyber risk. Worth watching whether this becomes a pattern or stays a one-off; a single strike tells you little about whether compute infrastructure is now a standing target category in this war.",
+          "takes": [
+            {
+              "source": "Ars Technica - All content",
+              "source_url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+              "text": "frames the strike as evidence that Ukraine is increasingly treating Russian tech and AI infrastructure as legitimate military targets, not just energy and industrial sites."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-1152x648.png",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/"
+          },
+          "articles": [
+            {
+              "id": "b02cc7278c40c2d9",
+              "url": "https://arstechnica.com/science/2026/10/neanderthal-wooden-tools-from-spain-found-preserved-in-stone/",
+              "title": "Neanderthal wooden tools from Spain found preserved in stone",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-09T22:34:03Z",
+              "summary": "Dissolved rock precipitated around the tools, which then decayed.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/image-500x500.png",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "22c3579861187b29",
+              "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+              "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-09T22:04:07Z",
+              "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia-500x500.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "f553246a6e5e9918",
+              "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+              "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-09T21:51:12Z",
+              "summary": "Stylish upcycling, with a retro flare, at Spain's Museo de Historia de la Computación.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Cray-1_Vertical_Chassis-1-500x500.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "6936b3241d283149",
+              "url": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+              "title": "NASA issues long-awaited call to industry for private space stations",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-09T21:34:09Z",
+              "summary": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2012/11/323069main_s119e009662-500x424.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "a879a9e1e87c2184",
+              "url": "https://arstechnica.com/science/2026/10/whats-been-driving-hawaiis-lava-fountains/",
+              "title": "What's been driving Hawaii's lava fountains?",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-09T21:05:01Z",
+              "summary": "Before the lava fountains started, the ground was expanding by half a meter a day.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2243092854-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "custom",
+      "title": "On the Radar: Wearables & Behavioral Health",
+      "stories": []
+    }
+  ],
+  "markets_moved": [
+    {
+      "platform": "kalshi",
+      "question": "Who will run for the Democratic presidential nomination in 2028?",
+      "probability": 0.51,
+      "delta_pp": 23.0,
+      "delta_label": "week-over-week",
+      "url": "https://kalshi.com/markets/kx2028drun"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Gadi Eisenkot be the next Prime Minister of Israel?",
+      "probability": 0.59,
+      "delta_pp": 19.0,
+      "delta_label": "week-over-week",
+      "url": "https://kalshi.com/markets/kxnextisraelpm"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jul 1, 2027?",
+      "probability": 0.26,
+      "delta_pp": -17.0,
+      "delta_label": "week-over-week",
+      "url": "https://kalshi.com/markets/kxagico"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will the upper bound of the target range for the federal funds rate in effect at 11:59 PM ET on December 31, 2027 be above 4.25%?",
+      "probability": 0.63,
+      "delta_pp": 16.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxfedfundsyear"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Donald Trump endorse Marco Rubio in the 2028 presidential election before Mar 1, 2028?",
+      "probability": 0.15,
+      "delta_pp": -15.0,
+      "delta_label": "week-over-week",
+      "url": "https://kalshi.com/markets/kxtrumpendorse28"
+    }
+  ],
+  "human_story": {
+    "headline": "A Stranger Saw His Plea on the News and Showed Up With a Tarp",
+    "text": "When a storm drove a silver maple through the roof of his Wyandotte County, Kansas home, Gilbert Kirk didn't ask local news for a miracle or an insurance windfall — he just wanted a tarp to keep the rain out. Two days after his interview aired, a stranger pulled up to his debris-strewn yard and said he'd come to cover the hole, no charge, no fuss. Word spread, and more people showed up behind him, hauling ladders and rope to get the job done before the next rain came. Kirk, who'd braced for a long wait on red tape, instead got his roof patched by people who owed him nothing but had been watching the same news broadcast he had.",
+    "source": "Good News Network",
+    "source_url": "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/",
+    "image": {
+      "kind": "og",
+      "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/Gilbert-Kirk-is-interviewed-amid-work-by-his-neighbors-to-put-a-tarp-on-his-house-roof-credit-Steven-Vega-retrieved-from-Facebook.jpg",
+      "attribution": "Good News Network",
+      "attribution_url": "https://www.goodnewsnetwork.org/strangers-showed-up-to-mans-destroyed-house-to-put-up-a-tarp-having-seen-his-televised-plea/"
+    }
+  },
+  "photo": null
+}
