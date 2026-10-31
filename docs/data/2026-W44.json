@@ -1,0 +1,989 @@
+{
+  "week": "2026-W44",
+  "period_start": "2026-10-24",
+  "period_end": "2026-10-31",
+  "digest_name": "Priors",
+  "tagline": "Update your priors, weekly.",
+  "accent_color": "#3E5C48",
+  "sections": [
+    {
+      "key": "politics",
+      "title": "Politics & Geopolitics",
+      "stories": [
+        {
+          "section": "politics",
+          "headline": "Poland's court feud goes physical: riot police surround constitutional tribunal, president turns plane around",
+          "what_happened": "Government-appointed judges on Poland's Constitutional Tribunal voted to suspend the court's contested president, Bogdan Święczkowski, and his deputy, Bartłomiej Sochański, amid the long-running dispute over who legitimately sits on the bench. Riot police were deployed outside the tribunal in Warsaw on Friday night and clashed with protesters, while President Karol Nawrocki turned his plane back mid-flight to Senegal and was seen struggling to get into the building. The court's allies called the move a 'coup d'état'; the government says it's enforcing a ruling it considers lawful.",
+          "potential_implications": "This is the sharpest flashpoint yet in a fight over Polish judicial legitimacy that's been simmering since 2015, when the then-ruling PiS party packed the tribunal with loyalists the current Tusk government has never recognized as properly appointed. Riot police at a constitutional court is the kind of image that normally shows up in countries sliding toward serious institutional breakdown, not EU member states — but Poland has spent a decade in a weird limbo where the rule-of-law crisis is real yet contained, mostly fought through dueling legal rulings and Brussels infighting rather than street confrontation. The open question is whether this is the moment it stops being contained: does Nawrocki, who has limited formal power over the courts but plenty of symbolic leverage, escalate further, or does this fizzle into another unresolved stalemate like the last several? One prediction market tracking a Poland EU-exit vote before 2030 jumped 41 percentage points to 45% around this news, which I'd treat with real suspicion rather than as signal — that's an enormous single-day move for a question about treaty withdrawal, and it smells like a thin, illiquid market overreacting to a court spat rather than genuine repricing of Polexit odds. If that number holds or keeps climbing over the coming week, it's worth taking seriously; if it's already reverted, it was just noise.",
+          "takes": [
+            {
+              "source": "POLITICO.eu",
+              "source_url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/",
+              "text": "frames this as the latest and most dangerous round in the ongoing Tusk-Nawrocki power struggle, with the court's ousted leadership and nationalist allies crying coup."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
+              "text": "situates the clash within a decade-long dispute over the tribunal's legal status, noting the striking image of the president himself unable to get through the door."
+            },
+            {
+              "source": "Euronews.com",
+              "source_url": "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations",
+              "text": "emphasizes that police were deployed following specific security warnings, and that Nawrocki's dramatic mid-flight U-turn added to the sense of crisis even as the 'coup' framing remains contested."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will Poland vote to leave the EU before 2030?",
+              "probability": 0.45,
+              "delta_pp": 41.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxeuexitcountry"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9663/live/1662e2b0-d508-11f1-a701-fddedf244c16.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "a1794eefe13088e1",
+              "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+              "title": "Police deployed during stand-off over control of top Poland court",
+              "source": "BBC News",
+              "published_at": "2026-10-31T01:11:43Z",
+              "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9663/live/1662e2b0-d508-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "7543aa46de764117",
+              "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
+              "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
+              "source": "World news | The Guardian",
+              "published_at": "2026-10-31T04:27:25Z",
+              "summary": "<p>President Karol Nawrocki seen struggling to gain entry to court building in Warsaw amid long-running row over the court’s legitimacy</p><p>Riot police were locked in a tense standoff with protesters outside Poland’s constitutional court on Friday night after its top judge was suspended in the latest escalation in a decade-long dispute over the court’s legal status.</p><p>The clashes followed a controversial decision by a group of government-appointed judges to suspend the court’s contested president, Bogdan Święczkowski, and his deputy, Bartłomiej Sochański, amid disagreements over the bench’s legitimacy.</p> <a href=\"https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/b595186b872d72d05a5c01e8ce0be90bb9af8d06/1355_185_5926_4743/master/5926.jpg?width=140&quality=85&auto=format&fit=max&s=694d71b1d782d4dd5f332088dec4289e",
+              "section_hint": "politics"
+            },
+            {
+              "id": "a128b6b3e4e4df06",
+              "url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/",
+              "title": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
+              "source": "POLITICO.eu",
+              "published_at": "2026-10-30T21:12:00Z",
+              "summary": "A bid to remove the court’s nationalist-linked leadership sparked accusations of a coup and clashes between protesters and police in Warsaw.",
+              "image_url": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/10/30/14404282-scaled.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "61b2fb79c09741fb",
+              "url": "https://www.reuters.com/world/africa/polish-president-turns-back-senegal-trip-top-court-chief-suspended-2026-10-30/",
+              "title": "Polish president turns back from Senegal trip as top court chief suspended",
+              "source": "Reuters",
+              "published_at": "2026-10-30T20:44:16Z",
+              "summary": "Polish President Karol Nawrocki turned back his plane en ​route to Senegal on Friday after police entered the ‌premises of Poland's top court and its president was suspended.",
+              "image_url": "https://www.reuters.com/resizer/v2/UKYEYUPW5VK2JK72BQWHJPP46E.jpg?auth=1493646772902aa2ea8eb1f6100193258638b647f826f147c588ab307e788802&height=1005&width=1920&quality=80&smart=true",
+              "section_hint": "politics"
+            },
+            {
+              "id": "7bea8c1e7522790c",
+              "url": "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations",
+              "title": "Polish president turns back mid-flight amid court 'coup d'état' claims",
+              "source": "Euronews.com",
+              "published_at": "2026-10-30T20:43:08Z",
+              "summary": "Police were deployed outside Poland's Constitutional Tribunal following security warnings. Tribunal President Bogdan Święczkowski was suspended from his duties, while Polish President Karol Nawrocki cut short his trip to Senegal.",
+              "image_url": "https://images.euronews.com/articles/stories/09/97/40/68/1200x675_cmsv2_fd167ef1-3a7d-51b8-ba2e-cc25b2978bb1-9974068.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "33292a882184fdd9",
+              "url": "https://timesofindia.indiatimes.com/world/europe/pm-president-face-off-in-poland-top-court-chief-suspended-court-cries-coup-detat-as-nawrocki-returns/articleshow/135377285.cms",
+              "title": "PM-President face-off in Poland: Top court chief suspended, court cries 'coup d'etat' as Nawrocki returns",
+              "source": "The Times of India",
+              "published_at": "2026-10-30T20:31:00Z",
+              "summary": "Poland witnessed fresh tensions between its government and the nationalist right on Friday after riot police were deployed around the country's",
+              "image_url": "https://static.toiimg.com/thumb/msid-135377461,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "US clears $2.1bn Patriot missile sale to Ukraine, but Zelenskyy warns delivery could take years",
+          "what_happened": "The US State Department approved the sale of 500 Patriot PAC-3 interceptor missiles to Ukraine, valued at roughly $2.1 billion. The sale is meant to bolster Ukraine's integrated air and missile defense against Russian ballistic missile attacks. Zelenskyy welcomed the decision as strong but cautioned that actual delivery of the missiles could take years, and that stockpiles are needed now.",
+          "potential_implications": "The gap between approval and delivery is the real story here. Patriot PAC-3 production is famously bottlenecked — Lockheed Martin has been ramping capacity for years but still produces only a few hundred interceptors annually worldwide, with orders backed up from Taiwan, Saudi Arabia, Germany, and others ahead of or alongside Ukraine in the queue. So a $2.1bn approval is a political and signaling event first, a battlefield one second: it tells Moscow (and European allies weighing their own commitments) that Washington intends to keep Ukraine's air defense funded for years, not months. But if Zelenskyy's own government is flagging multi-year lead times, the near-term effect on Russia's ballistic missile campaign — which has been targeting energy infrastructure ahead of another winter — is close to zero. Watch for whether this accelerates calls to tap frozen Russian assets or restructure production contracts to compress the timeline, since the money being approved matters less than whether anyone can actually build the missiles faster.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+              "text": "frames Patriot interceptors as uniquely irreplaceable, noting they are the only weapon system currently capable of downing Russia's ballistic missiles, which underscores why Ukraine has no real substitute to wait for."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+              "text": "emphasizes Zelenskyy's own ambivalence, quoting his praise for the deal alongside his blunt warning that Ukraine needs stockpiles immediately, not a promise redeemable years down the line."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "736c0e058d642f6b",
+              "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+              "title": "US approves sale of 500 Patriot missiles to Ukraine",
+              "source": "BBC News",
+              "published_at": "2026-10-31T00:40:43Z",
+              "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "70715445a9d34eff",
+              "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+              "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+              "source": "World news | The Guardian",
+              "published_at": "2026-10-31T02:18:17Z",
+              "summary": "<p>The Ukrainian president called the US decision strong, but added that delivery of 500 Patriot PAC-3 missiles ⁠could take years</p><p>The US has approved the sale ⁠of 500 Patriot PAC-3 missiles ⁠to Ukraine for an estimated $2.1bn, but Volodymyr Zelenskyy has warned deliveries could take years and stockpiles were needed now to counter Russian ballistic missile attacks.</p><p>“The proposed sale will improve Ukraine’s capability to meet current and future threats by improving its integrated air and missile defense capabilities,” the US state department said in a statement on Friday.</p> <a href=\"https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/59605b4171430a7ce348936f13d40624c8ae6a16/410_0_4880_3904/master/4880.jpg?width=140&quality=85&auto=format&fit=max&s=c3b7da091ebff0f644cc57ec8aea5163",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "G20 ministers can't even agree on a group photo anymore",
+          "what_happened": "At the G20 foreign ministers' meeting in Atlanta, the traditional opening ",
+          "potential_implications": "placeholder",
+          "takes": [],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fa3e/live/bc4ea460-d487-11f1-80bc-6d398902272f.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "03f161c6332a2077",
+              "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+              "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+              "source": "BBC News",
+              "published_at": "2026-10-30T22:11:52Z",
+              "summary": "UK Foreign Secretary Ed Miliband  confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa3e/live/bc4ea460-d487-11f1-80bc-6d398902272f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "b3293af492d639bf",
+              "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+              "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
+              "source": "World news | The Guardian",
+              "published_at": "2026-10-31T00:29:28Z",
+              "summary": "<p>Marco Rubio pulls plug on traditional photo op at meeting of foreign ministers after about one-third of countries threaten boycott</p><p>The traditional “family photo” to open the G20 foreign ministers’ meeting has been abruptly cancelled in the US after a host of nations – including Australia and the UK – refused to appear beside the Russian foreign minister, Sergei Lavrov.</p><p>The US secretary of state, Marco Rubio, pulled the plug after several European officials, the UK and Australia made it known they would boycott or walk out of the snapshot that often kicks off such international gatherings.</p> <a href=\"https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/94e76fb3f040c70be5f1c43fa81c443afb9943dd/1924_1239_3101_2483/master/3101.jpg?width=140&quality=85&auto=format&fit=max&s=6b1eedaa160a8b30de7f331c40f2ceeb",
+              "section_hint": "politics"
+            },
+            {
+              "id": "8d22b9394ef76002",
+              "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov",
+              "title": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+              "source": "Al Jazeera",
+              "published_at": "2026-10-30T20:44:52Z",
+              "summary": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members.",
+              "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ae4f4f1-1793389809.jpg?resize=1762%2C1080",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "A rare ceasefire lets food and civilians cross the front line in occupied Oleshky",
+          "what_happened": "A temporary ceasefire allowed the first joint humanitarian operation of the war in Oleshky, a Russian-occupied city on the Dnipro River opposite Kherson that has endured months of severe food and medical shortages. A convoy brought in supplies and evacuated hundreds of civilians, including children, from among the few thousand people still living there. Despite warnings that remaining residents faced starvation, hundreds reportedly chose to stay in the town rather than leave.",
+          "potential_implications": "One town's ceasefire is not a ceasefire; localized truces for humanitarian access have happened periodically throughout this war without translating into broader de-escalation, so the base rate for this becoming a template rather than a one-off is low. What's more interesting is what it reveals: if conditions were bad enough that both sides agreed to pause fighting to prevent starvation, the siege dynamics in occupied territory may be worse than has been visible from outside. The fact that hundreds stayed despite the dangers is its own data point — probably some mix of elderly residents unable to travel, people unwilling to abandon property under occupation, and those wary of what evacuation to Ukrainian-controlled territory might mean for them long-term. Watch whether this operation gets repeated; a second humanitarian window would suggest an emerging, if narrow, channel of coordination rather than a singular exception.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+              "text": "notes that while hundreds were evacuated, hundreds more stayed behind in the frontline town despite the dangers, underscoring the limits of what even a rare ceasefire can achieve for a population this entrenched."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+              "text": "frames the operation as the first of its kind in nearly four years and eight months of war, emphasizing how dire conditions had become — including starvation warnings for the roughly 50 children still in the city."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "d739e6ac886f7d18",
+              "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+              "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+              "source": "BBC News",
+              "published_at": "2026-10-31T08:49:35Z",
+              "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21db/live/aec4b500-d482-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "4846aabaff860d65",
+              "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+              "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+              "source": "BBC News",
+              "published_at": "2026-10-30T23:19:17Z",
+              "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "5cd3eade37522524",
+              "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
+              "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
+              "source": "World news | The Guardian",
+              "published_at": "2026-10-30T17:13:48Z",
+              "summary": "<p>Humanitarian convoy brings food and medicine to Russian-held city where people have suffered severe shortages</p><p>People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war.</p><p>The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson, has suffered months of serious food and medical shortages, leading to warnings of starvation for the few thousand people remaining there, including about 50 children.</p> <a href=\"https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/b7a932cd6937397f03f57724d0cb13fc21ea7cae/167_0_1667_1334/master/1667.jpg?width=140&quality=85&auto=format&fit=max&s=5a12e995dfc49763939be2026d583408",
+              "section_hint": "politics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "stories": [
+        {
+          "section": "business",
+          "headline": "Binance loses $6.3bn in what may be the largest theft in history, North Korea the prime suspect",
+          "what_happened": "Binance, the world's largest crypto exchange, disclosed a $6.3bn hack on Thursday that analysts believe is the biggest crypto heist — and possibly the biggest theft of any kind — on record. Security firms including TRM Labs have attributed the attack to TraderTraitor, a North Korean hacking unit also known as the Lazarus Group. Binance says it will cover all customer losses and has so far managed to freeze roughly $3bn of the stolen assets as it works to trace the rest.",
+          "potential_implications": "The headline number is eye-catching but the more interesting fact is the base rate: North Korea has been doing this for years, and crypto theft reportedly accounts for roughly half of its foreign currency income. That means $6.3bn isn't just a one-off embarrassment for Binance — it's a meaningful chunk of financing for a sanctioned state's weapons programs, which should worry policymakers more than crypto holders. For the industry, Binance covering losses out of pocket is the kind of move that only a dominant, well-capitalized exchange can make; a smaller platform hit this hard would likely be insolvent by Monday. Expect renewed regulatory pressure on exchange custody practices and on-chain forensics firms, though enforcement against North Korean state hackers has historically been more symbolic than effective — freezing $3bn is good, but $3.3bn reportedly got away, and recovery rates on past Lazarus Group hacks have been uneven at best.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+              "text": "frames the hack as evidence of just how sophisticated North Korean state hackers have become, suggesting Western exchanges are now facing an adversary with resources and patience that rival those of nation-state intelligence agencies."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+              "text": "argues the real story isn't the exchange's security failure but the geopolitical function of the theft — crypto hacking has quietly become one of Pyongyang's largest sources of hard currency, helping fund its nuclear program despite sanctions."
+            },
+            {
+              "source": "Ars Technica - All content",
+              "source_url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+              "text": "focuses on the technical mechanics of the breach, describing Binance's scramble to freeze assets in real time as a case study in how exchanges respond — or fail to respond fast enough — once an attack of this scale is underway."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1177/live/15f26510-d4f1-11f1-9df7-95635b0b4a0d.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "8e8e4f8e579727c9",
+              "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+              "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+              "source": "BBC News",
+              "published_at": "2026-10-30T09:33:51Z",
+              "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1177/live/15f26510-d4f1-11f1-9df7-95635b0b4a0d.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "34d8a5d5057c7e0b",
+              "url": "https://www.bbc.co.uk/news/videos/c6m2dpz0yxn8o?at_medium=RSS&at_campaign=rss",
+              "title": "Binance's $6.3bn crypto hack biggest in history",
+              "source": "BBC News",
+              "published_at": "2026-10-30T17:41:10Z",
+              "summary": "Cryptocurrency giant Binance said on Thursday that $6.3bn (£4.7bn) of digital assets have been impacted by what is thought to be the biggest crypto hack on record.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1fa/live/c7f7b2b0-d474-11f1-93e1-3b657b665bcf.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "06dd76803e8b9715",
+              "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+              "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-30T16:35:44Z",
+              "summary": "<p>Binance exchange says it will cover customer losses as it scrambles to freeze affected assets, with about $3bn located so far</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/30/crypto-heist-binance-who-did-it-are-investments-safe\">Q&amp;A: How big a deal is the $6.3bn crypto heist?</a></p></li><li><p><a href=\"https://www.theguardian.com/business/2026/oct/30/tell-us-have-you-been-affected-by-the-binance-hack\">Tell us: have you been affected by the Binance hack?</a></p></li></ul><p>The world’s largest cryptocurrency exchange has been hit by a record $6.3bn (£4.7bn) hack described as the biggest heist in history, with experts identifying North Korea as the likely culprit.</p><p>Binance said it would cover all customer losses as it froze $3bn of the affected assets.</p> <a href=\"https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/4824d0b9ac9b676f0f7a9915bd1edd46731ae136/366_0_3924_3139/master/3924.jpg?width=140&quality=85&auto=format&fit=max&s=27f44bf7541cca708bf964e7d5dfd1bc",
+              "section_hint": "business"
+            },
+            {
+              "id": "c3d717edb1e2b04f",
+              "url": "https://www.theguardian.com/business/2026/oct/30/crypto-heist-binance-who-did-it-are-investments-safe",
+              "title": "How big a deal is the $6.3bn Binance crypto heist, who did it, and are investments safe?",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-30T15:17:01Z",
+              "summary": "<p>The incident at Binance could be the biggest theft of any kind in history. We answer some key questions</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack\">North Korean group blamed for $6.3bn crypto heist</a></p></li><li><p><a href=\"https://www.theguardian.com/business/2026/oct/30/tell-us-have-you-been-affected-by-the-binance-hack\">Tell us: have you been affected?</a></p></li></ul><p>The world’s largest cryptocurrency exchange has been hit by a $6.3bn heist that, according to experts, is likely to be the <a href=\"https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack\">work of North Korea</a>.</p><p>This is not the first time a crypto market has been targeted by hackers, and the rogue state has a track record of this type of theft. Here we answer some key questions about what’s happened:</p> <a href=\"https://www.theguardian.com/business/2026/oct/30/crypto-heist-binance-who-did-it-are-investments-safe\">Continue ",
+              "image_url": "https://i.guim.co.uk/img/media/d542f8264ab26168893328cc468931376fc05f01/434_0_4340_3472/master/4340.jpg?width=140&quality=85&auto=format&fit=max&s=bd9d5ff7c444bc1e7e6bd1cbe714d66f",
+              "section_hint": "business"
+            },
+            {
+              "id": "02ecd35b7079ec56",
+              "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+              "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+              "source": "BBC News",
+              "published_at": "2026-10-30T21:13:14Z",
+              "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "d13e42607d018e9c",
+              "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+              "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+              "source": "BBC News",
+              "published_at": "2026-10-31T02:12:19Z",
+              "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "d9af3468d44cbff0",
+              "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+              "title": "What we know about Binance's $6.3bn hack",
+              "source": "BBC News",
+              "published_at": "2026-10-30T12:27:28Z",
+              "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ae1/live/ab354520-d460-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "b0aa7d88e42ef8ab",
+              "url": "https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme",
+              "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
+              "source": "World news | The Guardian",
+              "published_at": "2026-10-30T17:37:46Z",
+              "summary": "<p>Cryptocurrency theft is estimated to generate half of the country’s foreign currency income</p><p>North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking.</p><p>Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit that has also been known as the Lazarus Group. Though the link may not be proven yet, the pattern of behaviour is familiar.</p> <a href=\"https://www.theguardian.com/world/2026/oct/30/how-crypto-hacking-funds-isolated-north-korea-nuclear-programme\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/a2ab8c683105476fd958b1420dbb27c30fe2be77/232_0_2883_2307/master/2883.jpg?width=140&quality=85&auto=format&fit=max&s=9ec67197a6426c57619fb64535e59340",
+              "section_hint": "politics"
+            },
+            {
+              "id": "34de106ce90dc249",
+              "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist/",
+              "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-30T13:46:39Z",
+              "summary": "Binance scrambles to freeze billions after record-breaking hack linked to North Korea.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "Tech stocks shed almost $1tn in a week as investors ask whether AI spending will ever pay off",
+          "what_happened": "A tech sell-off that began earlier in October accelerated Friday after a string of disappointing earnings, wiping close to $1tn off the Nasdaq in a week and roughly $2tn over the month. Intel fell nearly 29% in a single session, its worst day since 1974, despite a booming data-center business, on a weak forward outlook. Google lost about $500bn in value after disclosing that its own AI search summaries are eating into ad revenue. The selling spread beyond tech: the S&P 500 fell over 1%, gold dropped below $3,900 an ounce, and silver tumbled 6%, even as oil rose on a fresh tanker attack in the Strait of Hormuz.",
+          "potential_implications": "The headline number — AI capex approaching $1tn — has been treated as a bullish story for a year; this week it started reading as a risk factor instead. When even gold sells off alongside stocks, that's usually a sign of broad deleveraging rather than a rotation into safety, which suggests funds are raising cash across the board rather than making a specific bet against AI. Worth separating two different anxieties here: Intel's problem looks idiosyncratic (a weak outlook despite strong demand elsewhere in its business), while Google's is structural — AI summaries cannibalizing the ad-click model that funds search in the first place, a dynamic that could eventually hit other ad-dependent platforms too. None of this tells you whether the AI investment cycle itself is overbuilt; a one-week, one-month correction after an all-time high is well within historical base rates for tech drawdowns and doesn't require a bubble thesis to explain. The Fed holding rates at 3.75-4% with two dissents toward hiking, plus oil rising on geopolitical risk, adds a second, more boring explanation: tighter-for-longer monetary policy squeezing long-duration growth bets, AI-related or not. The two prediction markets on hand — nuclear-powered data centers and government control of an AI company, both unchanged this week — don't really speak to this particular story, which is more about near-term earnings and capital discipline than about the infrastructure or governance questions those markets track.",
+          "takes": [
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+              "text": "frames the rout as investors finally demanding evidence that hundreds of billions in AI spending can generate returns quickly, rather than taking it on faith."
+            },
+            {
+              "source": "Yahoo Finance",
+              "source_url": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-29-its-worst-day-since-1974-205955309.html",
+              "text": "treats Intel's collapse as a company-specific story — a booming data-center business undercut by a weak guide — rather than evidence the whole AI trade is cracking."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will the US start the process of building a nuclear-powered data center on a military base before 2030?",
+              "probability": 0.57,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxdatacenter"
+            },
+            {
+              "platform": "kalshi",
+              "question": "Will the US government take control of any AI company or project before 2030?",
+              "probability": 0.38,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxustakeover"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "0de680b82ffb0bb6",
+              "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+              "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+              "source": "BBC News",
+              "published_at": "2026-10-30T20:34:46Z",
+              "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "ed86d275fc79f3d9",
+              "url": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+              "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-30T18:27:51Z",
+              "summary": "<p>Big tech stocks falter as investors question whether billions being poured into AI can generate returns quickly enough</p><p>A sell-off of tech stocks that began earlier this month and gained steam with disappointing earnings from leading tech companies drove US markets down by hundreds of billions of dollars Friday. In total, the decline has knocked nearly $1tn in value off the tech-heavy Nasdaq exchange in one week and erased about $2tn in a month.</p><p>The S&amp;P 500, the index of the 500 most valuable companies in the US, fell by more than 1% Friday, losing hundreds of billions of dollars in market value. It was on track to erase its gain for October, even though it set its all-time high during the same month. The weakness for technology stocks dragged the Nasdaq composite down even further, more than 3%, also erasing hundreds of billions in value. The Dow Jones Industrial Average fell less.</p> <a href=\"https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earni",
+              "image_url": "https://i.guim.co.uk/img/media/7a052dd1015720ea8d19c722dd7b8bcd0586aab3/452_0_4515_3613/master/4515.jpg?width=140&quality=85&auto=format&fit=max&s=caca7d3f30c1eef3ea87cd4a8a986b56",
+              "section_hint": "business"
+            },
+            {
+              "id": "2fa2c9ea33362800",
+              "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+              "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+              "source": "BBC News",
+              "published_at": "2026-10-30T12:04:02Z",
+              "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3304/live/1c4d6e00-d3d4-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "efb0af80ff6706fe",
+              "url": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-29-its-worst-day-since-1974-205955309.html",
+              "title": "Intel stock plunges nearly 29%, its worst day since 1974",
+              "source": "Yahoo Finance",
+              "published_at": "2026-10-30T20:59:55Z",
+              "summary": "Intel’s data center business is booming, but a weak outlook just handed the stock its worst day in more than half a century.",
+              "image_url": "https://s.yimg.com/lo/mysterio/api/66ce7bacc77f235b78bb9aeab3da41a555696718a5a995a480d4817e5f148245/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F653ca1d1-2186-47eb-8fab-aa45dcd35daa",
+              "section_hint": "business"
+            },
+            {
+              "id": "e27ef979cf4f4170",
+              "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+              "title": "Wall Street drops to its worst day since June after sell",
+              "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+              "published_at": "2026-10-30T20:55:27Z",
+              "summary": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+              "image_url": "https://live-production.wcms.abc-cdn.net.au/fddd4877adc48d8a8b3322ceffc97cfe?impolicy=wcms_watermark_news&cropH=573&cropW=1019&xPos=5&yPos=0&width=862&height=485&imformat=generic",
+              "section_hint": "business"
+            },
+            {
+              "id": "60015c00edec51d4",
+              "url": "https://www.nzherald.co.nz/business/markets-lashed-by-tech-rout-as-earnings-fan-ai-fears/SHKZOTQRI5AINDYPE6J2R3ELFE/",
+              "title": "Markets lashed by tech rout as earnings fan AI fears",
+              "source": "NZ Herald",
+              "published_at": "2026-10-30T20:58:46Z",
+              "summary": "Technology firms retreated further on Friday after more poorly received earnings from US titans fanned deepening concerns about the AI investment boom....",
+              "image_url": "https://www.nzherald.co.nz/resizer/v2/6QEQSBMJBBHZLJZIDQR2IRK2PU.jpg?auth=210e31288fc0d153897c3386b495c61ab252850c642a84e66c3199dd455bcd70&width=1200&height=675&quality=70&focal=605%2C348&smart=false",
+              "section_hint": "business"
+            },
+            {
+              "id": "621e1fd4577ab29c",
+              "url": "https://www.kitco.com/news/article/2026-10-30/gold-falls-below-3900-silver-tumbles-wall-street-selloff-triggers",
+              "title": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation - Kitco PM Report",
+              "source": "Kitco",
+              "published_at": "2026-10-30T21:06:50Z",
+              "summary": "(Kitco NewsWire) - Spot gold and silver prices were sharply lower in late U.S. trading Friday, as a technology-led equity market selloff intensified liquidation pressure across precious metals, offsetting the support normally provided by falling Treasury yields and heightened geopolitical uncertainty. Crude oil prices climbed more than 2% following another tanker attack in the Strait of Hormuz, adding to inflation concerns and expectations that Federal Reserve monetary policy will remain restrictive. Spot gold was trading near $3,879.90 an ounce, down $141.60, or 3.52%, while spot silver was trading near $49.015, down $3.150, or 6.06%, on the session.Friday's U.S. economic reports presented a mixed picture of moderating wage growth and weakening regional manufacturing activity. The employment cost index increased 0.8% in the third quarter, matching expectations and slowing from 0.9% in the second quarter. The October Chicago purchasing managers' index declined to 55.3 from 58.8 in Sept",
+              "image_url": "https://image-api.prod.kitco.com/image/5768df25-c265-4c2d-a489-e51917a45667.jpeg?top=0.19459459459459&left=0&width=1024&height=575.61081081081&scale_width=1920&token=445bdc4fb7ee2e21c02415533cd3f2e0b82ff32871ca3f559822d03d4f95d1db",
+              "section_hint": "business"
+            },
+            {
+              "id": "9ffd29b310387445",
+              "url": "https://www.kitco.com/news/article/2026-10-30/wall-street-abandons-ship-after-gold-sinks-below-3900oz-main-street",
+              "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
+              "source": "Kitco",
+              "published_at": "2026-10-30T21:11:59Z",
+              "summary": "(Kitco News) – Gold prices suffered another sharp weekly decline, as an early recovery gave way to heavy selling after the Federal Reserve maintained its hawkish stance, stronger U.S. economic data reinforced expectations for further tightening, and Friday's technology-led equity rout triggered widespread liquidation across precious metals.Spot gold kicked off the week trading at $3,994.95 per ounce on Sunday evening, and the yellow metal initially pushed higher as bargain-hunting emerged following the previous week's selloff below $4,000. The recovery gathered momentum Tuesday as Treasury yields eased and the U.S. dollar softened, carrying gold back above $4,050 ahead of Wednesday's Federal Reserve policy decision. After the Fed voted 10-2 to hold interest rates steady at 3.75% to 4.00%, with two policymakers dissenting in favor of another 25-basis-point hike, spot prices ultimately set their weekly high at $4,082.50 per ounce just before the equity close on Wednesday, before sellers ",
+              "image_url": "https://image-api.prod.kitco.com/image/e6676de3-5d03-4cb4-a578-8eac48ef0951.png?top=0&left=0&width=1672&height=941&scale_width=1920&token=b456bd7e917b3885894da434fe3b1fa521098287e590d69e757af50e2b17a7ca",
+              "section_hint": "business"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "Healey's first budget: £100 for your energy bill, not the reset Labour promised",
+          "what_happened": "Chancellor John Healey delivered his first budget, centred on a one-off £100 payment to households to help with energy costs, funded in part by new taxes on banks, landlords, savings income and gambling machines, while income tax thresholds stay frozen again. Smaller measures included raising the tax-free side-hustle allowance from £1,000 to £3,000, a £4.7bn first-time buyer scheme aiming to help 70,000 households, and a fix so bereaved families won't be taxed over pension payout delays. The OBR's accompanying forecasts show higher energy prices, partly linked to the fallout from the Iran war, weighing on growth and squeezing living standards for years to come. This fell well short of the 'fundamental reset' and end to 'neoliberalism' that deputy PM Andy Burnham had promised in the run-up.",
+          "potential_implications": "The gap between Burnham's rhetoric and Healey's delivery is the real story here: betting markets still have Labour's odds of winning the next election stuck at 33%, unchanged even after budget day, which tells you the market doesn't think this budget moved the political needle in either direction. That's consistent with a cautious, 'micro' budget that neither excites supporters nor gives critics much new ammunition. The bigger risk for Labour isn't this week's reaction but the slow grind the OBR is forecasting — frozen thresholds plus near-zero growth in living standards compound quietly over several years, and voters tend to notice stealth taxes eventually, even if they can't name them. Worth watching whether the £100 payment reads as generous or as an admission that there wasn't room for anything bigger; if energy prices stay elevated because of the Iran war's knock-on effects, this could look like the first of several top-ups rather than a one-off fix.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+              "text": "argues the budget's smallness was deliberate — Healey chose incremental cost-of-living relief over the radical new economic model that had been trailed, likely because global turmoil left him little room to be bold."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/uk-news/2026/oct/30/this-budget-fails-to-live-up-to-andy-burnhams-grand-rhetoric",
+              "text": "says the budget amounts to a watered-down 'Martin Lewis budget' — small cost-of-living tweaks and a modest bank tax that don't come close to the wholesale reset and end to neoliberalism that was promised."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will Labour win the next U.K. election?",
+              "probability": 0.33,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxukparty"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/8ec0/live/8d883540-d3a3-11f1-a5cd-49637fcbd4e4.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "a0da1cec03d6b8d7",
+              "url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+              "title": "Faisal Islam: This Budget was micro and that was deliberate",
+              "source": "BBC News",
+              "published_at": "2026-10-29T15:48:44Z",
+              "summary": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ec0/live/8d883540-d3a3-11f1-a5cd-49637fcbd4e4.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "c27860e09086867c",
+              "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+              "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+              "source": "BBC News",
+              "published_at": "2026-10-28T18:45:09Z",
+              "summary": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab01/live/ce128db0-d2fc-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "3762b9b915af0924",
+              "url": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss",
+              "title": "Healey provides some breathing space but things still set to get worse for most",
+              "source": "BBC News",
+              "published_at": "2026-10-28T19:51:01Z",
+              "summary": "The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/426f/live/d5d2d7e0-d21f-11f1-b8e4-17c9744a7f8e.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "8d9d1ccd049b68c9",
+              "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
+              "title": "What we now know about the UK economy in four charts",
+              "source": "BBC News",
+              "published_at": "2026-10-28T20:08:45Z",
+              "summary": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/302d/live/da4a7910-d2ea-11f1-8d86-83eebc838351.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "824d24ae70515a02",
+              "url": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
+              "title": "What the Budget offers for under 25s - and what it leaves out",
+              "source": "BBC News",
+              "published_at": "2026-10-28T20:02:38Z",
+              "summary": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f96e/live/0a45b830-d2de-11f1-93e1-3b657b665bcf.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "be5eaf3813c80225",
+              "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+              "title": "Your pay, energy bills and savings: How the Budget affects you",
+              "source": "BBC News",
+              "published_at": "2026-10-29T15:11:35Z",
+              "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84cd/live/e88146a0-d365-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "7d05bd416a02caf5",
+              "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
+              "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
+              "source": "BBC News",
+              "published_at": "2026-10-29T13:19:24Z",
+              "summary": "Budget forecasts show growth in living standards grinding almost to a halt.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7565/live/8d520610-d3cf-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "1bb58939e1b56373",
+              "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+              "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+              "source": "BBC News",
+              "published_at": "2026-10-29T11:52:55Z",
+              "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5570/live/b5261da0-d304-11f1-a9bf-3316693f55f0.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "7b84d51c52b52bda",
+              "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+              "title": "Bereaved families will not face tax bill over pension delays under new rules",
+              "source": "BBC News",
+              "published_at": "2026-10-29T15:18:04Z",
+              "summary": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d97f/live/92781b20-d3a7-11f1-a5cd-49637fcbd4e4.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "990dfab02db2f0c9",
+              "url": "https://www.bbc.co.uk/news/articles/cm62yle1g2wyo?at_medium=RSS&at_campaign=rss",
+              "title": "The South West reacts to Budget announcements",
+              "source": "BBC News",
+              "published_at": "2026-10-29T18:07:26Z",
+              "summary": "Tourism and business leaders have been reacting to John Healey's first Budget as chancellor.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/433b/live/f9832770-d3a6-11f1-93e1-3b657b665bcf.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "447dd7a633ef79f8",
+              "url": "https://www.theguardian.com/uk-news/2026/oct/30/this-budget-fails-to-live-up-to-andy-burnhams-grand-rhetoric",
+              "title": "This budget fails to live up to Andy Burnham’s grand rhetoric | Letters",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-30T17:11:06Z",
+              "summary": "<p><strong>Caitlin Boswell</strong> of Tax Justice UK and others on what Aditya Chakrabortty described as a ‘Martin Lewis budget’</p><p>Aditya Chakrabortty was spot-on in his analysis of John Healey’s budget (<a href=\"https://www.theguardian.com/commentisfree/2026/oct/28/andy-burnham-martin-lewis-budget-john-healey\">Burnham promised big change – where was it? Instead we got the Martin Lewis budget, 28 October</a>). It was a drop in the ocean of what is needed to bring about the scale of change this country needs and, importantly, was promised by Andy Burnham.</p><p>As the affordability crisis rages on, people may feel some relief at the small cost of living measures announced for households and businesses. But when we’ve been told we’ll get a wholesale reset and&nbsp;an end to neoliberalism, 4p&nbsp;off the price of gherkins and a temporary tiny bank tax isn’t going&nbsp;to cut it.</p> <a href=\"https://www.theguardian.com/uk-news/2026/oct/30/this-budget-fails-to-live-up-to-andy-burnham",
+              "image_url": "https://i.guim.co.uk/img/media/724ec7aa71896f8a5aadc13e7b1048973e987324/250_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=d392df210773a62f29293633244929d7",
+              "section_hint": "business"
+            },
+            {
+              "id": "a4b3b4cb9d7b5797",
+              "url": "https://www.theguardian.com/politics/2026/oct/30/uk-side-hustle-tax-free-allowance-rise-3000",
+              "title": "UK side-hustle tax-free allowance to rise to £3,000 next year",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-30T07:00:47Z",
+              "summary": "<p>Up to 1.4 million people could benefit from change to trading allowance announced in budget, with some saving hundreds in tax</p><p>The amount Britons can earn from a side hustle without paying tax will rise to £3,000 next year in a fillip for those who make extra cash from hobbies or reselling.</p><p>Up to 1.4 million people could benefit from the change announced in the <a href=\"https://www.theguardian.com/uk-news/budget-2026\">budget</a>, with the chancellor confirming the tax-free “trading” allowance will increase from <a href=\"https://www.gov.uk/government/publications/income-tax-increasing-the-trading-allowance/increasing-the-trading-allowance\">£1,000 to £3,000</a> in April 2027.</p> <a href=\"https://www.theguardian.com/politics/2026/oct/30/uk-side-hustle-tax-free-allowance-rise-3000\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/35d5a07486878603dbb3866d008d2d3c4c6ebe12/553_0_4843_3874/master/4843.jpg?width=140&quality=85&auto=format&fit=max&s=3bf8d8d7c8fdf243c284cd5b6ecdb67c",
+              "section_hint": "business"
+            },
+            {
+              "id": "fa78b853f84e7510",
+              "url": "https://www.theguardian.com/money/2026/oct/31/budget-2026-how-to-beat-the-new-savings-tax-rates",
+              "title": "Budget 2026: how to beat the new savings tax rates",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-31T07:00:36Z",
+              "summary": "<p>John Healey’s budget offered a ‘sting in the tail’ for savers by raising tax rates but there are ways to ease the pain</p><p>Savers were both <a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-winners-and-losers-pensioners-and-households-gain-as-bankers-and-betting-shops-hit\">winners and losers</a> in <a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-healey-hikes-taxes-on-banks-and-landlords-to-fund-100-handouts-to-20m-households\">Wednesday’s budget</a>. In his first outing as chancellor, John Healey dropped a plan to cut&nbsp;the cash Isa limit for under-65s but surprised everyone with an extra tax charge on savings and property income. His predecessor, Rachel Reeves, had already announced <a href=\"https://www.theguardian.com/uk-news/2025/nov/26/uk-savers-investors-tax-bills-isas-pensions-savings-rachel-reeves-budget\">a plan to increase the income tax rates for savers and landlords</a> that was due to take effect in April 2027. But Healey went furthe",
+              "image_url": "https://i.guim.co.uk/img/media/b58ab8013fd5ab1dc6a62f75a85a0c8a56a5e4f9/196_0_2445_1956/master/2445.jpg?width=140&quality=85&auto=format&fit=max&s=ad6b852a1493828c5630458c36266df0",
+              "section_hint": "business"
+            },
+            {
+              "id": "81d518413803d2a1",
+              "url": "https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
+              "title": "‘I earn £126,000 – but nothing’s left at the end of the month’: readers react to the budget",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-29T08:32:35Z",
+              "summary": "<p>From a young chef and a single father to business owners and a pensioner, Guardian readers reveal how John Healey’s measures will affect them</p><ul><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-what-it-means-for-you\">What the budget means for you</a></p></li></ul><p>Louie, 24, a chef living in London, says a lot of people have “written off the idea of even considering getting a property” in their 20s.</p> <a href=\"https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/2eaa1c53f14aa3243f32be673d95d0b3dcbee82a/415_1168_1848_1478/master/1848.jpg?width=140&quality=85&auto=format&fit=max&s=3ee090c47b007c35e4937a70d4b4865c",
+              "section_hint": "business"
+            },
+            {
+              "id": "afc1712390484010",
+              "url": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-what-it-means-for-you",
+              "title": "Budget 2026: what it means for your wallet, your mortgage and your pay",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-28T18:14:08Z",
+              "summary": "<p>How the chancellor’s measures on tax, benefits and pensions will affect your personal finances</p><ul><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-john-healey-offers-100-payment-to-households-to-help-navigate-global-economic-storms\">Healey offers £100 payment to households to help navigate ‘global economic storms’</a></p></li><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-key-points-john-healey\">Budget 2026: key points at a glance</a></p></li><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-calculator-find-out-if-you-are-better-or-worse-off\">Budget 2026 calculator: find out if you are better or worse off</a></p></li></ul><p>Josh graduated two years ago from an English university and is back home in London. He earns £28,500, out of which he pays £3,186 in income tax and £1,274 in national insurance (NI) contributions a year. This results in take-home pay of £2,003 a month or £24,040 a year. Despite",
+              "image_url": "https://i.guim.co.uk/img/media/1fe98413fecc33da5508e67f679fca36074fbf95/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=5c340aae654684b5de4d5434d66aef79",
+              "section_hint": "business"
+            },
+            {
+              "id": "a0145a91e313a70f",
+              "url": "https://www.theguardian.com/money/2026/oct/29/john-healey-energy-support-package-budget-explainer",
+              "title": "How will John Healey’s energy support package affect you?",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-29T05:00:26Z",
+              "summary": "<p>Chancellor’s ‘new course’ includes a £100 one-off payment, low-carbon upgrade loans and an end to standing charges</p><p>John Healey has unveiled a package of support for households being buffeted by “global economic storms”.</p><p>“I’m setting a new course to get energy costs down in line with Europe,” the chancellor said in his maiden budget. In the long term, he hopes that changes in how Britain covers the cost of renewables and grid upgrades will “drive down all aspects of energy bills”.</p> <a href=\"https://www.theguardian.com/money/2026/oct/29/john-healey-energy-support-package-budget-explainer\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/3eccb3a03d755b8b3060c32832bf9ff1d8a875a3/620_0_4250_3400/master/4250.jpg?width=140&quality=85&auto=format&fit=max&s=52a4a718834fea9584af61d29fd87fcd",
+              "section_hint": "business"
+            },
+            {
+              "id": "4e5a4f7731d94554",
+              "url": "https://www.theguardian.com/money/2026/sep/28/first-home-scheme-first-time-buyers-what-you-need-to-know",
+              "title": "What you need to know about Your First Home scheme for first-time buyers",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-28T17:56:21Z",
+              "summary": "<p>Chancellor fleshes out details of scheme unveiled last month to help 70,000 households on to the property ladder</p><ul><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-key-points-john-healey\">Budget 2026: key points at a glance</a></p></li><li><p><a href=\"https://www.theguardian.com/money/ng-interactive/2026/oct/28/budget-income-tax-thresholds-frozen-take-home-pay\">Income tax: How much more will you pay?</a></p></li><li><p><a href=\"https://www.theguardian.com/politics/2026/sep/28/labour-help-to-buy-your-first-home\">Nils Pratley: Labour’s modest reheat of help to buy is worth a try</a></p></li></ul><p></p><p></p><p>A new £4.7bn government scheme will help 70,000 households on to the property ladder and save first-time buyers “hundreds of pounds a month”, the chancellor, John Healey, said on Wednesday.</p><p>Last month, <a href=\"https://www.theguardian.com/politics/2026/sep/26/andy-burnham-announces-new-scheme-for-first-time-home-buyers-england\">Andy Burnha",
+              "image_url": "https://i.guim.co.uk/img/media/203250998da44a29fefa5dd245ef22afaf40377c/140_0_3221_2577/master/3221.jpg?width=140&quality=85&auto=format&fit=max&s=8c5f2c582a9a4f6ff6c7faa007c538c5",
+              "section_hint": "business"
+            },
+            {
+              "id": "9f71ed5c2fa54777",
+              "url": "https://www.theguardian.com/money/ng-interactive/2026/oct/28/budget-income-tax-thresholds-frozen-take-home-pay",
+              "title": "Income tax: Healey’s budget leaves thresholds frozen again. How much more will you pay?",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-28T15:01:13Z",
+              "summary": "<p>Tax policy means freezes reduce take-home pay as earnings rise in line with inflation</p><p>Income tax thresholds are set to remain frozen after John Healey’s first budget as chancellor.</p><p>One of the biggest tax rises in recent years has happened without a change in the rates at which people are taxed on their incomes. Instead it has come from successive government decisions to keep the thresholds associated with the tax at the same level each year, regardless of inflation.</p> <a href=\"https://www.theguardian.com/money/ng-interactive/2026/oct/28/budget-income-tax-thresholds-frozen-take-home-pay\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/fd8fc2226e42f5dace5cdf46887c5d7640e8b6f8/696_0_6139_4912/master/6139.jpg?width=140&quality=85&auto=format&fit=max&s=7c837b1315fb583ae045749c938a52a9",
+              "section_hint": "business"
+            },
+            {
+              "id": "70f2c1f49edf9ffa",
+              "url": "https://www.theguardian.com/society/2026/oct/29/inside-the-slot-farms-targeted-in-budget-gambling",
+              "title": "How £100 vanishes in minutes: inside the ‘slot farms’ targeted in the budget",
+              "source": "Business | The Guardian",
+              "published_at": "2026-10-29T14:00:45Z",
+              "summary": "<p>John Healey has hit adult gaming centres with 25% tax. Undercover footage shows how they lure customers</p><p>The last of five £20 notes disappears into the slot machine as The Verve’s Bittersweet Symphony plays over the shop’s sound system.</p><p>That’s it, £100 gone in the space of about five minutes, swallowed up by one of the many “slot farms” that dominate the shopping streets of Peterborough.</p> <a href=\"https://www.theguardian.com/society/2026/oct/29/inside-the-slot-farms-targeted-in-budget-gambling\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/36eda7894b81d6feb4d555afe1165394b4edfa70/112_48_924_739/master/924.jpg?width=140&quality=85&auto=format&fit=max&s=ad262433a5dbb1ff04b97660067a48e4",
+              "section_hint": "business"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "DoorDash agrees to buy Instacart for $17bn, promising shoppers more stores",
+          "what_happened": "DoorDash announced a deal to acquire Instacart for $17bn, merging two of the largest on-demand delivery platforms in the US. The companies say the combination will let Instacart customers order from roughly 150,000 stores, up from the 100,000 currently available on the app. The deal is pending the usual regulatory and shareholder approvals.",
+          "potential_implications": "The headline pitch—more stores, more choice—is the standard justification for every delivery merger, and it's worth treating with mild skepticism until you see what happens to fees and driver pay once the dust settles. Delivery is a notoriously thin-margin business that's consolidated hard over the past five years (Uber Eats absorbing Postmates, Just Eat Takeaway buying Grubhub), and each round of consolidation has tended to track toward fewer competitors bidding for the same restaurant and retailer partnerships, not more. If regulators let this through, DoorDash becomes dominant enough in grocery-adjacent delivery that it starts looking more like a utility than a marketplace—which cuts both ways: more leverage to negotiate better terms with retailers, but also less competitive pressure to keep delivery fees low for consumers. The base rate for large tech M&A delivering on its stated synergies within three years is mediocre at best, so the realistic range of outcomes here is wide: this could meaningfully expand grocery access in underserved areas, or it could just be two subscale businesses merging to cut costs and raise prices once the competitive threat from each other disappears.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+              "text": "frames the deal primarily through the companies' own messaging, emphasizing the jump from 100,000 to 150,000 available stores as the headline consumer benefit."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/bde4/live/a139f9d0-d3a2-11f1-a5cd-49637fcbd4e4.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "ea0eac9ded53bfba",
+              "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+              "title": "DoorDash to buy Instacart in $17bn deal it says will expand customer options",
+              "source": "BBC News",
+              "published_at": "2026-10-29T15:05:15Z",
+              "summary": "Instacart shoppers will be able to buy from 150,000 stores, compared to the 100,000 currently available on the platform, the firms said.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bde4/live/a139f9d0-d3a2-11f1-a5cd-49637fcbd4e4.jpg",
+              "section_hint": "business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "scitech",
+      "title": "Science & Technology",
+      "stories": [
+        {
+          "section": "scitech",
+          "headline": "OpenAI, Google, Microsoft, and Anthropic agree on one opt-out button for AI scraping",
+          "what_happened": "The Verge reports that OpenAI, Google, Microsoft, and Anthropic will adopt a shared technical standard, a \"policy token,\" that lets publishers set their AI-training preferences once and have it apply across all participating companies. Previously, publishers had to configure scraping permissions separately for each AI company, often through inconsistent robots.txt rules or individual negotiations. The standard was first reported by Search Engine Roundtable before The Verge's coverage.",
+          "potential_implications": "This is less a truce than an attempt to standardize the terms of an ongoing extraction. A single opt-out token lowers the transaction cost for publishers to say no, which sounds like a win, but it also lets the AI companies claim good-faith compliance without changing the underlying economics: most publishers still have little leverage to negotiate payment rather than just permission. Watch whether adoption becomes genuinely industry-wide (smaller AI labs and scrapers have no obligation to honor the token) or whether it mainly serves as a liability shield for the big four while enforcement remains voluntary. The more interesting question is whether this standard quietly becomes the de facto legal baseline in future copyright litigation, since courts have been looking for exactly this kind of \"reasonable technical measure\" to assess good-faith behavior on both sides.",
+          "takes": [
+            {
+              "source": "The Verge",
+              "source_url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+              "text": "frames the move as a rare moment of cooperation among AI rivals, driven by mounting publisher pressure and copyright lawsuits, but notes the standard only works if companies outside this agreement choose to respect it too."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+            "attribution": "The Verge",
+            "attribution_url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+          },
+          "articles": [
+            {
+              "id": "7a24eca35f77e86d",
+              "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+              "title": "The biggest names in AI are backing a new way to opt out of scraping",
+              "source": "The Verge",
+              "published_at": "2026-10-30T20:26:10Z",
+              "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "GM settles for $220 million over selling driver data to insurers",
+          "what_happened": "General Motors has agreed to pay $220 million to resolve claims that it sold driving behavior data collected through its Smart Driver program to insurance companies without adequately informing customers. The data, gathered via connected-car features in GM vehicles, reportedly ended up influencing insurance pricing decisions for affected owners. Many drivers said they were unaware their driving habits were being tracked and monetized this way until it showed up in their insurance outcomes.",
+          "potential_implications": "This is the kind of settlement that looks small on a balance sheet ($220 million is roughly a rounding error for a company GM's size) but large as a signal: automakers have spent the last decade quietly building telematics into a data business, and regulators and plaintiffs' lawyers are starting to notice the gap between what consumers think they're consenting to and what's actually in the fine print. The obvious comparison is the earlier reporting on GM and other automakers selling similar data to LexisNexis and Verisk, which fed into insurance underwriting — this settlement suggests that exposure didn't go away, it just moved from headlines to courtrooms. Worth watching whether other automakers with similar programs (Honda, Hyundai, and others have run comparable telematics partnerships) face parallel suits, and whether this accelerates a push for clearer, opt-in consent standards for connected-car data nationally rather than the current patchwork of state privacy laws. The deeper tension here won't resolve with one settlement: car companies increasingly see data as a profit center as hardware margins compress, while the actual consent mechanisms for collecting that data remain buried in terms-of-service nobody reads.",
+          "takes": [
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+              "text": "frames this as another example of how opaque consent flows for connected-car features let automakers monetize driving data in ways owners never meaningfully agreed to, with insurance pricing as the tangible harm that finally forced a reckoning."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2018/05/myBuick-App-01-1152x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/"
+          },
+          "articles": [
+            {
+              "id": "287221e43fae3525",
+              "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+              "title": "GM to pay $220 million after selling customer Smart Driver data",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-30T13:53:20Z",
+              "summary": "Owners of GM cars found their driving data had been sold to insurance companies.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2018/05/myBuick-App-01-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "Rivian talks up robotaxi dreams while its actual car ramp gets less airtime",
+          "what_happened": "On Rivian's quarterly earnings call, CEO RJ Scaringe devoted more time discussing the company's unproven autonomous driving ambitions than updates on the production ramp of the R2 SUV, which is central to Rivian's near-term financial plan. The company confirmed it plans to roll out a point-to-point, hands-free driving feature later this year, starting in a limited capacity. This marks the first real-world test of the autonomy bet Scaringe has been talking up.",
+          "potential_implications": "Companies tend to talk about the future when the present is awkward, and Rivian's present includes the delicate, capital-intensive business of actually building R2s at scale and at a price that doesn't lose money on every unit. Pivoting the earnings-call narrative toward autonomy is a familiar move in this industry — it's cheaper to promise software magic than to report manufacturing yields, and investors have shown they'll reward the former more generously than the latter, at least for a while. The point-to-point rollout is the thing to actually watch, not the rhetoric around it: automated driving systems live or die on edge cases, and a 'limited' launch gives Rivian room to claim progress while avoiding the kind of broad exposure that turns one bad incident into a regulatory problem. Tesla's decade-long FSD saga is the obvious reference class here — ambitious timelines, incremental actual capability, and a stock price that moves more on the promise than the delivery. If Rivian's rollout slips or underwhelms, expect the narrative to quietly rotate back to R2 production numbers, which is really the metric that determines whether this company survives as a volume automaker.",
+          "takes": [
+            {
+              "source": "The Verge",
+              "source_url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+              "text": "frames the autonomy push as a gamble Rivian hasn't yet proven it can win, noting the company is leaning on big talk about self-driving while the more consequential R2 production ramp gets comparatively little attention on the call."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/gettyimages-2277183149.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.729245645597%2C100%2C78.541508708806&amp;w=1200",
+            "attribution": "The Verge",
+            "attribution_url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026"
+          },
+          "articles": [
+            {
+              "id": "256174e04f2a657a",
+              "url": "https://www.theverge.com/transportation/1023143/rivian-autonomy-point-to-point-robotaxi-q3-2026",
+              "title": "Rivian’s autonomy gamble faces its first real test",
+              "source": "The Verge",
+              "published_at": "2026-10-30T17:16:09Z",
+              "summary": "During an hourlong earnings call last night, Rivian CEO RJ Scaringe spent less time talking about the production ramp of the all-important R2 SUV than he did hyping the company's still-unproven autonomous vehicle ambitions. But the company faces a crucial test later this year, when it rolls out its point-to-point hands-free driving feature - first [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "NASA, again, asks the internet how to save Hubble from falling out of the sky",
+          "what_happened": "NASA has issued a new call for ideas on how to reboost the Hubble Space Telescope, whose orbit has been slowly decaying due to atmospheric drag. This echoes a similar request for proposals four years ago that ultimately went nowhere, including a SpaceX-backed study into a Dragon capsule rendezvous. Hubble has no functioning propulsion system of its own, so without external help it will eventually re-enter the atmosphere.",
+          "potential_implications": "The gap between NASA 'soliciting ideas' and NASA actually funding a mission is where a lot of good proposals go to die, and the fact that this is round two of the same ask four years later is itself informative: it suggests budget constraints, institutional caution, or both, rather than a lack of engineering options. The base rate for these open calls turning into funded missions is not great, especially with commercial launch costs still nontrivial and NASA's science budget under pressure. Worth watching whether this time a private player (SpaceX, Blue Origin, or a newer entrant) treats a reboost mission as a marketing opportunity rather than waiting for a NASA contract, since that's arguably what it would take to break the pattern from 2022. Absent that, Hubble's orbit keeps decaying on its own schedule regardless of how many rounds of ideas get collected.",
+          "takes": [
+            {
+              "source": "Ars Technica - All content",
+              "source_url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+              "text": "notes the dry irony of NASA re-running essentially the same request for ideas it made in 2022, which produced studies but no actual reboost mission, and wonders what's different this time."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/hst_vantor-1080x648.jpg",
+            "attribution": "Ars Technica - All content",
+            "attribution_url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/"
+          },
+          "articles": [
+            {
+              "id": "42f3da87a2d5718e",
+              "url": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+              "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
+              "source": "Ars Technica - All content",
+              "published_at": "2026-10-31T00:07:22Z",
+              "summary": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/hst_vantor-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "custom",
+      "title": "On the Radar: Wearables & Behavioral Health",
+      "stories": []
+    }
+  ],
+  "markets_moved": [
+    {
+      "platform": "kalshi",
+      "question": "Will Poland vote to leave the EU before 2030?",
+      "probability": 0.45,
+      "delta_pp": 41.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxeuexitcountry"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Gadi Eisenkot be the next Prime Minister of Israel?",
+      "probability": 0.53,
+      "delta_pp": 26.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxnextisraelpm"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Michael Faulkender be the next President of the Federal Reserve Bank of Atlanta before Jan 1, 2030?",
+      "probability": 0.88,
+      "delta_pp": 26.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxnextatlfed"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will KaiCenat become a billionaire before 2030?",
+      "probability": 0.07,
+      "delta_pp": -9.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxnetworthkaicenat"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Hungary hold a referendum on leaving the EU?",
+      "probability": 0.039,
+      "delta_pp": -8.1,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxeuref"
+    }
+  ],
+  "human_story": {
+    "headline": "Grieving Parents Ask Judge for Mercy on the Woman Who Killed Their Son",
+    "text": "An 80-year-old driver pleaded guilty after her car struck a shopping cart in a parking lot, killing the four-year-old boy inside it. Rather than demand punishment, the boy's parents wrote directly to the court: \"If the court is able to consider it, we respectfully request that she receive the lightest possible sentence.\" They described the driver not as a villain but as an elderly woman who would have to live the rest of her life with what happened, and said more suffering would not bring their son back. Their statement asked the justice system to extend to a stranger the same grace they were struggling to find for themselves.",
+    "source": "Good News Network",
+    "source_url": "https://www.goodnewsnetwork.org/bereaved-parents-ask-court-to-consider-lightest-possible-sentence-for-driver-who-killed-their-son/",
+    "image": {
+      "kind": "og",
+      "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/10/The-late-4-year-old-Osal-Pokhrel-credit-supplied-to-ABC-Au.jpg",
+      "attribution": "Good News Network",
+      "attribution_url": "https://www.goodnewsnetwork.org/bereaved-parents-ask-court-to-consider-lightest-possible-sentence-for-driver-who-killed-their-son/"
+    }
+  },
+  "photo": {
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Graveyard_27x39_ENGLISH.png/960px-Graveyard_27x39_ENGLISH.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "title": "Graveyard 27x39 ENGLISH.png",
+    "description": "MACS 2129-1 Galactic Graveyard: \"This chillingly haunted galaxy mysteriously stopped making stars only a few billion years after the Big Bang! It became a cosmic cemetery, illuminated by the red glow of decaying stars. Dare to enter, and you might encounter the frightening corpses of exoplanets or t",
+    "attribution": "NASA-JPL/Caltech (Public domain)",
+    "link": "https://commons.wikimedia.org/wiki/File:Graveyard_27x39_ENGLISH.png"
+  }
+}
