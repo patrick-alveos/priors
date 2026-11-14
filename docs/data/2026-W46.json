@@ -1,0 +1,1236 @@
+{
+  "week": "2026-W46",
+  "period_start": "2026-11-07",
+  "period_end": "2026-11-14",
+  "digest_name": "Priors",
+  "tagline": "Update your priors, weekly.",
+  "accent_color": "#3E5C48",
+  "sections": [
+    {
+      "key": "politics",
+      "title": "Politics & Geopolitics",
+      "stories": [
+        {
+          "section": "politics",
+          "headline": "FAA grounds every US flight for four hours, blames old equipment rather than hackers",
+          "what_happened": "The FAA issued a nationwide ground stop at 3:44pm ET on Friday, citing \"extraordinary circumstances\" after a communications failure hit air traffic control centers. It was lifted about four hours later, but not before more than 11,000 flights were delayed or canceled and ripple effects reached as far as Sydney and Melbourne. Transportation Secretary Sean Duffy said the cause was outdated equipment being overwhelmed by newer technology, not a cyberattack. It was only the third full nationwide ground stop in FAA history, and the longest since September 11.",
+          "potential_implications": "The headline fact here isn't the four hours of chaos — ground stops end, flights rebook, travelers grumble and move on. It's that the US air traffic control system apparently has a hard failure mode triggered by something as mundane as new tech overloading old infrastructure, with no cyberattack or weather event required. That's a more worrying finding than a one-off hack, because hacks get patched and this is structural: the same aging backbone handles every flight in the country, and it just showed it can buckle under ordinary modernization pressure. Expect a predictable cycle — congressional hearings, calls for accelerated NextGen-style ATC modernization funding, and probably no meaningful capital commitment until the next outage. The more interesting question is whether airlines and insurers start pricing in these events as a recurring tail risk (like weather delays) rather than a black swan, which would show up in everything from crew scheduling buffers to travel insurance premiums. Worth watching whether the FAA's root-cause report, once published, actually identifies a single point of failure — if it does, that's a roadmap for the next outage; if it's diffuse, that's arguably worse.",
+          "takes": [
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+              "text": "zeroes in on Sean Duffy's explanation that obsolete equipment, not malicious activity, caused the failure, treating it as a case study in deferred infrastructure maintenance finally catching up with the system."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage",
+              "text": "stays on the ground with stranded passengers, capturing the human frustration at JFK and other airports where travelers were pulled off planes mid-boarding, underscoring how little warning or communication accompanied the shutdown."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "530533c1157d7fd4",
+              "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+              "title": "What we know about the ground stop and what to do if you're affected",
+              "source": "BBC News",
+              "published_at": "2026-11-14T07:42:11Z",
+              "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "79f1de58c4924ea5",
+              "url": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o?at_medium=RSS&at_campaign=rss",
+              "title": "'We'll get home one day' - US travellers impacted by nationwide ground stop",
+              "source": "BBC News",
+              "published_at": "2026-11-14T01:47:36Z",
+              "summary": "Passengers throughout the country were impacted over what the Federal Aviation Administration (FAA) describes as “safety and communication issues”.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41c9/live/7d390f90-dfcc-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "8d6a28580c7d9f6c",
+              "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+              "title": "US flight outage: FAA lifts nationwide ground stop; Trump officials suggest new tech overwhelmed old equipment – as it happened",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T03:11:35Z",
+              "summary": "<p>This live blog is now closed. <a href=\"https://www.theguardian.com/world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues\"><strong>Follow our latest coverage here.</strong></a></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights\">US aviation agency lifts nationwide ground stop affecting all air travel</a></p></li><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage\">Chaos at US airports as flight stoppage grinds travel plans to a halt</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p><strong>In other tech-related news, the Microsoft outage",
+              "image_url": "https://i.guim.co.uk/img/media/b253768714365e4818d3fcf51ed796d8355c4e6d/278_0_2096_1677/master/2096.jpg?width=140&quality=85&auto=format&fit=max&s=b3473cf019d629ffa5a98aa182c75153",
+              "section_hint": "politics"
+            },
+            {
+              "id": "23c90df4ddc4221f",
+              "url": "https://www.theguardian.com/world/live/2026/nov/13/us-flight-outage-live-updates-faa-lifts-nationwide-ground-stop-as-airport-chaos-continues",
+              "title": "Airport chaos continues after US ground stop lifted – as it happened",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T05:55:53Z",
+              "summary": "<p>This blog is now closed. See our full reports:</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights\">US aviation agency lifts nationwide ground stop affecting all air travel</a></p></li><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage\">Chaos at US airports as flight stoppage grinds travel plans to a halt</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&amp;utm_campaign=BN22326&amp;utm_content=signup&amp;utm_term=standfirst&amp;utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>We’re wrapping up this live coverage of the US ground stop and travel chaos that followed – it’s just passed 12.50am in Washington DC. Below’s a rundown on what happened, and you can read a <a href=\"https://www.theguardian.com/world/2026/nov/13",
+              "image_url": "https://i.guim.co.uk/img/media/5c7b1147ac82c381b261de23a5d62f705015ec6b/0_0_4466_3575/master/4466.jpg?width=140&quality=85&auto=format&fit=max&s=4194fc221d8e7fed9091b4fda41a9df2",
+              "section_hint": "politics"
+            },
+            {
+              "id": "27fee21f2e308527",
+              "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+              "title": "Flights slowly resume after US aviation agency lifts nationwide ground stop",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T02:15:53Z",
+              "summary": "<p>Transportation secretary Sean Duffy says the airspace is now open and the problem has been identified</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage\">Chaos at US airports as stoppage grinds travel plans to a halt</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained\">What to know about the rare nationwide ground stop issued by the FAA</a></p></li></ul><p>Flights in the US have slowly started resuming after being grounded for several hours on Friday due to a major communications outage, but authorities have warned that a return to normal operations will take time.</p><p>The Federal Aviation Administration (FAA) lifted a nationwide ground stop about four hours after it was declared on Friday afternoon, delaying or canceling more than 11,000 US flights, according to aviation tracker <a href=\"https://www.flightaware.com/live/cancelled/\">FlightAware</a>, and throwing airports into su",
+              "image_url": "https://i.guim.co.uk/img/media/81eae192052ffa6405a52ee2ee448552f4d92481/683_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=fd2dbf21f21395c9bf79c41eeb755986",
+              "section_hint": "politics"
+            },
+            {
+              "id": "bc4fc00955f7d88d",
+              "url": "https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage",
+              "title": "‘It’s frustrating’: chaos at US airports as stoppage grinds travel plans to a halt",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T02:49:59Z",
+              "summary": "<p>Travelers and crew feeling ‘pissed’ or ‘lucky’ depending on level of upset amid nationwide ground stop</p><p></p><p>The US Federal Aviation Administration’s decision to ground all flights on Friday threw airports and travel plans into chaos across the country, as passengers on planes and in airport terminals were suddenly thrust into limbo.</p><p>At New York’s John F Kennedy airport, passengers found their travel plans abruptly cancelled – some even after they’d boarded.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/7ed43949a5180577da723e2bf8cbe9c1ff30a73b/116_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=a42d4b21d85e960cc27767128ff75b5b",
+              "section_hint": "politics"
+            },
+            {
+              "id": "d14e53aa75d4d6a1",
+              "url": "https://sg.news.yahoo.com/faa-abruptly-issues-national-ground-214050214.html",
+              "title": "FAA abruptly issues national ground stop for all US airports",
+              "source": "Yahoo News Singapore",
+              "published_at": "2026-11-13T21:40:50Z",
+              "summary": "Investing.com -- The Federal Aviation Administration issued a national ground stop for all US airports just short of 4pm ET on Friday due to what the agency described as \"extraordinary circumstances a...",
+              "image_url": "https://s.yimg.com/lo/mysterio/api/906d28ba0213896f40fdb12337e853169a241bf8f0aac9e8c9df0e73191d3815/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
+              "section_hint": "politics"
+            },
+            {
+              "id": "5dcffa1ce4752eab",
+              "url": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
+              "title": "Flights grounded across US after air traffic communications outage",
+              "source": "Reuters",
+              "published_at": "2026-11-13T21:38:00Z",
+              "summary": "The US Federal Aviation Administration grounded all departing flights nationwide on ​Friday after a communications failure hit air traffic control centers, in only the second such shutdown since the September 11, 2001, attacks.",
+              "image_url": "https://www.reuters.com/resizer/v2/BM7AWAQPPBL7FLIOPR37NW4MUY.jpg?auth=b209c45f32d2d8f5bcc2e68e7ddcf57d3cc6860ca1c92b3d46d176af4b40f8e6&height=1005&width=1920&quality=80&smart=true",
+              "section_hint": "politics"
+            },
+            {
+              "id": "e0dc4e0f56bf65a6",
+              "url": "https://www.nine.com.au/world-news/usa/flights-grounded-in-us-for-safety-reasons-20261114-p61e3w.html",
+              "title": "Flights grounded in US in ‘extraordinary circumstances’",
+              "source": "Nine.com.au",
+              "published_at": "2026-11-13T21:34:59Z",
+              "summary": "The country’s top aviation authority halted all flights across the US.",
+              "image_url": "https://static.ffx.io/images/$zoom_0.353%2C$multiply_3%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/c_scale%2Cw_1200%2Cq_88%2Cf_auto/a8bf49ca16a7822df20e6639dc6b7c664dc0e20593052b7f606ca9aca6bfff7b",
+              "section_hint": "politics"
+            },
+            {
+              "id": "c70223c0b4dc2dc2",
+              "url": "https://www.straitstimes.com/world/united-states/us-faa-grounds-all-departing-flights-due-to-extraordinary-circumstance-safety-reasons",
+              "title": "US flights grounded after air traffic outage",
+              "source": "The Straits Times",
+              "published_at": "2026-11-13T21:34:00Z",
+              "summary": "US flights grounded after air traffic communications outage causes nationwide delays and cancellations at airports across the country. Read more at straitstimes.com.",
+              "image_url": "https://cassette.sphdigital.com.sg/image/straitstimes/c01a9ac159190583715c7aeecb71cfa8efd2e0c3fa34192c1e916be1106ba466?t=og",
+              "section_hint": "politics"
+            },
+            {
+              "id": "18dae286c9766bdd",
+              "url": "https://www.thestar.com.my/news/world/2026/11/14/us-faa-grounds-all-departing-flights-due-to-extraordinary-circumstance-safety-reasons",
+              "title": "US to resume flights after air traffic network failure sparks chaos",
+              "source": "The Star",
+              "published_at": "2026-11-13T21:33:00Z",
+              "summary": "WASHINGTON, Nov 13 (Reuters) - ⁠The US Federal Aviation Administration lifted a nationwide ground stop on Friday after a communications failure at air traffic control centers caused chaos at airports and triggered the longest ⁠nationwide shutdown since the September 11, 2001, attacks.",
+              "image_url": "https://apicms.thestar.com.my/uploads/images/2026/11/14/4211850.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "8b3884b3cdd45cf6",
+              "url": "https://virginiabusiness.com/us-faa-grounds-all-departing-flights-safety/",
+              "title": "FAA grounds all departing flights due to extraordinary circumstance, safety reasons",
+              "source": "Virginia Business",
+              "published_at": "2026-11-13T21:29:34Z",
+              "summary": "The US Federal Aviation Administration grounded all departing flights nationwide due to safety concerns amid serious air traffic control communications issues.",
+              "image_url": "https://virginiabusiness.com/files/1/2026/11/2026-11-13T210825Z_1_LYNXNPEMAC1U4_RTROPTP_4_UNITED-ARLNS-M-A-AMERICAN-AIRLINES-650x400.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "15ee692dbf097aa2",
+              "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+              "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+              "source": "The Verge",
+              "published_at": "2026-11-14T01:53:04Z",
+              "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            },
+            {
+              "id": "bc782e87585c2bc1",
+              "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+              "title": "FAA has lifted its third-ever nationwide ground stop",
+              "source": "Ars Technica",
+              "published_at": "2026-11-13T23:17:38Z",
+              "summary": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-500x500.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "dc03a868a1fd93dc",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+              "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T04:56:06Z",
+              "summary": "<p>Sydney and Melbourne airports say flights were affected by now-lifted ban on departures in US</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer\">US flight outage – live updates</a></p></li><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Some US-bound flights from Sydney airport were grounded or delayed on Saturday after <a href=\"https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer\">American authorities halted departures and delayed landings at all US airports</a>.</p><p>Flights from Melbourne airport were also affected, with travel for pass",
+              "image_url": "https://i.guim.co.uk/img/media/0f73a43c7adabdff5e4709c7319a3e2dd6459d4d/2337_146_6560_5249/master/6560.jpg?width=140&quality=85&auto=format&fit=max&s=5e9b61407d5b8104eb046c8c98d7d409",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "Trump plans to meet Xi and Putin together in Shenzhen next week",
+          "what_happened": "The White House says Trump will hold what it's calling a historic joint meeting with Xi Jinping and Vladimir Putin in China next week, with nuclear weapons reduction on the agenda. Reuters, citing a New York Post report, says the trilateral summit will take place on the sidelines of the APEC conference in Shenzhen on Thursday. Neither Beijing nor Moscow has yet confirmed details publicly.",
+          "potential_implications": "A three-way sit-down between the leaders of the world's three largest nuclear arsenals has never happened before — the US and Russia have done bilateral arms control since the Cold War, but China has consistently refused to join those talks, arguing its stockpile is too small to warrant inclusion. If this actually happens and nuclear reduction is genuinely on the table, it would mark a real shift in how arms control gets negotiated, since any future framework that excludes China's growing arsenal is increasingly beside the point. Worth noting what this summit is probably not about: a prediction market puts the odds of Ukraine holding a presidential election before 2027 at just 3%, unchanged on the day, which suggests traders don't see this meeting as a step toward resolving the war through any kind of political reset in Kyiv. That's consistent with reading this as a separate, longer-horizon strategic track rather than a Ukraine peace process. The main uncertainty is simply whether it happens as described — the specifics are coming from a tabloid report relayed by Reuters, not an official joint statement, and summits involving three famously mercurial leaders have a way of changing shape or location before the cameras roll.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+              "text": "frames this as a genuinely unprecedented moment, built around the White House's own description of nuclear weapons reduction as a core topic of discussion."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will Ukraine hold a presidential election before Jan 1, 2027?",
+              "probability": 0.03,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxelectukraine"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "c680cb902e27912f",
+              "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+              "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+              "source": "BBC News",
+              "published_at": "2026-11-14T05:52:31Z",
+              "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "058b597427417481",
+              "url": "https://www.reuters.com/world/china/trump-hold-summit-with-xi-putin-shenzhen-thursday-ny-post-reports-2026-11-13/",
+              "title": "Trump to hold summit with Xi, Putin in Shenzhen on Thursday, NY Post reports",
+              "source": "Reuters",
+              "published_at": "2026-11-13T21:37:06Z",
+              "summary": "US President Donald Trump ‌will hold a trilateral summit with Chinese President Xi Jinping and Russian ​President Vladimir Putin on the ​sidelines of the annual APEC conference ⁠in Shenzhen on Thursday, the ​New York Post reported on Friday.",
+              "image_url": "https://www.reuters.com/resizer/v2/SGKUMMSJKFM25PSEC2ZGXAEA6A.jpg?auth=a62875982b8b31de0bfefa1741649740e43af1c6d470abaa46b6151eeb8e5560&height=1005&width=1920&quality=80&smart=true",
+              "section_hint": "business"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "Putin raises his price for peace while the West smells a trap",
+          "what_happened": "BBC's Steve Rosenberg reports that Vladimir Putin has hardened his demands in Ukraine peace talks, with Moscow treating the mere fact that European security is now part of the conversation as a win in itself. EU foreign policy chief Kaja Kallas warned at a Dublin summit that Russia is \"setting traps\" by trying to turn the talks into a broader debate about European security, diverting attention from the fact that Russia is the aggressor. Meanwhile Ukraine says SpaceX has again restricted Starshield connectivity in ways that limit its ability to intercept Russian strikes, Germany has given its intelligence services expanded powers against \"hybrid threats,\" Estonia has banned Russian and Belarusian athletes, Moscow suffered another car bombing targeting a Ukrainian exile's aide, and Ukraine captured its first Indonesian prisoner of war amid reports of surging foreign recruitment by Russia.",
+          "potential_implications": "The throughline here is that both sides are negotiating from positions that assume the war grinds on rather than resolves soon — Putin by expanding his asks, the EU by refusing to let the conversation drift from \"who invaded whom,\" and Ukraine by scrambling for both battlefield capacity (hence the Starshield dispute) and foreign manpower substitutes on the Russian side showing up as POWs from Java. A prediction market puts the odds of Ukraine holding a presidential election before 2028 at just 21%, flat over the past day — a reasonable proxy for how likely traders think a real settlement (the kind that would let Ukraine lift martial law and vote) is in the near term. That's a low number, and it should recalibrate anyone hoping the current round of talks produces more than another stalemate with better PR. The Starshield restriction is the detail worth watching most closely: if Ukraine's suspicion that speed limits are being used as leverage in talks is right, it means a private company's infrastructure decisions are now functionally a lever in a war between nation-states, which is a strange and underappreciated feature of this conflict. Germany's intelligence expansion and Estonia's athlete ban are smaller signals of the same thing — European states are treating this as a long hybrid conflict requiring institutional adaptation, not an emergency that ends when a ceasefire is signed.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+              "text": "frames Putin's escalating demands and the inclusion of European security in talks as a deliberate, and so far successful, Russian negotiating strategy."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+              "text": "relays Kaja Kallas's warning that Russia is manufacturing a security debate specifically to dilute blame for its own aggression, urging allies not to take the bait."
+            },
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/",
+              "text": "reports Ukraine's suspicion that SpaceX throttled Starshield to pressure it in peace negotiations, against SpaceX's denial that any restriction occurred."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will Ukraine hold a presidential election before Jan 1, 2028?",
+              "probability": 0.21,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxelectukraine"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/69b4/live/54139cb0-df82-11f1-b441-2b33b063138f.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "b13e18c3f67ad0a3",
+              "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+              "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+              "source": "BBC News",
+              "published_at": "2026-11-13T16:40:31Z",
+              "summary": "The fact the question of European security now features in discussions is viewed in Moscow as a victory, BBC Russia Editor Steve Rosenberg says.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a8d/live/606ff370-df85-11f1-93e1-3b657b665bcf.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "89879a69c60f85e7",
+              "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
+              "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-13T20:38:25Z",
+              "summary": "<p>Kaja Kallas says Moscow is trying to divert attention from its aggression by raising issue of European security</p><p>The EU’s foreign policy chief has warned against “walking into the traps that Russia is setting” as she said Moscow was trying to start a debate about European security in order to divert attention from its aggression.</p><p>“We have one aggressor and one victim, and the aggressor does not have security concerns,” Kaja Kallas said on arrival at an EU leaders’ summit in Dublin. “Nobody has ever attacked them. They have attacked others. I mean, keep the focus, people.”</p> <a href=\"https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/d169429d7a6f7e570a871b03d7a39e581e77f265/1443_446_3976_3181/master/3976.jpg?width=140&quality=85&auto=format&fit=max&s=335abbd675f9e2a81a30d3747adce55e",
+              "section_hint": "politics"
+            },
+            {
+              "id": "8bb3609cab28554e",
+              "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+              "source": "BBC News",
+              "published_at": "2026-11-12T13:02:46Z",
+              "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/333a/live/e63a2ff0-dea1-11f1-93e1-3b657b665bcf.png",
+              "section_hint": "politics"
+            },
+            {
+              "id": "1383d3f72891184d",
+              "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+              "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+              "source": "BBC News",
+              "published_at": "2026-11-13T13:11:23Z",
+              "summary": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4cda/live/d40d3460-df57-11f1-9172-871e44a840d8.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "2bbb0f47b100bd14",
+              "url": "https://www.bbc.co.uk/sport/articles/cm4gn9lvlgy2o?at_medium=RSS&at_campaign=rss",
+              "title": "Estonia bans Russian athletes as backlash intensifies",
+              "source": "BBC News",
+              "published_at": "2026-11-13T17:54:33Z",
+              "summary": "Estonia is the latest country to say it will not allow Russian or Belarusian athletes to compete on its territory as a result of the ongoing war in Ukraine.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1c85/live/160022d0-df88-11f1-93e1-3b657b665bcf.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "4b2ba019d6dfe8b3",
+              "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
+              "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-11T05:33:27Z",
+              "summary": "<p>Capture of man from Java follows reports that hundreds are being recruited from the south-east Asian country as Moscow seeks to boost its war effort</p><p>Ukraine says it has captured its first Indonesian prisoner of war, amid what it says is a spike in recruitment by Russia from the south-east Asian nation.</p><p>The 49-year-old man from Java was taken to Ukraine’s Zaporizhzhia region to take part in a Russian assault, but managed to reach Ukrainian-held territory after the group came under drone attack, according to Ukraine’s state-run I Want to Live project. He was then captured by the Ukrainians.</p> <a href=\"https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/65096d4645f0ba893acee8e385a8a46095fb0391/1113_504_4209_3367/master/4209.jpg?width=140&quality=85&auto=format&fit=max&s=8984b641ab37abc6325b231b8c5674cc",
+              "section_hint": "politics"
+            },
+            {
+              "id": "d8abbf5e7fce6b40",
+              "url": "https://arstechnica.com/tech-policy/2026/11/ukraine-says-spacex-starshield-is-restricted-again-spacex-claims-it-isnt/",
+              "title": "Ukraine says it can’t stop Russian strikes because Starshield is limited again",
+              "source": "Ars Technica",
+              "published_at": "2026-11-12T19:09:57Z",
+              "summary": "Report: Ukraine suspects speeds limits are intended to help Russia in peace talks.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/zelenskyy-500x500-1794506416.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "bbd27f699d942e66",
+              "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
+              "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+              "source": "BBC News",
+              "published_at": "2026-11-13T15:42:52Z",
+              "summary": "German reforms mean foreign and domestic intelligence services will have greater powers to combat espionage, terrorism and sabotage.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4a89/live/8263f580-df76-11f1-b844-3146c4983677.jpg",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "politics",
+          "headline": "Cargo ship rams docked cruise liner in New Orleans; everyone survives",
+          "what_happened": "A tanker, the Atlantic Asphalt, collided with the docked river cruise ship American Heritage on the Mississippi in New Orleans around 12:30pm Friday. The cruise ship began taking on water and was seen partially sinking at the dock. Thirty-two people were hospitalized with non-critical injuries, and officials confirmed all passengers and crew were accounted for — a outcome the city's mayor called a 'miracle on the Mississippi.'",
+          "potential_implications": "The headline number here — zero deaths, zero critical injuries, from a collision serious enough to partially sink a cruise ship — is the real story, and it's worth sitting with how lucky that is rather than treating it as the expected outcome. Collisions involving large vessels in busy ports don't usually resolve this cleanly; the fact that the ship was docked rather than underway, and that evacuation apparently went fast and orderly, probably did more work than any single piece of safety equipment. Expect the predictable aftermath: NTSB or Coast Guard investigation into how a tanker ended up striking a stationary vessel, scrutiny of Mississippi River traffic control near the port, and likely litigation between American Cruise Lines and the tanker's owners over liability. Whether this becomes a one-off local incident or triggers broader policy attention (speed limits, traffic separation schemes, insurance requirements for river cargo traffic near passenger vessels) will depend entirely on what the investigation finds about why the tanker didn't avoid a docked ship in daylight. If it turns out to be a mechanical failure or a navigational error, this could happen again anywhere ports mix slow-moving tourist vessels with industrial shipping — which is to say, most major river ports.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+              "text": "frames the outcome as remarkable given the scale of the collision, emphasizing that 32 hospitalizations with no critical injuries and no missing persons is an unusually favorable result for an incident this visually dramatic."
+            },
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+              "text": "leads with the mayor's framing of the event as a 'miracle,' underscoring local officials' relief and suggesting the human response during the collision — evacuation, rescue coordination — deserves as much attention as the mechanical cause."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0a5e/live/65a2f270-dfad-11f1-be1f-9dae57fabf82.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "2eafa4b1bb39d8eb",
+              "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+              "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+              "source": "BBC News",
+              "published_at": "2026-11-13T23:40:45Z",
+              "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a5e/live/65a2f270-dfad-11f1-be1f-9dae57fabf82.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "101d44ffbb4da315",
+              "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+              "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
+              "source": "BBC News",
+              "published_at": "2026-11-13T21:15:24Z",
+              "summary": "All passengers have been accounted for after a cargo ship collided with a docked cruise ship.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/880d/live/7334ea60-dfad-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "315e43dca758242d",
+              "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+              "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T03:11:28Z",
+              "summary": "<p>No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say</p><p>In what the city’s mayor declared a “miracle on the Mississippi”, all passengers were accounted for – with none killed or critically hurt – after a tanker collided with a river cruise ship docked on the Mississippi River in <a href=\"https://www.theguardian.com/us-news/new-orleans\">New Orleans</a> on Friday afternoon.</p><p>Thirty-two people were taken to local hospitals after the Atlantic Asphalt tanker struck American Cruise Lines’s American Heritage at about 12.30pm – but none of their injuries were considered critical, New Orleans’s mayor, Helena Moreno, said at a news conference.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=140&quality=85&auto=format&fit=max&s=dc3ae36c16dfe11867a2547932e2dc11",
+              "section_hint": "politics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "business",
+      "title": "Business & Markets",
+      "stories": [
+        {
+          "section": "business",
+          "headline": "Nvidia's spy scandal stops being a Jensen Huang story and becomes a Washington story",
+          "what_happened": "Jensen Huang resigned as Nvidia CEO last week after revelations of multiple affairs, including with a woman, Alice Huang, whom US intelligence reportedly believes was recruited by Chinese intelligence; the FBI is investigating and CFO Colette Kress is running the company on an interim basis. The scandal has since widened into a political fight: Treasury Secretary Scott Bessent publicly blamed Commerce Secretary Howard Lutnick's department for failing to restrict exports of Nvidia chips to a China-linked firm, and Senate and House Republicans are now summoning both Lutnick and Huang to testify. Separately, an analysis found Trump bought up to $5m of Nvidia stock before his administration rescinded a Biden-era rule limiting the chipmaker's ability to sell to China.",
+          "potential_implications": "A week ago this looked like a corporate governance story — a CEO undone by his personal life. It's now a story about whether the US government's AI-chip export policy was shaped by officials with financial or political stakes in the outcome, which is a much bigger problem than one executive's judgment. Cabinet officials publicly blaming each other is rarely a sign that an investigation is winding down; it's usually a sign everyone is positioning for when it doesn't. Watch for two things: whether Congress gets real testimony (vs. closed-door briefings that go nowhere), and whether export-control rules actually tighten in response, which would matter far more for Nvidia's China revenue than who replaces Huang. The stock drop already priced in succession uncertainty; a genuine policy reversal on China exports would be a second, separate hit that markets haven't fully absorbed yet. Also worth remembering the base rate here: Washington scandals that implicate multiple cabinet officials tend to produce hearings and headlines more often than actual policy change.",
+          "takes": [
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/12/jensen-huang-was-a-busted-flush-at-nvidia-he-had-to-go",
+              "text": "argues the 'irreplaceable genius' framing was always overstated — once Huang became a political liability, his technical brilliance couldn't save him, and the board's hand was forced within days."
+            },
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+              "text": "frames the Bessent-Lutnick split as the real story now, with cabinet officials publicly pointing fingers over who failed to block the chip exports in the first place."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/2783/live/a5cdb560-df6c-11f1-9892-87464bbcc2b8.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "c195611169542d12",
+              "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+              "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+              "source": "BBC News",
+              "published_at": "2026-11-13T19:53:57Z",
+              "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2783/live/a5cdb560-df6c-11f1-9892-87464bbcc2b8.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "50ed42af2146ca4c",
+              "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+              "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-13T19:51:28Z",
+              "summary": "<p>US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer\">US politics – live updates</a></p></li></ul><p>The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of action over the <a href=\"https://www.theguardian.com/technology/nvidia\">Nvidia spying scandal</a> as other Trump administration officials publicly raise questions over his decisions.</p><p>Scott Bessent, the US treasury secretary, blamed Lutnick’s commerce department for the fact the US had not imposed export restrictions on certain Nvidia chips to China.</p> <a href=\"https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/5534caea091e39afe776168281e50dd327c8be8e/563_0_3334_2668/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=62c117f622bf4e5987845906efdee2f7",
+              "section_hint": "politics"
+            },
+            {
+              "id": "64838ee6839b9ce3",
+              "url": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+              "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+              "source": "BBC News",
+              "published_at": "2026-11-13T12:22:30Z",
+              "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab0/live/068591d0-dee5-11f1-9bb0-8de7754c4db5.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "607d4d7557c40807",
+              "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+              "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+              "source": "BBC News",
+              "published_at": "2026-11-13T03:57:01Z",
+              "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "a603fb20f5ffaf85",
+              "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+              "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+              "source": "BBC News",
+              "published_at": "2026-11-12T15:10:32Z",
+              "summary": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1381/live/d9f5ab20-de97-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "9435eb24521189ad",
+              "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+              "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+              "source": "BBC News",
+              "published_at": "2026-11-10T22:52:15Z",
+              "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "9d5d87a4a4770378",
+              "url": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
+              "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
+              "source": "BBC News",
+              "published_at": "2026-11-10T09:23:55Z",
+              "summary": "Huang, who is now being investigated over an affair with an alleged Chinese spy, is far more important to the future of the world order than other tech bosses.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7d5c/live/48fcfe10-dc9a-11f1-adfe-2165436acfb4.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "4a9293f6fb187443",
+              "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+              "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+              "source": "BBC News",
+              "published_at": "2026-11-10T08:23:21Z",
+              "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/123a/live/434e87b0-dcd9-11f1-a701-fddedf244c16.png",
+              "section_hint": "business"
+            },
+            {
+              "id": "c4bc507025bdc22c",
+              "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+              "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+              "source": "BBC News",
+              "published_at": "2026-11-09T19:58:01Z",
+              "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f5c/live/7cc0b9e0-dc6c-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "a4177bf4c6759b03",
+              "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+              "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
+              "source": "BBC News",
+              "published_at": "2026-11-09T21:52:28Z",
+              "summary": "Jensen Huang is being investigated by his own company over an extramarital affair with a woman alleged to be a Chinese spy.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e4e6/live/9afaf360-dccd-11f1-9b78-45da8622c809.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "00916c7a76a8c68a",
+              "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+              "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+              "source": "BBC News",
+              "published_at": "2026-11-12T17:11:48Z",
+              "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/38db/live/e8339120-deb0-11f1-93e1-3b657b665bcf.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "e6c38db2fdfd90b5",
+              "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/12/jensen-huang-was-a-busted-flush-at-nvidia-he-had-to-go",
+              "title": "Jensen Huang was a busted flush at Nvidia – he had to go | Nils Pratley",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-12T18:46:48Z",
+              "summary": "<p>CEO was viewed as ‘irreplaceable’, but recklessness of affair with a woman regarded by US officials as a Chinese spy made him a political liability</p><p>Half the tech world made up its mind before the facts could be assessed properly. <a href=\"https://www.theguardian.com/technology/2026/nov/12/rise-and-fall-of-nvidia-ceo-jensen-huang-profile\">Jensen Huang</a> was “irreplaceable”, said the chorus at the start of this week. Nvidia would melt without the co-founder’s brilliance, apparently. The chipmaker’s board had to find a way to save its genius for the sake of corporate America and the entire AI universe.</p><p>It was always nonsense because, after the passage of only a few days since his confession of infidelity, Huang looked less like a towering corporate titan and more like a political liability.</p> <a href=\"https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/12/jensen-huang-was-a-busted-flush-at-nvidia-he-had-to-go\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/66294c0dc06bc9275cba93a84e6baed88521c2d7/125_0_4666_3734/master/4666.jpg?width=140&quality=85&auto=format&fit=max&s=9ba5d12b3d2914c76c4d3abd59946972",
+              "section_hint": "business"
+            },
+            {
+              "id": "cefa365982641671",
+              "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement",
+              "title": "Who is Colette Kress, interim Nvidia CEO after Jensen Huang exit?",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-13T03:02:06Z",
+              "summary": "<p>Chief financial officer, reportedly disparaged by Huang during summer meeting, to take over on short-term basis</p><p>The hunt is on for a new Nvidia CEO. It comes after a whirlwind week, which saw the company head and co-founder, Jensen Huang, <a href=\"https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns\">resign amid multiple allegations of extramarital affairs</a>, including one that involved an alleged Chinese spy and two with company employees.</p><p>Nvidia immediately named Colette Kress, the company’s chief financial officer, as the interim CEO. It’s possible she could stay on permanently, but the company could also name another candidate for the full-time role. Names that have been floated include Ian Buck, who manages Nvidia’s AI hardware and software products, and Rene Haas, a former Nvidia employee and the current CEO of Arm Holdings, a UK-based chipmaker.</p> <a href=\"https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-",
+              "image_url": "https://i.guim.co.uk/img/media/16a9e0aed91c3b4022e42015b6599e223f5d81ab/0_0_1920_1536/master/1920.jpg?width=140&quality=85&auto=format&fit=max&s=ee231f477f9f6916b617e58d71aa04d5",
+              "section_hint": "business"
+            },
+            {
+              "id": "7b66a331e423f047",
+              "url": "https://www.theguardian.com/technology/2026/nov/12/rise-and-fall-of-nvidia-ceo-jensen-huang-profile",
+              "title": "From washing dishes at Denny’s to rockstar of AI: the rise and fall of Nvidia’s Jensen Huang",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-12T16:17:31Z",
+              "summary": "<p>Technical expertise and an ability to engage gave the chipmaker’s co-founder, who has now resigned, the edge with customers and investors</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns\">Jensen Huang resigns as Nvidia CEO after alleged affairs</a></p></li></ul><p>Jensen Huang wasn’t always in his trademark leather jacket. When the multibillionaire, now former Nvidia chief executive was a teenager in the US, his first job was waiting tables and washing dishes at a branch of Denny’s.</p><p>“It teaches you humility, it teaches you hard work, it teaches you hospitality,” he <a href=\"https://blogs.nvidia.com/blog/nvidia-dennys-trillion/\">said in 2023</a> of his time at the diner chain.</p> <a href=\"https://www.theguardian.com/technology/2026/nov/12/rise-and-fall-of-nvidia-ceo-jensen-huang-profile\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/4f9683fbbfdd45578aed86831c5b687b7941173e/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=8d253c6e95d1c55b4d8c35c2be6c4681",
+              "section_hint": "business"
+            },
+            {
+              "id": "e479559e2c0a731c",
+              "url": "https://www.theguardian.com/news/video/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest",
+              "title": "Why the Nvidia scandal is far from over - The Latest",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-13T19:20:53Z",
+              "summary": "<p>Jensen Huang’s resignation from the AI chipmaker Nvidia has sent shockwaves through the global economy. Huang resigned after reported affairs with an Nvidia executive and a woman alleged to be a Chinese spy. The fallout is not over yet, with criticism mounting over the apparent lack of action from the US commerce secretary, Howard Lutnick. Lucy Hough speaks to the Guardian’s global technology reporter, Aisha Down</p> <a href=\"https://www.theguardian.com/news/video/2026/nov/13/why-the-nvidia-scandal-is-far-from-over-the-latest\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/efda49c642dc93a6160523af97a8890ea5f8d2b2/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=7d1ea2a1b9b5d7bf48b86bfa9406c117",
+              "section_hint": "business"
+            },
+            {
+              "id": "7f77f02b44a0c08e",
+              "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/13/martin-rowson-on-the-downfall-of-nvidias-jensen-huang-cartoon",
+              "title": "Martin Rowson on the downfall of Nvidia’s Jensen Huang – cartoon",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-13T18:08:47Z",
+              "summary": "<a href=\"https://www.theguardian.com/commentisfree/picture/2026/nov/13/martin-rowson-on-the-downfall-of-nvidias-jensen-huang-cartoon\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/29e4cdae466853636612a0f6cf544d6b2dd30c37/27_0_4163_3330/master/4163.jpg?width=140&quality=85&auto=format&fit=max&s=1e9fb0fa0954a20ea26b7651241e9839",
+              "section_hint": "business"
+            },
+            {
+              "id": "59d35bd98e0729bd",
+              "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+              "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+              "source": "BBC News",
+              "published_at": "2026-11-13T23:00:31Z",
+              "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c559/live/a40793d0-df4a-11f1-a48c-75dd2efdacb5.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "ce5e1fa823cbaec2",
+              "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+              "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-12T06:43:31Z",
+              "summary": "<p>In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close ties to Nvidia chief Jensen Huang</p><p></p><p>Good morning. Espionage is supposed to be a secretive business, and spies are supposed to be virtually invisible. That hasn’t been the case for Alice Huang, the mysterious Shanghai executive who formed a romantic relationship with Jensen Huang, the founder of Nvidia, one of America’s most powerful tech companies.</p><p>Many questions have arisen since it emerged that US intelligence believes that Huang (no relation of Jensen’s) is an asset recruited by the Chinese intelligence services to spy on behalf of Beijing. This morning’s newsletter explains what we know about the story, and what it tells us about the effectiveness of Chinese espionage. That’s after the headlines.</p><p><em><strong>UK </strong></em>| Ministers are considering <a href=\"https://www.t",
+              "image_url": "https://i.guim.co.uk/img/media/b76023068afd6989a4d83782e8ad21ac88094570/335_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=ae6e7cc781873a609353d81df20f9e53",
+              "section_hint": "politics"
+            },
+            {
+              "id": "333b68bc9674a98d",
+              "url": "https://www.theguardian.com/us-news/2026/nov/13/trump-nvidia-stock-jensen-huang-us-china",
+              "title": "Trump bought Nvidia stock as he helped chipmaker with change to export rule",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-13T19:09:05Z",
+              "summary": "<p>President purchased up to $5m of stock before revoking Biden-era rule that limited Nvidia’s ability to sell to China</p><p>Donald Trump bought Nvidia stock worth millions of dollars as he made decisions on America’s China policy that would benefit the chipmaker, an analysis has <a href=\"https://dekleptocracy.substack.com/p/the-chinese-spy-got-the-headlines?r=5dby7n\">found</a>.</p><p>In May 2025, Trump’s administration <a href=\"https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens\">rescinded</a> a Biden-era rule designed to prevent the most advanced US-made AI chips from being exported to China.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/13/trump-nvidia-stock-jensen-huang-us-china\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/5d5bae65dfe648ee0640fe44d78bbefc78d94a15/69_0_2057_1645/master/2057.jpg?width=140&quality=85&auto=format&fit=max&s=d8a807e89eb2444738f7d753deae084d",
+              "section_hint": "business"
+            },
+            {
+              "id": "3de9b4cff7de1659",
+              "url": "https://www.freemalaysiatoday.com/category/highlight/2026/11/14/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports",
+              "title": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
+              "source": "Free Malaysia Today",
+              "published_at": "2026-11-13T21:38:00Z",
+              "summary": "Rene Haas’ knowledge of Nvidia and experience leading a publicly listed chipmaker could make him a strong candidate for the role.",
+              "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/36904dab-7a79-416d-86c1-2456ecc1a6b1-Rene-Haas-ARM-EPA-14112026-.webp",
+              "section_hint": "business"
+            },
+            {
+              "id": "4175249a825a9e38",
+              "url": "https://abcnews.com/Politics/house-senate-republicans-call-howard-lutnick-jensen-huang/story?id=138111390",
+              "title": "House and Senate Republicans call on Howard Lutnick, Jensen Huang to testify about Nvidia",
+              "source": "ABC News - Breaking News, Latest News and Videos",
+              "published_at": "2026-11-13T21:41:08Z",
+              "summary": "Senate Banking Committee Chairman Tim Scott, a Republican, sent letters to both Huang and Lutnick to publicly testify in front of the committee",
+              "image_url": "https://i.abcnewsfe.com/a/4de93f85-95fc-44b3-b318-3d16ec35ec86/lutnick-3-ap-gmh-261113_1794580135333_hpMain_16x9.jpg?w=1600",
+              "section_hint": "business"
+            },
+            {
+              "id": "a0496c5bf3e13bec",
+              "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+              "title": "Jensen Huang was reckless with the environment, too",
+              "source": "The Verge",
+              "published_at": "2026-11-13T17:44:22Z",
+              "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories, drained power grids from inside massive data centers, and set the stage for a looming e-waste problem. Under Huang's [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            },
+            {
+              "id": "328ba88c51539f84",
+              "url": "https://www.reuters.com/business/media-telecom/bollywood-clippy-nvidia-scandal-outlook-glitch-fuel-meme-storm-2026-11-13/",
+              "title": "From Bollywood to Clippy: Nvidia scandal, Outlook glitch fuel meme storm",
+              "source": "Reuters",
+              "published_at": "2026-11-13T21:31:33Z",
+              "summary": "Jensen Huang as a Bollywood matinee idol, as a character from \"The Matrix\" or donning a red velvet suit on a poster for an alternate-universe version of \"The Spy Who Shagged Me\": the ​Nvidia co-founder's extramarital affairs, including with a Chinese businesswoman, set the Internet afire this week.",
+              "image_url": "https://www.reuters.com/resizer/v2/GWNLUR3ECNPCBF6B2AFE3SMHOQ.jpg?auth=ca0674003aa61832fcfc4a58bf79781bc94c97fbc3a718ea613b49470591c39d&height=1005&width=1920&quality=80&smart=true",
+              "section_hint": "politics"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "Microsoft's day-long outage knocks out Outlook and Teams worldwide, bill likely in the billions",
+          "what_happened": "A global outage took down Microsoft 365 services including Outlook, Teams, Word, and Excel for roughly a day to two days starting November 13, hitting hospitals, schools, police, courts, and businesses across multiple countries. Microsoft said the cause was a technical issue tied to failed server health checks, not a cyberattack, and confirmed by November 14 that services were fully restored. The company called itself \"deeply sorry\" for the disruption, which affected millions of users globally.",
+          "potential_implications": "The real story here isn't the outage itself—cloud providers go down, that's a Tuesday—it's what the outage revealed about concentration risk. When one company's server health-check bug can simultaneously disrupt hospitals, police, schools, and small businesses across an entire country, that's not really a Microsoft story anymore, it's a story about how much critical infrastructure has been quietly consolidated onto a handful of platforms. Australia's billion-dollar exposure estimate is the kind of number that sounds dramatic until you remember how many countries have made the same bet on the same vendor. The base rate question worth asking: how many of these does it take before governments start mandating multi-cloud redundancy for critical services, the way they do for, say, electrical grids? My guess is still not many—past outages (CrowdStrike, AWS) generated similar hand-wringing and approximately zero structural change, because the switching costs and coordination problems dwarf the one-time pain of an outage. Unless regulators actually force the issue, expect this to be forgotten in a news cycle, filed next to every other 'wake-up call' that didn't wake anyone up.",
+          "takes": [
+            {
+              "source": "World news | The Guardian",
+              "source_url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+              "text": "frames the outage as exposing a dangerous national dependency, with experts warning it could force small Australian businesses to close and cost the economy billions."
+            },
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+              "text": "argues the scope of this outage may actually exceed the infamous CrowdStrike and Amazon incidents, given how many governments and hospitals were caught in the blast radius."
+            },
+            {
+              "source": "The Verge",
+              "source_url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+              "text": "takes the more mundane view from the user's seat: a nearly two-day slog of degraded service, with staffers watching email access flicker back only gradually."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "f83f812563eb29b6",
+              "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+              "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+              "source": "BBC News",
+              "published_at": "2026-11-13T18:36:57Z",
+              "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddf/live/8578f720-df49-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "334ebcca23065263",
+              "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+              "title": "Microsoft says services fully restored after day-long global outage",
+              "source": "BBC News",
+              "published_at": "2026-11-14T06:42:27Z",
+              "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "44454294e0b6a22b",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
+              "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-14T06:19:04Z",
+              "summary": "<p>Experts say disruption<strong> </strong>exposes ‘Australia’s reliance on foreign technology’ as software giant says services being restored</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The <a href=\"https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports\">Microsoft outage</a> could be a disaster for the Australian economy that forces some small businesses to close, with costs expected to run into the billions of dollars, experts have warned.</p><p>The US software company has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”.</p> <a href=\"https://www.theg",
+              "image_url": "https://i.guim.co.uk/img/media/6e00c0e827484eda171fc2f542c59ea59f98fec9/411_82_4687_3752/master/4687.jpg?width=140&quality=85&auto=format&fit=max&s=32d07acfc6c3a30cd9dc6332d3e3023c",
+              "section_hint": "politics"
+            },
+            {
+              "id": "af1bb13de8c34912",
+              "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+              "title": "Microsoft outage: company scrambles to fix global issue that took down Outlook and Teams",
+              "source": "World news | The Guardian",
+              "published_at": "2026-11-13T17:41:15Z",
+              "summary": "<p>Tech firm says it is ‘deeply sorry’ for disruption that took services down and has now addressed the underlying issue</p><ul><li><p><a href=\"https://www.theguardian.com/australia-news/2026/nov/13/global-microsoft-outage-what-happened-and-why\">What caused the outage and when will it be fixed?</a></p></li><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk\">Microsoft outage hits UK hospitals, GPs, schools and police</a></p></li><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/13/tell-us-have-you-been-affected-by-the-microsoft-outage\">Tell us: have you been affected by the outage?</a></p></li></ul><p>Microsoft has said it is “deeply sorry” for a widespread outage that caused disruption to millions of users, organisations and businesses across the globe – and that it has “addressed the underlying issue”.</p><p>The company said the outage was a “technical issue” not related to cyber-attacks",
+              "image_url": "https://i.guim.co.uk/img/media/dfa589c16097054908f431498d8161b7edbee12f/399_0_6288_5030/master/6288.jpg?width=140&quality=85&auto=format&fit=max&s=3759adfe789d05387c776999255cfb34",
+              "section_hint": "politics"
+            },
+            {
+              "id": "c686db44040ed87b",
+              "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+              "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+              "source": "Ars Technica",
+              "published_at": "2026-11-13T15:26:53Z",
+              "summary": "Governments, hospitals, courts scrambled by global Microsoft outage.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2191081646-500x500-1794581824.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "6c41593b576c3b07",
+              "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+              "title": "Microsoft&#8217;s massive Outlook outage might be over",
+              "source": "The Verge",
+              "published_at": "2026-11-13T16:17:11Z",
+              "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail [&#8230;]",
+              "image_url": null,
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "UK economy grows 0.7% in Q3, fastest clip in over two years, and AI is doing suspicious amounts of the lifting",
+          "what_happened": "The UK economy grew 0.7% in the three months to September, the fastest quarterly expansion in more than two years, according to official figures. That pace puts the UK on track to be the second-fastest growing G7 economy this year. The growth comes despite forecasts made when John Healey became chancellor in July that global headwinds, including the war in the Middle East and rising inflation, would slow the UK to a crawl.",
+          "potential_implications": "The obvious question is how much of this growth is a durable broadening of the economy versus a narrow AI investment boom that happens to be concentrated in a few sectors and firms. If it's the latter, the headline number can mask a lot of fragility underneath — the kind of thing that looks great in the GDP print and terrible in the regional unemployment stats. Worth remembering the base rate here: economies that 'surprisingly' beat expectations for several quarters in a row often do so on the back of one or two outsized contributors, and those contributors can reverse just as sharply as they appeared, especially if the AI capex cycle that's reportedly driving this cools off globally. Add in rising energy bills this winter, which squeeze consumer spending in a much more broad-based way than AI investment boosts it, and the resilience story looks more contingent than triumphant. None of this means the growth is fake or that a slowdown is imminent — forecasters have been wrong about UK gloom all year — but it does mean the right posture is cautious interest rather than confidence that the good numbers compound.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
+              "text": "notes the UK's resilience has repeatedly wrongfooted forecasters this year but is careful not to declare the trend durable, since much of the strength traces to a handful of specific, possibly temporary, drivers."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
+              "text": "argues the chancellor's defiance is earned for now, but that AI investment is doing an outsized share of the work, leaving growth exposed to a tech slowdown or a rough winter of energy bills."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5d49/live/b6cded90-deb2-11f1-a701-fddedf244c16.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "5942e4df535d0943",
+              "url": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
+              "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+              "source": "BBC News",
+              "published_at": "2026-11-12T13:27:09Z",
+              "summary": "The UK is seeing impressive growth, but will it last?",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d49/live/b6cded90-deb2-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "1b127e2f67ca793c",
+              "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+              "title": "UK economy grows at fastest rate for more than two years",
+              "source": "BBC News",
+              "published_at": "2026-11-12T11:20:25Z",
+              "summary": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b029/live/c4ae2930-de89-11f1-b441-2b33b063138f.jpg",
+              "section_hint": "business"
+            },
+            {
+              "id": "0c7011b5ac2f323f",
+              "url": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
+              "title": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-12T13:08:12Z",
+              "summary": "<p>Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp\">AI helps UK economy grow at fastest pace for more than two years</a></p></li></ul><p>The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not last. The global economic headwinds were too strong, inflation was beginning to rise and growth would slow to a trickle.</p><p>Four months into the job, the economy is continuing to defy expectations after <a href=\"https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp\">growing by 0.7% in the third quarter</a> – the fastest expansion in two and a half years. It puts the UK on course to be the second-fastest growing G7 economy this year.</p> <a href=\"https://www.theguardian.com/business/2026/nov/12/ai-u",
+              "image_url": "https://i.guim.co.uk/img/media/9f8f14e2a01ec8c9a4d21b8b65ed45042405e31d/820_0_5862_4690/master/5862.jpg?width=140&quality=85&auto=format&fit=max&s=7f6da137da3ee2aac8277aa8d883eebd",
+              "section_hint": "business"
+            }
+          ]
+        },
+        {
+          "section": "business",
+          "headline": "Anthropic prices IPO below hype, still valuing Claude maker near $1.3 trillion",
+          "what_happened": "Anthropic, the AI company behind the Claude chatbot, is proceeding with a stock market listing that would value it around $1.3 trillion. The company set its share price range at $70 to $78, below earlier expectations. The listing comes even as Anthropic's own researchers have warned about 'catastrophic' risks from advanced AI systems.",
+          "potential_implications": "A trillion-dollar valuation for a company whose leadership has publicly flagged existential risk from its own product is the kind of cognitive dissonance that markets are usually happy to ignore, and apparently still are here — just slightly less enthusiastically than bankers hoped, hence the lower price range. The prediction markets in front of me are a bit of a mess (two near-identical questions returning 99% and 2%, probably a labeling glitch rather than real disagreement), but if the underlying bet is 'OpenAI IPOs before Anthropic,' then this listing is worth watching closely: it would mean the market's strong prior (99%) is about to be tested against a company that just set a concrete price range, something OpenAI hasn't done. More broadly, a successful Anthropic IPO — even at a trimmed valuation — would be read as confirmation that public investors are willing to underwrite frontier AI labs at private-market prices, which has second-order effects on how much capital flows into AI safety research versus scaling, and how much pressure labs feel to monetize fast rather than deliberate carefully.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+              "text": "frames the lowered price range as a sign investor appetite for AI is cooling slightly even as the eye-popping valuation and the company's own catastrophic-risk warnings sit uneasily side by side."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will Open AI or Anthropic IPO first?",
+              "probability": 0.99,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxoaianth"
+            },
+            {
+              "platform": "kalshi",
+              "question": "Will OpenAI or Anthropic IPO first?",
+              "probability": 0.02,
+              "delta_pp": 0.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxoaianth"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "c67f8109386fc65f",
+              "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+              "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+              "source": "BBC News",
+              "published_at": "2026-11-10T17:56:12Z",
+              "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg",
+              "section_hint": "business"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "scitech",
+      "title": "Science & Technology",
+      "stories": [
+        {
+          "section": "scitech",
+          "headline": "Starship's booster misses its catch, but the ship still made orbit",
+          "what_happened": "SpaceX launched Starship flight 15 from Starbase, Texas on Friday, attempting the first \"double catch\" of both the booster and upper-stage ship using the launch tower's mechanical arms. The booster catch was aborted mid-descent and the booster instead splashed down in the Gulf of Mexico. The ship itself reached orbit and was expected to circle Earth roughly 14 times over 22 hours before SpaceX attempted a separate catch of it back at Starbase.",
+          "potential_implications": "This is roughly how SpaceX has always done rocket development: fly, fail partially, collect telemetry, fly again a few weeks later with fixes. A failed booster catch after a successful ascent is closer to \"on track\" than \"setback\" by Starship's historical batting average — most of its early flights ended in explosions, not ocean splashdowns a few hundred meters off target. The prediction markets seem to agree with that read: odds of SpaceX landing anything on Mars before 2030 actually ticked up 4 points to 21% day-over-day, suggesting traders weighted the successful orbital insertion more heavily than the missed catch. Meanwhile, the market on whether Blue Origin beats SpaceX to an uncrewed lunar landing slipped 2 points to 71%, a small signal that Starship's lunar timeline looks marginally less hopeless than before. None of this moves much on its own — a few points on a day-over-day market is noise as much as signal — but the pattern is consistent: investors are pricing Starship's trajectory on cumulative progress, not on any single flight's outcome.",
+          "takes": [
+            {
+              "source": "BBC News",
+              "source_url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+              "text": "frames the flight primarily as a setback, emphasizing that the booster catch was aborted and the hardware ended up in the ocean rather than back on the tower."
+            },
+            {
+              "source": "Business | The Guardian",
+              "source_url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+              "text": "focuses on the scale of the ambition — the world's largest rocket attempting roughly 14 orbits over 22 hours before a planned catch — framing the booster miss as falling short of history rather than a failure outright."
+            },
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+              "text": "takes the engineer's view, noting that whatever happens with the ship's catch attempt, SpaceX will walk away with more flight data either way — the point of these tests isn't perfection, it's information."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will SpaceX land anything on Mars before 2030?",
+              "probability": 0.21,
+              "delta_pp": 4.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxspacexmars"
+            },
+            {
+              "platform": "kalshi",
+              "question": "Will Blue Origin land an uncrewed Blue Moon MK1 lander on the moon before SpaceX lands an uncrewed Starship?",
+              "probability": 0.71,
+              "delta_pp": -2.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxbluespacex"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1b1a/live/3f2ee680-dfbc-11f1-9e98-11d1980367a2.jpg",
+            "attribution": "BBC News",
+            "attribution_url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss"
+          },
+          "articles": [
+            {
+              "id": "8573d9e8e576a4ad",
+              "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+              "title": "Setback for SpaceX Starship rocket's double-catch test",
+              "source": "BBC News",
+              "published_at": "2026-11-14T00:01:01Z",
+              "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+              "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b1a/live/3f2ee680-dfbc-11f1-9e98-11d1980367a2.jpg",
+              "section_hint": "politics"
+            },
+            {
+              "id": "e969adccebcd7fe0",
+              "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
+              "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
+              "source": "Business | The Guardian",
+              "published_at": "2026-11-14T00:53:52Z",
+              "summary": "<p>Flight<em><strong> </strong></em>15 expected to orbit Earth about 14 times over 22 hours, before company catches it at Starbase, Texas</p><p>SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon as the aerospace company sought to make history with a double catch of its reusable rocket, but ultimately fell short.</p><p>Starship, the world’s largest rocket, standing at 407ft, is expected to orbit Earth about 14 times over the course of 22 hours, before the company catches the rocket at its launchpad at Starbase in south Texas.</p> <a href=\"https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit\">Continue reading...</a>",
+              "image_url": "https://i.guim.co.uk/img/media/e49347059f6c48431222b1105f2ca576e92c1c82/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=5c0c6d7edd01447ecc6dda30577aeb3d",
+              "section_hint": "business"
+            },
+            {
+              "id": "1b95d3d772c741e3",
+              "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+              "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+              "source": "Ars Technica",
+              "published_at": "2026-11-14T00:49:13Z",
+              "summary": "One way or another, the company will get some more data on Saturday.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305018954-500x500.jpg",
+              "section_hint": "scitech"
+            },
+            {
+              "id": "3f9024d2cc02fdbf",
+              "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+              "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+              "source": "Ars Technica",
+              "published_at": "2026-11-13T12:00:40Z",
+              "summary": "\"You can simplify it as a big tank feeding engines.\"",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/electron-livery-500x500.jpeg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "An OpenAI board member says AI takeover could be months, not years, away",
+          "what_happened": "A member of OpenAI's board publicly warned that an AI-driven \"takeover\" of society could happen within months, laying out a causal chain from reward hacking in current AI systems to a scenario of human extinction. The warning, reported by Ars Technica, treats reward hacking — where a model optimizes for its stated objective in ways its designers didn't intend — as the seed of much larger failures as systems get more capable and more autonomous. No specific technical breakthrough or new model was cited as the trigger; the concern is about trajectory, not a single event.",
+          "potential_implications": "Take the headline with the same skepticism you'd apply to any single insider's timeline, board seat or not: people close to frontier labs have been wrong in both directions before, and \"months away\" is the kind of claim that ages either very well or very badly with no middle ground. Prediction markets, for what it's worth, aren't moving with him — the chance of any company announcing AGI before 2027 sits at just 5% (down 2 points on the day), and even the longer 2028 window is only at 56% (also down 2 points), both ticking toward skepticism rather than alarm. That said, \"takeover\" and \"AGI announcement\" are different thresholds; you don't need a lab to declare AGI for a sufficiently capable, sufficiently autonomous system to cause outsized harm through the kind of reward-hacking failure modes already observed in miniature today. The more useful update here isn't about timelines, which are near-impossible to forecast with any rigor, but about who's saying this: when people with inside access and no obvious incentive to hype doom start sounding alarmed, it's worth asking what they're seeing that the rest of us aren't — even while recognizing that insider alarm has a long history of being both the earliest warning and the false one.",
+          "takes": [
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+              "text": "frames the warning as a technically grounded extrapolation from observed reward-hacking behavior rather than speculative science fiction, while noting that the researcher's own closeness to OpenAI invites questions about incentives, access, and whether the warning is calibrated or performative."
+            }
+          ],
+          "forecasts": [
+            {
+              "platform": "kalshi",
+              "question": "Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jan 1, 2027?",
+              "probability": 0.05,
+              "delta_pp": -2.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxagico"
+            },
+            {
+              "platform": "kalshi",
+              "question": "Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jan 1, 2028?",
+              "probability": 0.56,
+              "delta_pp": -2.0,
+              "delta_label": "day-over-day",
+              "url": "https://kalshi.com/markets/kxagico"
+            }
+          ],
+          "no_market_note": false,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-1152x648.jpg",
+            "attribution": "Ars Technica",
+            "attribution_url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/"
+          },
+          "articles": [
+            {
+              "id": "4513c6ea6021e8f2",
+              "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+              "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+              "source": "Ars Technica",
+              "published_at": "2026-11-13T17:25:45Z",
+              "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ai-destination-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "Google skips its usual careful rollout for the new Gemini 4 Hydrogen model",
+          "what_happened": "Google has released Gemini 4 Hydrogen, positioned as the replacement for Gemini 3.8 Flash in its lineup. According to Ars Technica, the rollout breaks from the pattern set by the two prior releases, Carbon and Argon, which shipped slowly with extra security review built in. Hydrogen is instead going out broadly and quickly, suggesting Google has changed its release calculus for this generation.",
+          "potential_implications": "The interesting question isn't the model itself but what the change in release cadence says about Google's priorities. A slow, security-conscious rollout is expensive in calendar time, and calendar time is exactly what you don't have when OpenAI and Anthropic are shipping updates every few weeks. If Google is trading review time for speed, that's a bet that competitive position now matters more than catching edge-case failures before millions of users do. This is a pattern worth watching across the industry: the first mover on a new safety process usually sets the bar, and then competitive pressure erodes it release by release, not because anyone decided safety stopped mattering but because nobody wants to be the one still doing six-week reviews when everyone else ships in six days. For enterprise users, the more practical implication is a forced migration: anyone who built on 3.8 Flash now has a deprecation clock running, and migrations to new model versions reliably surface behavior changes that break existing prompts and evals. No market data to anchor this one, so take it as read rather than calibrated.",
+          "takes": [
+            {
+              "source": "Ars Technica",
+              "source_url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+              "text": "notes the contrast with Carbon and Argon's deliberately cautious rollouts and suggests the faster release for Hydrogen signals Google loosening its own review process, raising the question of what changed internally to justify it."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
+            "attribution": "Ars Technica",
+            "attribution_url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+          },
+          "articles": [
+            {
+              "id": "d458704933992cfa",
+              "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+              "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+              "source": "Ars Technica",
+              "published_at": "2026-11-12T19:23:03Z",
+              "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+              "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        },
+        {
+          "section": "scitech",
+          "headline": "CVE disclosures top 100,000 in 2026 as AI-assisted bug hunting floods the system",
+          "what_happened": "Publicly disclosed CVEs (the standardized catalog of software vulnerabilities) crossed 100,000 for 2026, more than double the prior year's total, according to BigGo Finance. The surge is attributed to AI-driven bug hunting tools that let researchers and automated systems find and report flaws far faster than before. The volume is reportedly straining the infrastructure and human review processes that underpin vulnerability disclosure.",
+          "potential_implications": "A 2x jump in disclosed vulnerabilities in a single year is the kind of number that sounds alarming but mostly tells you about the search process, not necessarily about how insecure software actually is — if you point a much better metal detector at the same beach, you find more coins without the beach suddenly having more coins than last week. Still, there are real second-order effects worth tracking: security teams already drowning in patch backlogs now face a flood that outpaces their triage capacity, which could mean more vulnerabilities sit unpatched longer even as more get found, a seemingly paradoxical but plausible outcome. It also raises an institutional question — CVE assignment and verification has historically been a slow, somewhat manual process (MITRE and partner CNAs), and if AI tools generate reports faster than humans can validate them, you'd expect either a backlog, a drop in verification quality, or pressure to automate the review step too, each with different risk profiles. Longer term, this is a preview of a broader dynamic: AI tools are asymmetrically useful for finding flaws (offense) before they're equally good at fixing them systemically (defense), which could widen the window of exposure for slow-moving organizations even as it helps well-resourced ones patch faster.",
+          "takes": [
+            {
+              "source": "BigGo Finance",
+              "source_url": "https://finance.biggo.com/news/5666f8f9-bb7b-4107-9271-440c2bc6a3c3",
+              "text": "frames the doubling as evidence that AI-driven bug hunting is overwhelming the existing disclosure infrastructure, raising questions about whether the system built for a slower era of manual research can scale with automated discovery."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://img.biggo.com/T1Z9gFH8vPaC0iNHKDcLOzOQ2rpn_aVhcA3dUhXnYnw/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExLzU2NjZmOGY5LWJiN2ItNDEwNy05MjcxLTQ0MGMyYmM2YTNjM18xNzk0NjA1MzIzX2RlZmF1bHQuanBn.jpg",
+            "attribution": "BigGo Finance",
+            "attribution_url": "https://finance.biggo.com/news/5666f8f9-bb7b-4107-9271-440c2bc6a3c3"
+          },
+          "articles": [
+            {
+              "id": "c0a07d72255ed6ee",
+              "url": "https://finance.biggo.com/news/5666f8f9-bb7b-4107-9271-440c2bc6a3c3",
+              "title": "Driven Bug Hunting Floods Disclosure System — BigGo Finance",
+              "source": "BigGo Finance",
+              "published_at": "2026-11-13T21:28:23Z",
+              "summary": "Publicly disclosed CVEs surpassed 100,000 in 2026, more than double last year's total, as AI-driven bug hunting overwhelms the disclosure system.…",
+              "image_url": "https://img.biggo.com/T1Z9gFH8vPaC0iNHKDcLOzOQ2rpn_aVhcA3dUhXnYnw/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExLzU2NjZmOGY5LWJiN2ItNDEwNy05MjcxLTQ0MGMyYmM2YTNjM18xNzk0NjA1MzIzX2RlZmF1bHQuanBn.jpg",
+              "section_hint": "scitech"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "custom",
+      "title": "On the Radar: Wearables & Behavioral Health",
+      "stories": [
+        {
+          "section": "custom",
+          "headline": "Fitbit users lose HRV and skin temperature data after Google Health glitch",
+          "what_happened": "Fitbit users are reporting that heart rate variability and skin temperature readings have disappeared from the Google Health Connect ecosystem, according to Android Central. The bug appears tied to Google's ongoing migration of Fitbit data and features into its broader health platform. Affected users say the missing metrics are core to tracking recovery and sleep quality, and some are now exploring third-party apps to recover or replace the lost vitals.",
+          "potential_implications": "This is a small story about a bug, but it's a useful data point on a bigger pattern: platform migrations are where acquired products go to die a slow death by a thousand papercuts. Google bought Fitbit in 2021 for $2.1 billion, promised to keep the brand's data commitments, and has spent the years since slowly folding its functionality into Google Health/Wear OS — a process that, almost by definition, produces exactly this kind of breakage, because you're rebuilding pipelines that used to just work. The implication for users isn't really about HRV specifically; it's that anyone relying on a wearable ecosystem for health data should assume periodic data gaps during vendor transitions, and build in redundancy (export your data, don't treat any single dashboard as the permanent record). For Google, the quieter risk is reputational: wearables are a trust business, and users who feel their biometric history is fragile are the ones most likely to defect to Oura, Whoop, or Apple when a contract renews or a device dies.",
+          "takes": [
+            {
+              "source": "Android Central",
+              "source_url": "https://www.androidcentral.com/wearables/fitbit/its-a-joke-fitbit-users-are-beyond-annoyed-with-google-healths-latest-bug-but-theyre-seeking-alternative-ways-to-get-their-vitals-back",
+              "text": "frames the bug as the latest in a string of frustrations from Google's slow-motion absorption of Fitbit, noting that annoyed users are already testing alternative apps to recover their vitals rather than waiting on a fix."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "og",
+            "url": "https://cdn.mos.cms.futurecdn.net/kfBgrwX4e6oogHTzQxbJhG-1920-80.jpg",
+            "attribution": "Android Central",
+            "attribution_url": "https://www.androidcentral.com/wearables/fitbit/its-a-joke-fitbit-users-are-beyond-annoyed-with-google-healths-latest-bug-but-theyre-seeking-alternative-ways-to-get-their-vitals-back"
+          },
+          "articles": [
+            {
+              "id": "096b46b3ce3f5db9",
+              "url": "https://www.androidcentral.com/wearables/fitbit/its-a-joke-fitbit-users-are-beyond-annoyed-with-google-healths-latest-bug-but-theyre-seeking-alternative-ways-to-get-their-vitals-back",
+              "title": "‘It’s a joke’ - Fitbit users are beyond annoyed with Google Health’s latest bug, but they’re seeking alternative ways to get their vitals back",
+              "source": "Android Central",
+              "published_at": "2026-11-13T10:06:54Z",
+              "summary": "Skin temperature and HRV readings have vanished",
+              "image_url": "https://cdn.mos.cms.futurecdn.net/kfBgrwX4e6oogHTzQxbJhG-1920-80.jpg",
+              "section_hint": "custom"
+            }
+          ]
+        },
+        {
+          "section": "custom",
+          "headline": "A ₹5,999 screenless fitness band undercuts Whoop's subscription model",
+          "what_happened": "Pebble launched the Qore Ultra, a screenless fitness band priced at ₹5,999 with no subscription required. The device offers AI-generated health insights, HRV monitoring, a 'Body Age' metric, and over 100 sports modes, positioning itself as a budget alternative to subscription-based wearables like Whoop.",
+          "potential_implications": "Whoop's entire business model rests on the idea that continuous biometric monitoring is worth $30/month forever, not just the cost of a $200 strap. If a sub-$75 device with no subscription can deliver HRV tracking and 'AI insights' that feel comparable to casual users, that model looks shakier in price-sensitive markets like India — and eventually elsewhere, since hardware commoditizes faster than software moats erode. The real question is whether the data quality and algorithm sophistication hold up under scrutiny, or whether this is the fitness-tracker equivalent of a knockoff that looks right on a spec sheet but drifts badly on actual HRV accuracy. I'd want to see independent validation against clinical-grade sensors before concluding the underlying tech, not just the price, is competitive. Either way, expect more entrants at this price point now that the recipe (cheap sensors plus an LLM wrapper for 'insights') is visibly replicable.",
+          "takes": [
+            {
+              "source": "Livemint",
+              "source_url": "https://www.livemint.com/technology/pebble-qore-ultra-review-whoop-like-health-tracking-at-5-999-but-what-are-the-tradeoffs-11794216561217.html",
+              "text": "finds the Qore Ultra genuinely compelling on value but flags real trade-offs — the lack of a screen and questions about long-term accuracy and build quality compared to pricier rivals."
+            }
+          ],
+          "forecasts": [],
+          "no_market_note": true,
+          "image": {
+            "kind": "card",
+            "url": null,
+            "attribution": null,
+            "attribution_url": null
+          },
+          "articles": [
+            {
+              "id": "104b594971c718e6",
+              "url": "https://www.livemint.com/technology/pebble-qore-ultra-review-whoop-like-health-tracking-at-5-999-but-what-are-the-tradeoffs-11794216561217.html",
+              "title": "Pebble Qore Ultra review: Whoop-like health tracking at ₹5,999, but what are the trade-offs?",
+              "source": "Livemint",
+              "published_at": "2026-11-09T10:21:39Z",
+              "summary": "The Pebble Qore Ultra is a screenless fitness band priced at ₹5,999, offering AI-powered health insights, HRV monitoring, Body Age tracking and over 100 sports modes without requiring a subscription.",
+              "image_url": "https://www.livemint.com/lm-img/img/2026/11/09/1600x900/logo/pebble1_1794216995383_O5Ni_1794217000881_QKmL_e3116c98-82b1-436f-b0ab-000dbb887854_TP0i.png",
+              "section_hint": "custom"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markets_moved": [
+    {
+      "platform": "kalshi",
+      "question": "Will Gadi Eisenkot be the next Prime Minister of Israel?",
+      "probability": 0.72,
+      "delta_pp": 51.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxnextisraelpm"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Marc Andersen be the next Secretary of the Army before Jan 1, 2030?",
+      "probability": 0.52,
+      "delta_pp": 49.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxnextsecarmy"
+    },
+    {
+      "platform": "kalshi",
+      "question": "When will nuclear fusion be achieved?",
+      "probability": 0.88,
+      "delta_pp": 34.9,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxfusion"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will any company announce that it has achieved Artificial General Intelligence (AGI) before Jul 1, 2027?",
+      "probability": 0.26,
+      "delta_pp": -28.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxagico"
+    },
+    {
+      "platform": "kalshi",
+      "question": "Will Mark Zuckerberg be the world's second trillionaire?",
+      "probability": 0.08,
+      "delta_pp": -11.0,
+      "delta_label": "day-over-day",
+      "url": "https://kalshi.com/markets/kxnexttrillionaire"
+    }
+  ],
+  "human_story": {
+    "headline": "The Coat He Gave a Stranger, Returned 30 Years Later",
+    "text": "In the early 1990s, a Japanese high school student named Norihisa Koyama saw a girl whose traditional Korean hanbok had been slashed in one of the racially motivated attacks then plaguing Japan's Korean community. He didn't know her, but he took off his own coat and draped it over her shoulders so she wouldn't have to walk home exposed and humiliated. The girl kept that coat for three decades, never forgetting the stranger who covered her shame with his own jacket and walked away without asking for anything back. This year she finally tracked him down and returned it to him in person, closing a loop that had stayed open since she was a teenager. Koyama, now a grown man, had all but forgotten the gesture; she never had.",
+    "source": "Good News Network",
+    "source_url": "https://www.goodnewsnetwork.org/she-kept-his-coat-for-30-years-then-finally-found-the-boy-who-gave-it-to-her-after-racial-attack/",
+    "image": {
+      "kind": "og",
+      "url": "https://www.goodnewsnetwork.org/wp-content/uploads/2026/09/Park-Chung-moon-painting-and-Norihisa-Koyama-painting-by-Park-fair-use-heavily-cropped-and-rearranged.jpeg",
+      "attribution": "Good News Network",
+      "attribution_url": "https://www.goodnewsnetwork.org/she-kept-his-coat-for-30-years-then-finally-found-the-boy-who-gave-it-to-her-after-racial-attack/"
+    }
+  },
+  "photo": {
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg/960px-Eastern_quoll_%28Dasyurus_viverrinus%29_fawn_morph_Esk_Valley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "title": "Eastern quoll (Dasyurus viverrinus) fawn morph Esk Valley.jpg",
+    "description": "Eastern quoll (Dasyurus viverrinus) fawn morph, Esk Valley, Tasmania, Australia.",
+    "attribution": "Charles J. Sharp (CC BY-SA 4.0)",
+    "link": "https://commons.wikimedia.org/wiki/File:Eastern_quoll_(Dasyurus_viverrinus)_fawn_morph_Esk_Valley.jpg"
+  }
+}
